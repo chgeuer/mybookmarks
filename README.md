@@ -2,8 +2,17 @@ mybookmarks
 ===========
 
 
-The largest mass problem
-http://onoffswitch.net/largest-mass-problem/
+
+Photo
+------
+
+- http://filmdev.org/
+- http://www.digitaltruth.com/devchart.php
+
+Misc
+----
+
+- The largest mass problem: http://onoffswitch.net/largest-mass-problem/
 
 PowerShell Scripts
 http://blogs.msdn.com/b/powershell/archive/2013/04/05/microsoft-script-explorer-next-steps.aspx
