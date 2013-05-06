@@ -1,6 +1,16 @@
 mybookmarks
 ===========
 
+
+The largest mass problem
+http://onoffswitch.net/largest-mass-problem/
+
+PowerShell Scripts
+http://blogs.msdn.com/b/powershell/archive/2013/04/05/microsoft-script-explorer-next-steps.aspx
+
+Code Organization in Large AngularJS and JavaScript Applications 
+http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript
+
 The two minute guide to AngularJS for .NET developers
 http://henriquat.re/intro/angular/angularjsForDotNetDevelopers.html
 
