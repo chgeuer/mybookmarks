@@ -12,6 +12,12 @@ Photo
 Misc
 ----
 
+Untangling the Web: A Guide to Internet Research: http://www.nsa.gov/public_info/_files/Untangling_the_Web.pdf
+
+MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
+
+
+
 - The largest mass problem: http://onoffswitch.net/largest-mass-problem/
 
 PowerShell Scripts
