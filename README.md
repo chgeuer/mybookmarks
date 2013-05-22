@@ -23,11 +23,14 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 PowerShell Scripts
 http://blogs.msdn.com/b/powershell/archive/2013/04/05/microsoft-script-explorer-next-steps.aspx
 
-Code Organization in Large AngularJS and JavaScript Applications 
-http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript
+- [See what the best startups in the world are using](http://leanstack.io/cloudstacks/)
 
-The two minute guide to AngularJS for .NET developers
-http://henriquat.re/intro/angular/angularjsForDotNetDevelopers.html
+JavaScript
+----------
+
+- [ClippyJS](https://www.smore.com/clippy-js)
+- [Code Organization in Large AngularJS and JavaScript Applications](http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript)
+- [The two minute guide to AngularJS for .NET developers](http://henriquat.re/intro/angular/angularjsForDotNetDevelopers.html)
 
 Integrating with ASP.NET SignalR push services
 http://henriquat.re/server-integration/signalr/integrateWithSignalRHubs.html
