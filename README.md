@@ -32,6 +32,10 @@ JavaScript
 - [Code Organization in Large AngularJS and JavaScript Applications](http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript)
 - [The two minute guide to AngularJS for .NET developers](http://henriquat.re/intro/angular/angularjsForDotNetDevelopers.html)
 
+
+- [Building a Real-Time Photo Gallery with Xamarin, SignalR, Azure, and WebAPI](http://www.gregshackles.com/2013/05/building-a-real-time-photo-gallery-with-xamarin-signalr-azure-and-webapi/)
+
+
 Integrating with ASP.NET SignalR push services
 http://henriquat.re/server-integration/signalr/integrateWithSignalRHubs.html
 
