@@ -20,8 +20,13 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 
 - The largest mass problem: http://onoffswitch.net/largest-mass-problem/
 
-PowerShell Scripts
-http://blogs.msdn.com/b/powershell/archive/2013/04/05/microsoft-script-explorer-next-steps.aspx
+- PowerShell Scripts http://blogs.msdn.com/b/powershell/archive/2013/04/05/microsoft-script-explorer-next-steps.aspx
+
+
+- [How PowerShell starts commands](http://social.technet.microsoft.com/wiki/contents/articles/7703.powershell-running-executables.aspx#Invoke-Command_ICM)
+- [Web Platform Installer binaries](http://www.iis.net/learn/install/web-platform-installer/web-platform-installer-v4-command-line-webpicmdexe-rtw-release)
+
+
 
 - [See what the best startups in the world are using](http://leanstack.io/cloudstacks/)
 
