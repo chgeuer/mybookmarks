@@ -8,6 +8,10 @@ Photo
 
 - http://filmdev.org/
 - http://www.digitaltruth.com/devchart.php
+- Batteries
+  - Batterien für Canon EOS 33V: VR123A
+  - Batterien für Leica M7: CR1/3N bzw CR11108 Lihium
+
 
 Misc
 ----
