@@ -12,6 +12,13 @@ Photo
   - Batterien für Canon EOS 33V: CR123A
   - Batterien für Leica M7: CR1/3N bzw CR11108 Lihium
 
+Visual Studio
+-------------
+
+
+Tools - Options - Projects and Solutions - General - Track Active Item In Solution Explorer
+
+
 
 Misc
 ----
