@@ -19,6 +19,14 @@ Visual Studio
 Tools - Options - Projects and Solutions - General - Track Active Item In Solution Explorer
 
 
+Raspberry Pi
+----
+- http://pingbin.com/2012/12/setup-wifi-raspberry-pi/
+- http://kerneldriver.wordpress.com/2012/10/21/configuring-wpa2-using-wpa_supplicant-on-the-raspberry-pi/
+- [Node.JS](http://blog.rueedlinger.ch/2013/03/raspberry-pi-and-nodejs-basic-setup/)
+- For Mono, you need the softfloat version. For Node.JS, you need hardfloat... Hm
+
+
 
 Misc
 ----
