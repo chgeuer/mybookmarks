@@ -21,9 +21,9 @@ Tools - Options - Projects and Solutions - General - Track Active Item In Soluti
 
 Raspberry Pi
 ----
-- http://pingbin.com/2012/12/setup-wifi-raspberry-pi/
-- http://kerneldriver.wordpress.com/2012/10/21/configuring-wpa2-using-wpa_supplicant-on-the-raspberry-pi/
-- [Node.JS](http://blog.rueedlinger.ch/2013/03/raspberry-pi-and-nodejs-basic-setup/)
+- [WiFi Manual 1](http://pingbin.com/2012/12/setup-wifi-raspberry-pi/)
+- [WiFi Manual 2](http://kerneldriver.wordpress.com/2012/10/21/configuring-wpa2-using-wpa_supplicant-on-the-raspberry-pi/)
+- [Raspberry Pi and Node.JS: Basic Setup](http://blog.rueedlinger.ch/2013/03/raspberry-pi-and-nodejs-basic-setup/)
 - For Mono, you need the softfloat version. For Node.JS, you need hardfloat... Hm
 - [Build your own Google TV Using RaspberryPi, NodeJS and Socket.io](http://blog.donaldderek.com/2013/06/build-your-own-google-tv-using-raspberrypi-nodejs-and-socket-io/)
 
