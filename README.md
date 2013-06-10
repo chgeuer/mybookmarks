@@ -15,8 +15,8 @@ Photo
 Visual Studio
 -------------
 
-
-Tools - Options - Projects and Solutions - General - Track Active Item In Solution Explorer
+- Tools - Options - Projects and Solutions - General - Track Active Item In Solution Explorer
+- [VSIX for better NuGet refrences handling](http://visualstudiogallery.msdn.microsoft.com/e8d1fcad-5fa5-4353-ba9c-90f4b6a68154)
 
 
 Raspberry Pi
