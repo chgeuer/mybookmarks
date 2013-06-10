@@ -63,6 +63,12 @@ JavaScript
 - [Building a Real-Time Photo Gallery with Xamarin, SignalR, Azure, and WebAPI](http://www.gregshackles.com/2013/05/building-a-real-time-photo-gallery-with-xamarin-signalr-azure-and-webapi/)
 - [5-html5-features-you-need-to-know](http://daker.me/2013/05/5-html5-features-you-need-to-know.html)
 
+Web Development
+---------------
+
+- [Emmet — the essential toolkit for web-developers](http://emmet.io/)
+
+
 Windows Azure
 -------------
 
