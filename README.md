@@ -28,7 +28,8 @@ Raspberry Pi
 - For Mono, you need the softfloat version. For Node.JS, you need hardfloat... Hm
 - [Build your own Google TV Using RaspberryPi, NodeJS and Socket.io](http://blog.donaldderek.com/2013/06/build-your-own-google-tv-using-raspberrypi-nodejs-and-socket-io/)
 - [RaspberryPi.Net: Provide a Mono.NET interface to the GPIO pins on the Raspberry Pi](https://github.com/cypherkey/RaspberryPi.Net)
-
+- [Raspberry Pi as a Google Calender Alarm Clock](http://www.esologic.com/?p=634)
+- [Retro gaming with Raspberry Pi](http://learn.adafruit.com/retro-gaming-with-raspberry-pi)
 
 Misc
 ----
@@ -37,19 +38,20 @@ Untangling the Web: A Guide to Internet Research: http://www.nsa.gov/public_info
 
 MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 
-
+- [Remove unused WLAN connections](http://www.leeholmes.com/blog/2013/06/06/removing-insecure-wireless-connections-with-powershell/)
+- [Scott Hanselman on Wifi Connections](http://www.hanselman.com/blog/HowToDeleteOpenOrInsecureWiFiHotSpotsFromWindows8WifiexeCommandLineUtilityWithSource.aspx)
 
 - The largest mass problem: http://onoffswitch.net/largest-mass-problem/
 
-- PowerShell Scripts http://blogs.msdn.com/b/powershell/archive/2013/04/05/microsoft-script-explorer-next-steps.aspx
-
-
+- [PowerShell Scripts](http://blogs.msdn.com/b/powershell/archive/2013/04/05/microsoft-script-explorer-next-steps.aspx)
 - [How PowerShell starts commands](http://social.technet.microsoft.com/wiki/contents/articles/7703.powershell-running-executables.aspx#Invoke-Command_ICM)
 - [Web Platform Installer binaries](http://www.iis.net/learn/install/web-platform-installer/web-platform-installer-v4-command-line-webpicmdexe-rtw-release)
-
-
-
 - [See what the best startups in the world are using](http://leanstack.io/cloudstacks/)
+
+Fun stuff
+---------
+- [Goog Eyes](http://hay.github.io/googleeyes/)
+- 
 
 JavaScript
 ----------
