@@ -11,6 +11,7 @@ Photo
 - Batteries
   - Batterien für Canon EOS 33V: CR123A
   - Batterien für Leica M7: CR1/3N bzw CR11108 Lihium
+- [Photo Crash Course](http://photographyconcentrate.com/film-photography-crash-course/)
 
 Visual Studio
 -------------
