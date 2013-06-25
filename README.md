@@ -77,6 +77,10 @@ Windows Azure
 
 - [Using ScriptCS to call Windows Azure Media Services](https://github.com/ejadib/scriptcs-azuremediaservices/)
 
+Oracle on Windows Azure
+-----------------------
+
+- Use Oracle Java and data bases on Windows Azure and Windows Server 2012 [1](http://www.microsoft.com/en-us/news/Press/2013/Jun13/06-24WSNewsPR.aspx),[2](http://blogs.technet.com/b/microsoft_blog/archive/2013/06/24/partners-in-the-enterprise-cloud.aspx), [3](https://blogs.oracle.com/cloud/entry/oracle_and_microsoft_join_forces)
 
 
 
