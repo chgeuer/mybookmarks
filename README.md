@@ -64,39 +64,38 @@ JavaScript
 ----------
 
 - [ClippyJS](https://www.smore.com/clippy-js)
-- [Code Organization in Large AngularJS and JavaScript Applications](http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript)
-- [The two minute guide to AngularJS for .NET developers](http://henriquat.re/intro/angular/angularjsForDotNetDevelopers.html)
+- AngularJS
+  - [Code Organization in Large AngularJS and JavaScript Applications](http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript)
+  - [The two minute guide to AngularJS for .NET developers](http://henriquat.re/intro/angular/angularjsForDotNetDevelopers.html)
+- DurandalJS
+- [Deploying Durandal SPA to Production](http://www.binoot.com/2013/04/18/deploying-durandal-spa-to-production/)
 - [6 Must Have Node.js Modules](http://blog.nodejitsu.com/6-must-have-nodejs-modules)
-- [OData w/ Web API](http://msdn.microsoft.com/en-us/magazine/dn201742.aspx)
-- [OData w/ Breeze](http://www.breezejs.com/documentation/odata)
-- 
-
-- [Building a Real-Time Photo Gallery with Xamarin, SignalR, Azure, and WebAPI](http://www.gregshackles.com/2013/05/building-a-real-time-photo-gallery-with-xamarin-signalr-azure-and-webapi/)
 - [5-html5-features-you-need-to-know](http://daker.me/2013/05/5-html5-features-you-need-to-know.html)
+- [Why I love Ember.js](http://fleon.org/post/47401547699/why-i-love-ember-js)
+- [OData w/ Breeze](http://www.breezejs.com/documentation/odata)
 
 Web Development
 ---------------
 
+- [OData w/ Web API](http://msdn.microsoft.com/en-us/magazine/dn201742.aspx)
+- [Enabling and Customizing ASP.NET Web API Services Security](http://msdn.microsoft.com/en-us/magazine/dn201748.aspx)
+- [Building a Real-Time Photo Gallery with Xamarin, SignalR, Azure, and WebAPI](http://www.gregshackles.com/2013/05/building-a-real-time-photo-gallery-with-xamarin-signalr-azure-and-webapi/)
+- [Building a shopping cart with SignalR, ASP.NET Web API and Knockout.js](http://tech.pro/tutorial/1146/building-a-shopping-cart-with-signalr-aspnet-web-api-and-knockoutjs)
+- [List of ASP.NET Web API and HttpClient Samples](http://blogs.msdn.com/b/webdev/archive/2012/08/26/asp-net-web-api-and-httpclient-samples.aspx)
+- [Integrating with ASP.NET SignalR push services](http://henriquat.re/server-integration/signalr/integrateWithSignalRHubs.html)
 - [Emmet — the essential toolkit for web-developers](http://emmet.io/)
+- [The future is now - OWIN and multi-hosting ASP.NET web applications](http://www.strathweb.com/2013/05/the-future-is-now-owin-and-multi-hosting-asp-net-web-applications/)
+- [Oak by amirrajan](http://amirrajan.github.io/Oak/)
+- [Enabling CORS in ASP.NET Web API](http://richardneililagan.com/2013/03/enabling-cors-aspnet-web-api/)
+
 
 
 Windows Azure
 -------------
-
 - [Using ScriptCS to call Windows Azure Media Services](https://github.com/ejadib/scriptcs-azuremediaservices/)
-
-Oracle on Windows Azure
------------------------
-
 - Use Oracle Java and data bases on Windows Azure and Windows Server 2012 [1](http://www.microsoft.com/en-us/news/Press/2013/Jun13/06-24WSNewsPR.aspx),[2](http://blogs.technet.com/b/microsoft_blog/archive/2013/06/24/partners-in-the-enterprise-cloud.aspx), [3](https://blogs.oracle.com/cloud/entry/oracle_and_microsoft_join_forces)
 
 
-
-Integrating with ASP.NET SignalR push services
-http://henriquat.re/server-integration/signalr/integrateWithSignalRHubs.html
-
-The future is now - OWIN and multi-hosting ASP.NET web applications
-http://www.strathweb.com/2013/05/the-future-is-now-owin-and-multi-hosting-asp-net-web-applications/
 
 Mocky: Real HTTP mocking
 http://www.mocky.io/
@@ -110,20 +109,14 @@ http://channel9.msdn.com/Series/Sketchbooktutorial/Introducing-Creative-Coding-a
 Scaling Out Your Web Infrastructure with IIS Application Request Routing
 http://channel9.msdn.com/Events/TechEd/NorthAmerica/2010/WSV324
 
-Deploying Durandal SPA to Production
-http://www.binoot.com/2013/04/18/deploying-durandal-spa-to-production/
 
 Reading PDF and XPS on your Windows 8 application using WinRT - Eternal Coding
 http://blogs.msdn.com/b/eternalcoding/archive/2013/04/15/reading-pdf-and-xps-on-your-windows-8-application-using-winrt.aspx
 
-Oak by amirrajan
-http://amirrajan.github.io/Oak/
 
 apiOmat | Backend as a service – Create your backend in 10 minutes!
 http://www.apiomat.com/
 
-Why I love Ember.js 
-http://fleon.org/post/47401547699/why-i-love-ember-js
 
 Amazon Services Hackpad (making sense of Amazon's offerings) 
 https://hackpad.com/Amazon-Services-xwW1WtHf5y5
@@ -135,8 +128,6 @@ http://blogs.hbr.org/hmu/2013/03/how-to-write-the-dreaded-self-appraisal.html
 Building a SaaS business - 2007 vs 2013
 http://sahilparikh.com/post/46741689726/building-a-saas-business-2007-vs-2013#.UYdQIr38LYW
 
-List of ASP.NET Web API and HttpClient Samples - .NET Web Development and Tools Blog - Site Home - MSDN Blogs
-http://blogs.msdn.com/b/webdev/archive/2012/08/26/asp-net-web-api-and-httpclient-samples.aspx
 
 Web Developer Checklist - Support Engineer Days Online - Site Home - MSDN Blogs
 http://blogs.msdn.com/b/omnia/archive/2013/03/25/web-developer-checklist.aspx
@@ -153,8 +144,6 @@ http://mobile.theverge.com/2013/3/27/4152964/researcher-exposes-data-businesses-
 DIY cellphone
 http://hlt.media.mit.edu/?p=2182
 
-Enabling CORS in ASP.NET Web API
-http://richardneililagan.com/2013/03/enabling-cors-aspnet-web-api/
 
 Livestream Store — Livestream Broadcaster
 http://store.livestream.com/products/livestream-broadcaster
@@ -168,8 +157,6 @@ http://octopusdeploy.com/blog/octopus-1.5-azure-ftp-scriptcs
 SocialSTS
 http://socialsts.azurewebsites.net/
 
-Building a shopping cart with SignalR, ASP.NET Web API and Knockout.js - Tech.Pro
-http://tech.pro/tutorial/1146/building-a-shopping-cart-with-signalr-aspnet-web-api-and-knockoutjs
 
 Syncfusion Ebooks | F# Succinctly
 https://www.syncfusion.com/resources/techportal/ebooks/fsharp
