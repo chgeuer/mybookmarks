@@ -54,6 +54,12 @@ Fun stuff
 - [Goog Eyes](http://hay.github.io/googleeyes/)
 - 
 
+Windows 8 Development
+--------------------
+
+- http://services.windowsstore.com/
+
+
 JavaScript
 ----------
 
