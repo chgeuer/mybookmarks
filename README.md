@@ -60,6 +60,8 @@ Windows 8 Development
 - http://services.windowsstore.com/
 
 
+- [Microsoft .NET Framework NuGet Packages](http://blogs.msdn.com/b/dotnet/p/nugetpackages.aspx)
+
 JavaScript
 ----------
 
