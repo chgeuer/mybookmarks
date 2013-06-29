@@ -2,6 +2,14 @@ mybookmarks
 ===========
 
 
+Feature toggles & Flags
+-----------------------
+
+JavaScript: http://blog.thepete.net/blog/2012/05/09/javascript-feature-flags/
+Java: http://www.togglz.org/
+Windows Store: http://dontcodetired.com/blog/post/Using-FeatureToggle-In-Your-Windows-8-WinRT-App.aspx
+
+
 
 Photo
 ------
