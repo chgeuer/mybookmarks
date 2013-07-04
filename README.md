@@ -72,6 +72,19 @@ Fun stuff
 - [Goog Eyes](http://hay.github.io/googleeyes/)
 - 
 
+
+
+Fonts
+-----
+
+- http://www.creativebloq.com/typography/best-free-web-fonts-1131610
+- http://www.fontsquirrel.com/
+- http://www.freewebfonts.net/
+- http://www.google.com/fonts/
+- http://html.adobe.com/edge/webfonts/
+- https://edgewebfonts.adobe.com/
+
+
 Windows 8 Development
 --------------------
 
