@@ -207,3 +207,9 @@ Windows Utilities
 
 - [Bash-like work in cmd.exe](https://code.google.com/p/clink/)
 
+Travel stuff
+------------
+
+- http://vornesitzen.de/
+- http://www.seatguru.com/
+- 
