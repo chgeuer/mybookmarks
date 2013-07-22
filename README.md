@@ -129,6 +129,7 @@ Web Development
 - [The future is now - OWIN and multi-hosting ASP.NET web applications](http://www.strathweb.com/2013/05/the-future-is-now-owin-and-multi-hosting-asp-net-web-applications/)
 - [Oak by amirrajan](http://amirrajan.github.io/Oak/)
 - [Enabling CORS in ASP.NET Web API](http://richardneililagan.com/2013/03/enabling-cors-aspnet-web-api/)
+- [Service Stack, With F# on Linux](http://saxonmatt.co.uk/2013/07/service-stack-fsharp-mono-fastcgi-nginx.html)
 
 OWIN Stuff
 ----------
