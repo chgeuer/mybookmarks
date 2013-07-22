@@ -5,7 +5,7 @@ mybookmarks
 TODO
 ----
 
-- http://www.youtube.com/embed/u41GEwIq2mE?list=UUDLl_-lfEBsXw0EbVkhKviQ
+- [Rackspace takes a look at the ERLANG programming language](http://www.youtube.com/embed/u41GEwIq2mE?list=UUDLl_-lfEBsXw0EbVkhKviQ)
 
 Feature toggles & Flags
 -----------------------
