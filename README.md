@@ -205,5 +205,5 @@ http://www.hanselman.com/blog/InstallingSendyAPHPAppOnWindowsAzureToSendInexpens
 Windows Utilities
 -----------------
 
-- [https://code.google.com/p/clink/](Bash-like work in cmd.exe)
+- [Bash-like work in cmd.exe](https://code.google.com/p/clink/)
 
