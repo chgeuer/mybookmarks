@@ -55,6 +55,9 @@ Raspberry Pi
 - [RaspberryPi.Net: Provide a Mono.NET interface to the GPIO pins on the Raspberry Pi](https://github.com/cypherkey/RaspberryPi.Net)
 - [Raspberry Pi as a Google Calender Alarm Clock](http://www.esologic.com/?p=634)
 - [Retro gaming with Raspberry Pi](http://learn.adafruit.com/retro-gaming-with-raspberry-pi)
+- [WebIOPi is a fully integrated Internet of Things framework for the Raspberry Pi](http://code.google.com/p/webiopi/)
+
+- [A TypeScript powered gaming framework](https://www.nuget.org/packages/EndGate/)
 
 Misc
 ----
