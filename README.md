@@ -137,6 +137,7 @@ OWIN Stuff
 - http://www.asp.net/web-api/overview/hosting-aspnet-web-api/use-owin-to-self-host-web-api
 - http://www.asp.net/aspnet/overview/owin-and-katana/an-overview-of-project-katana
 - https://github.com/NancyFx/Nancy/wiki/Hosting-Nancy-with-asp.net
+- http://friism.com/running-owin-katana-apps-on-heroku
 - https://github.com/owin/owin-sandbox
 - http://blogs.msdn.com/b/webdev/archive/2013/07/03/understanding-owin-forms-authentication-in-mvc-5.aspx
 
