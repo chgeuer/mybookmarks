@@ -126,6 +126,16 @@ Web Development
 - [Oak by amirrajan](http://amirrajan.github.io/Oak/)
 - [Enabling CORS in ASP.NET Web API](http://richardneililagan.com/2013/03/enabling-cors-aspnet-web-api/)
 
+OWIN Stuff
+----------
+
+- http://ritzlgrmft.blogspot.com/2013/06/owin-with-static-files-exception.html
+- http://www.asp.net/web-api/overview/hosting-aspnet-web-api/use-owin-to-self-host-web-api
+- http://www.asp.net/aspnet/overview/owin-and-katana/an-overview-of-project-katana
+- https://github.com/NancyFx/Nancy/wiki/Hosting-Nancy-with-asp.net
+- https://github.com/owin/owin-sandbox
+- http://blogs.msdn.com/b/webdev/archive/2013/07/03/understanding-owin-forms-authentication-in-mvc-5.aspx#_Working_with_new
+- 
 
 
 Windows Azure
