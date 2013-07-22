@@ -134,8 +134,7 @@ OWIN Stuff
 - http://www.asp.net/aspnet/overview/owin-and-katana/an-overview-of-project-katana
 - https://github.com/NancyFx/Nancy/wiki/Hosting-Nancy-with-asp.net
 - https://github.com/owin/owin-sandbox
-- http://blogs.msdn.com/b/webdev/archive/2013/07/03/understanding-owin-forms-authentication-in-mvc-5.aspx#_Working_with_new
-- 
+- http://blogs.msdn.com/b/webdev/archive/2013/07/03/understanding-owin-forms-authentication-in-mvc-5.aspx
 
 
 Windows Azure
