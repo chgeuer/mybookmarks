@@ -202,5 +202,8 @@ https://www.syncfusion.com/resources/techportal/ebooks/fsharp
 Installing Sendy (a PHP app) on Windows Azure to send inexpensive newsletter email via Amazon SES - Scott Hanselman
 http://www.hanselman.com/blog/InstallingSendyAPHPAppOnWindowsAzureToSendInexpensiveNewsletterEmailViaAmazonSES.aspx
 
+Windows Utilities
+-----------------
 
+- [https://code.google.com/p/clink/](Bash-like work in cmd.exe)
 
