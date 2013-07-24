@@ -144,7 +144,7 @@ OWIN Stuff
 - [Kayak](https://github.com/kayak/kayak)
 - [Firefly](https://github.com/loudej/firefly)
 - [Intro to OWIN and Gate - Video](http://vimeo.com/43808787)
-
+- https://github.com/markrendle/Flux
 
 Windows Azure
 -------------
