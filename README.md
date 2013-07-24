@@ -11,9 +11,9 @@ TODO
 Feature toggles & Flags
 -----------------------
 
-JavaScript: http://blog.thepete.net/blog/2012/05/09/javascript-feature-flags/
-Java: http://www.togglz.org/
-Windows Store: http://dontcodetired.com/blog/post/Using-FeatureToggle-In-Your-Windows-8-WinRT-App.aspx
+- JavaScript: http://blog.thepete.net/blog/2012/05/09/javascript-feature-flags/
+- Java: http://www.togglz.org/
+- Windows Store: http://dontcodetired.com/blog/post/Using-FeatureToggle-In-Your-Windows-8-WinRT-App.aspx
 
 
 
@@ -141,6 +141,9 @@ OWIN Stuff
 - http://friism.com/running-owin-katana-apps-on-heroku
 - https://github.com/owin/owin-sandbox
 - http://blogs.msdn.com/b/webdev/archive/2013/07/03/understanding-owin-forms-authentication-in-mvc-5.aspx
+- [Kayak](https://github.com/kayak/kayak)
+- [Firefly](https://github.com/loudej/firefly)
+- [Intro to OWIN and Gate - Video](http://vimeo.com/43808787)
 
 
 Windows Azure
