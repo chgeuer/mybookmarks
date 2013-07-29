@@ -139,6 +139,7 @@ OWIN Stuff
 - http://www.asp.net/aspnet/overview/owin-and-katana/an-overview-of-project-katana
 - https://github.com/NancyFx/Nancy/wiki/Hosting-Nancy-with-asp.net
 - http://friism.com/running-owin-katana-apps-on-heroku
+- http://friism.com/running-net-on-heroku
 - https://github.com/owin/owin-sandbox
 - http://blogs.msdn.com/b/webdev/archive/2013/07/03/understanding-owin-forms-authentication-in-mvc-5.aspx
 - [Kayak](https://github.com/kayak/kayak)
@@ -231,3 +232,13 @@ Travel stuff
 - http://vornesitzen.de/
 - http://www.seatguru.com/
 - 
+
+Selber machen
+-------------
+- http://www.businessweek.com/articles/2013-07-26/striking-it-rich-on-no-budget-instructional-videos
+
+
+App economy
+-----------
+
+- [Honest In-App Purchases ](http://david-smith.org/blog/2013/07/23/honest-consumable-in-app-purchases/)
