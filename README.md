@@ -257,3 +257,4 @@ MySQL
 - [Windows Azure MySQL PHP Solution Accelerator](http://archive.msdn.microsoft.com/winazuremysqlphp/)
 - [MySQL hosted on Windows Azure (Feb 2010)](http://blogs.staykov.net/2010/02/mysql-hosted-on-windows-azure.html) basically says that MySQL in a single-instance worker role sucks
 - [GETTING MYSQL RUNNING ON AZURE](http://www.joshholmes.com/blog/2010/02/09/gettingmysqlrunningonazure/)
+- [High Availability MySQL Cookbook , EUR 17,-](http://www.packtpub.com/high-availability-mysql-cookbook/book)
