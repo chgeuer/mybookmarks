@@ -251,3 +251,9 @@ Application Request Routing
 - http://blogs.staykov.net/2013/07/sessionaffinity-plugin-for-windows-azure.html
 - https://github.com/richorama/AzurePluginLibrary/tree/master/plugins/SessionAffinity4
 
+MySQL
+-----
+
+- [Windows Azure MySQL PHP Solution Accelerator](http://archive.msdn.microsoft.com/winazuremysqlphp/)
+- [MySQL hosted on Windows Azure (Feb 2010)](http://blogs.staykov.net/2010/02/mysql-hosted-on-windows-azure.html)
+- [GETTING MYSQL RUNNING ON AZURE](http://www.joshholmes.com/blog/2010/02/09/gettingmysqlrunningonazure/)
