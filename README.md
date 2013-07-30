@@ -263,9 +263,9 @@ MySQL has different storage engines, MyISAM, InnoDB and NDB.
 For a MySQL Cluster, we need NDB (Network DataBase), sometimes called NDBCLUSTER.
 A cluster has three node types: 
 
-  1 Management Node - This singleton must be started first (joined by the others then). 
-  2 Data / Storage Node - the ndbd process. One or mode
-  3 API / SQL Nodes - the mysqld process in front of the data nodes, which answers the SQL queries
+1. Management Node - This singleton must be started first (joined by the others then). 
+2. Data / Storage Node - the ndbd process. One or mode
+3. API / SQL Nodes - the mysqld process in front of the data nodes, which answers the SQL queries
 
 
 
