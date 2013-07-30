@@ -7,6 +7,9 @@ TODO
 
 - [Rackspace takes a look at the ERLANG programming language](http://www.youtube.com/embed/u41GEwIq2mE?list=UUDLl_-lfEBsXw0EbVkhKviQ)
 - [Why JavaScript web applications should embrace traditional URLs](http://9elements.com/io/index.php/hybrid-javascript-apps/)
+- [Using Fiddler to decipher Windows Azure PowerShell or REST API HTTPS traffic](http://blogs.msdn.com/b/avkashchauhan/archive/2013/01/30/using-fiddler-to-decipher-windows-azure-powershell-or-rest-api-https-traffic.aspx)
+- 
+
 
 Feature toggles & Flags
 -----------------------
