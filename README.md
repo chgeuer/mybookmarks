@@ -243,3 +243,11 @@ App economy
 -----------
 
 - [Honest In-App Purchases ](http://david-smith.org/blog/2013/07/23/honest-consumable-in-app-purchases/)
+
+
+Application Request Routing
+--------------------------
+
+- http://blogs.staykov.net/2013/07/sessionaffinity-plugin-for-windows-azure.html
+- https://github.com/richorama/AzurePluginLibrary/tree/master/plugins/SessionAffinity4
+
