@@ -147,6 +147,8 @@ OWIN Stuff
 - [Firefly](https://github.com/loudej/firefly)
 - [Intro to OWIN and Gate - Video](http://vimeo.com/43808787)
 - https://github.com/markrendle/Flux
+- Support and discussions on [Jabbr](https://jabbr.net/#/rooms/owin) and [CodePlex](https://katanaproject.codeplex.com/discussions)
+
 
 Windows Azure
 -------------
