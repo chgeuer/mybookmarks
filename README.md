@@ -16,8 +16,6 @@ Feature toggles & Flags
 - Java: http://www.togglz.org/
 - Windows Store: http://dontcodetired.com/blog/post/Using-FeatureToggle-In-Your-Windows-8-WinRT-App.aspx
 
-
-
 Photo
 ------
 
@@ -80,9 +78,6 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 Fun stuff
 ---------
 - [Goog Eyes](http://hay.github.io/googleeyes/)
-- 
-
-
 
 Fonts
 -----
@@ -278,3 +273,12 @@ SQL nodes must be having the input endpoint. All other nodes communicate in VNet
 
 
 
+Video Players
+-------------
+
+- http://playerframework.codeplex.com/
+- http://www.videojs.com/
+- http://popcornjs.org/
+- http://mediaelementjs.com/
+- http://blog.templatemonster.com/2011/03/10/html5-video-players/
+- http://praegnanz.de/html5video/
