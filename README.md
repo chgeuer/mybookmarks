@@ -278,6 +278,7 @@ Video Players
 
 - http://playerframework.codeplex.com/
 - http://www.videojs.com/
+- http://dfcb.github.io/BigVideo.js/
 - http://popcornjs.org/
 - http://mediaelementjs.com/
 - http://blog.templatemonster.com/2011/03/10/html5-video-players/
