@@ -126,6 +126,18 @@ Web Development
 - [Oak by amirrajan](http://amirrajan.github.io/Oak/)
 - [Enabling CORS in ASP.NET Web API](http://richardneililagan.com/2013/03/enabling-cors-aspnet-web-api/)
 - [Service Stack, With F# on Linux](http://saxonmatt.co.uk/2013/07/service-stack-fsharp-mono-fastcgi-nginx.html)
+- [Bootstrap 3](http://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/)
+- [Flat Design Is Not A Trend, It's Been Around For Some Time](http://www.designyourway.net/blog/inspiration/flat-design-is-not-a-trend-its-been-around-for-some-time/)
+- [Choosing a payment provider for your Europe based SaaS startup](http://blog.gogemba.com/post/58534526652/choosing-a-payment-provider-for-your-europe-based-saas)
+- [Yeoman - Modern workflows for modern webapps](http://yeoman.io/)
+- 
+
+AngularJS
+----------
+- [Dynamic Tabs with AngularJS and UI Bootstrap](http://odetocode.com/blogs/scott/archive/2013/08/14/dynamic-tabs-with-angularjs-and-ui-bootstrap.aspx)
+- [UI Bootstrap for AngularJS](http://angular-ui.github.io/bootstrap/)
+- [Simple Invoicing - Built with AngularJS](http://metaware.github.io/angular-invoicing/)
+
 
 OWIN Stuff
 ----------
