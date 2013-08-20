@@ -255,3 +255,20 @@ Video Players
 - http://osvaldas.info/audio-player-responsive-and-touch-friendly
 - http://tympanus.net/codrops/2012/12/04/responsive-touch-friendly-audio-player/
 
+
+
+
+
+Used by training providers
+--------------------------
+
+http://bestiejs.github.com/json3
+https://github.com/carhartl/jquery-cookie
+
+jQuery Raty - A Star Rating Plugin - http://wbotelhos.com/raty
+http://platform.twitter.com/widgets.js
+uservoice.com
+newrelic.com
+
+Fires a fullscreen event when the browser enters or leaves native fullscreen mode https://github.com/hdragomir/jQuery-Fullscreen-Event
+
