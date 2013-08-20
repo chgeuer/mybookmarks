@@ -105,12 +105,17 @@ JavaScript
 - AngularJS
   - [Code Organization in Large AngularJS and JavaScript Applications](http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript)
   - [The two minute guide to AngularJS for .NET developers](http://henriquat.re/intro/angular/angularjsForDotNetDevelopers.html)
+  - [Dynamic Tabs with AngularJS and UI Bootstrap](http://odetocode.com/blogs/scott/archive/2013/08/14/dynamic-tabs-with-angularjs-and-ui-bootstrap.aspx) 
+  - [UI Bootstrap for AngularJS](http://angular-ui.github.io/bootstrap/)
+  - [Simple Invoicing - Built with AngularJS](http://metaware.github.io/angular-invoicing/)
 - DurandalJS
 - [Deploying Durandal SPA to Production](http://www.binoot.com/2013/04/18/deploying-durandal-spa-to-production/)
 - [6 Must Have Node.js Modules](http://blog.nodejitsu.com/6-must-have-nodejs-modules)
 - [5-html5-features-you-need-to-know](http://daker.me/2013/05/5-html5-features-you-need-to-know.html)
 - [Why I love Ember.js](http://fleon.org/post/47401547699/why-i-love-ember-js)
 - [OData w/ Breeze](http://www.breezejs.com/documentation/odata)
+- [JointJS: JavaScript Diagramming Library ](http://www.jointjs.com/)
+- [Popcorn.js | The HTML5 Media Framework](http://popcornjs.com/)
 
 Web Development
 ---------------
@@ -130,13 +135,11 @@ Web Development
 - [Flat Design Is Not A Trend, It's Been Around For Some Time](http://www.designyourway.net/blog/inspiration/flat-design-is-not-a-trend-its-been-around-for-some-time/)
 - [Choosing a payment provider for your Europe based SaaS startup](http://blog.gogemba.com/post/58534526652/choosing-a-payment-provider-for-your-europe-based-saas)
 - [Yeoman - Modern workflows for modern webapps](http://yeoman.io/)
+- [Resources That You Could Use As A Web Designer Or Web Developer](http://www.designyourway.net/blog/resources/resources-that-you-could-use-as-a-web-designer/)
+- [madskristensen/MiniBlog](https://github.com/madskristensen/MiniBlog/tree/master/Website)
+- [At First Sight Films](http://www.atfirstsightfilms.com/)
+- [Cool designer](http://seanwes.com/store/)
 - 
-
-AngularJS
-----------
-- [Dynamic Tabs with AngularJS and UI Bootstrap](http://odetocode.com/blogs/scott/archive/2013/08/14/dynamic-tabs-with-angularjs-and-ui-bootstrap.aspx)
-- [UI Bootstrap for AngularJS](http://angular-ui.github.io/bootstrap/)
-- [Simple Invoicing - Built with AngularJS](http://metaware.github.io/angular-invoicing/)
 
 
 OWIN Stuff
