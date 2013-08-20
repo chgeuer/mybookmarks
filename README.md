@@ -242,10 +242,6 @@ Simplest cluster is small machine with mgmt and 2 identical boxes with data+SQL 
 SQL nodes must be having the input endpoint. All other nodes communicate in VNet. 
 
 
-
-
-
-
 Video Players
 -------------
 
@@ -256,3 +252,6 @@ Video Players
 - http://mediaelementjs.com/
 - http://blog.templatemonster.com/2011/03/10/html5-video-players/
 - http://praegnanz.de/html5video/
+- http://osvaldas.info/audio-player-responsive-and-touch-friendly
+- http://tympanus.net/codrops/2012/12/04/responsive-touch-friendly-audio-player/
+
