@@ -133,15 +133,18 @@ Web Development
 - [Enabling CORS in ASP.NET Web API](http://richardneililagan.com/2013/03/enabling-cors-aspnet-web-api/)
 - [Service Stack, With F# on Linux](http://saxonmatt.co.uk/2013/07/service-stack-fsharp-mono-fastcgi-nginx.html)
 - [Bootstrap 3](http://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/)
-- [Flat Design Is Not A Trend, It's Been Around For Some Time](http://www.designyourway.net/blog/inspiration/flat-design-is-not-a-trend-its-been-around-for-some-time/)
 - [Choosing a payment provider for your Europe based SaaS startup](http://blog.gogemba.com/post/58534526652/choosing-a-payment-provider-for-your-europe-based-saas)
 - [Yeoman - Modern workflows for modern webapps](http://yeoman.io/)
 - [Resources That You Could Use As A Web Designer Or Web Developer](http://www.designyourway.net/blog/resources/resources-that-you-could-use-as-a-web-designer/)
 - [madskristensen/MiniBlog](https://github.com/madskristensen/MiniBlog/tree/master/Website)
+- [Web Developer Checklist - Support Engineer Days Online - Site Home - MSDN Blogs](http://blogs.msdn.com/b/omnia/archive/2013/03/25/web-developer-checklist.aspx)
+
+Design
+------
+
+- [Flat Design Is Not A Trend, It's Been Around For Some Time](http://www.designyourway.net/blog/inspiration/flat-design-is-not-a-trend-its-been-around-for-some-time/)
 - [At First Sight Films](http://www.atfirstsightfilms.com/)
 - [Cool designer](http://seanwes.com/store/)
-- 
-
 
 OWIN Stuff
 ----------
@@ -175,8 +178,6 @@ Windows Azure
 - [Amazon Services Hackpad (making sense of Amazon's offerings)](https://hackpad.com/Amazon-Services-xwW1WtHf5y5)
 - [How to Write the Dreaded Self-Appraisal - Amy Gallo - Best Practices - Harvard Business Revie](http://blogs.hbr.org/hmu/2013/03/how-to-write-the-dreaded-self-appraisal.html)
 - [Building a SaaS business - 2007 vs 2013](http://sahilparikh.com/post/46741689726/building-a-saas-business-2007-vs-2013#.UYdQIr38LYW)
-- [Web Developer Checklist - Support Engineer Days Online - Site Home - MSDN Blogs](http://blogs.msdn.com/b/omnia/archive/2013/03/25/web-developer-checklist.aspx)
-- [The Founder’s Dilemmas - Joel on Software](http://www.joelonsoftware.com/items/2012/03/27.html)
 - [10 Great Windows Phone 8 Code Samples (No, Wait… 30) - Appsmash - Site Home - MSDN Blogs](http://blogs.msdn.com/b/matthiasshapiro/archive/2013/03/21/10-great-windows-phone-8-code-samples-no-wait-30.aspx)
 - [Thousands of accounts found to host unsecured passwords, photos, and other files on Amazon's cloud | The Verge](http://mobile.theverge.com/2013/3/27/4152964/researcher-exposes-data-businesses-amazon-s3)
 - [DIY cellphone](http://hlt.media.mit.edu/?p=2182)
