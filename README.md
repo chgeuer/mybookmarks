@@ -13,7 +13,8 @@ TODO
 - http://arshadchowdhury.com/1485-what-happens-when-you-stand-for-2-years/
 - http://gimmeajwt.azurewebsites.net/
 - http://msdn.microsoft.com/en-us/magazine/dn423697.aspx
-
+- http://www.microsoft.com/en-us/news/bythenumbers/index.html
+- 
 
 
 Feature toggles & Flags
@@ -115,6 +116,7 @@ JavaScript
   - [Dynamic Tabs with AngularJS and UI Bootstrap](http://odetocode.com/blogs/scott/archive/2013/08/14/dynamic-tabs-with-angularjs-and-ui-bootstrap.aspx) 
   - [UI Bootstrap for AngularJS](http://angular-ui.github.io/bootstrap/)
   - [Simple Invoicing - Built with AngularJS](http://metaware.github.io/angular-invoicing/)
+  - [Enabling CORS in AngularJS](http://better-inter.net/enabling-cors-in-angular-js/)
 - DurandalJS
 - [Deploying Durandal SPA to Production](http://www.binoot.com/2013/04/18/deploying-durandal-spa-to-production/)
 - [6 Must Have Node.js Modules](http://blog.nodejitsu.com/6-must-have-nodejs-modules)
