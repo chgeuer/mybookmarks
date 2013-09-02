@@ -191,6 +191,8 @@ Windows Azure
 - [Orchard 1.7 Release and New Features](http://www.davidhayden.me/blog/orchard-1.7-release-and-new-features)
 - [Having fun with Redis Replication between Amazon and Rackspace | 3scale Tech Blog](http://3scale.github.io/2012/07/25/fun-with-redis-replication/)
 - [CSharpVerbalExpressions - Contribute to CSharpVerbalExpressions development by creating an account on GitHub.](https://github.com/VerbalExpressions/CSharpVerbalExpressions/)
+- [How to backup and restore a Windows system disk in a Windows Azure Virtual Machine](http://blogs.msdn.com/b/windowsazure/archive/2013/07/31/how-to-backup-and-restore-windows-system-disk-in-a-windows-azure-iaas.aspx)
+- [AzureTools – The Diagnostic Utility used by the Windows Azure Developer Support Team](https://blogs.msdn.com/b/kwill/archive/2013/08/26/azuretools-the-diagnostic-utility-used-by-the-windows-azure-developer-support-team.aspx)
 
 Windows Utilities
 -----------------
