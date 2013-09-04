@@ -274,6 +274,14 @@ Video Players
 - https://tools.google.com/dlpage/webmmf
 
 
+Für den Flash Player müssen die blob links noch URL Escaped werden (http://flash.area-network.de/actionscript/grundlagen/parameter-uebergabe/)
+
+<object width="640" height="480" type="application/x-shockwave-flash" data="mediaelement/flashmediaelement.swf">
+    <param name="movie" value="mediaelement/flashmediaelement.swf" /> 
+    <param name="flashvars" value="controls=true&amp;poster=myvideo.jpg&amp;file=https%3A%2F%2Ffoo.blob.core.windows.net%2Fselbermachen%2F1.mp4%3Fsr%3Db%26se%3D2013-09-04T21%253A30%253A53Z%26sp%3Dr%26sig%3D4Z0P8UWrQMpM0RBKaRhTybmu4jBy4%252BmsKM4BeFZym%252FE%253D" />        
+</object>
+
+
 Used by training providers
 --------------------------
 
