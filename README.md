@@ -14,7 +14,9 @@ TODO
 - http://gimmeajwt.azurewebsites.net/
 - http://msdn.microsoft.com/en-us/magazine/dn423697.aspx
 - http://www.microsoft.com/en-us/news/bythenumbers/index.html
-- 
+- http://techcrunch.com/2013/08/24/the-ultimate-cheat-sheet-for-starting-and-running-your-business/
+
+(Get-BitLockerVolume -MountPoint C).KeyProtector
 
 
 Feature toggles & Flags
@@ -141,12 +143,12 @@ Web Development
 - [Oak by amirrajan](http://amirrajan.github.io/Oak/)
 - [Enabling CORS in ASP.NET Web API](http://richardneililagan.com/2013/03/enabling-cors-aspnet-web-api/)
 - [Service Stack, With F# on Linux](http://saxonmatt.co.uk/2013/07/service-stack-fsharp-mono-fastcgi-nginx.html)
-- [Bootstrap 3](http://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/)
 - [Choosing a payment provider for your Europe based SaaS startup](http://blog.gogemba.com/post/58534526652/choosing-a-payment-provider-for-your-europe-based-saas)
 - [Yeoman - Modern workflows for modern webapps](http://yeoman.io/)
 - [Resources That You Could Use As A Web Designer Or Web Developer](http://www.designyourway.net/blog/resources/resources-that-you-could-use-as-a-web-designer/)
 - [madskristensen/MiniBlog](https://github.com/madskristensen/MiniBlog/tree/master/Website)
 - [Web Developer Checklist - Support Engineer Days Online - Site Home - MSDN Blogs](http://blogs.msdn.com/b/omnia/archive/2013/03/25/web-developer-checklist.aspx)
+- http://philipwalton.com/articles/decoupling-html-css-and-javascript/
 
 Design
 ------
@@ -154,6 +156,8 @@ Design
 - [Flat Design Is Not A Trend, It's Been Around For Some Time](http://www.designyourway.net/blog/inspiration/flat-design-is-not-a-trend-its-been-around-for-some-time/)
 - [At First Sight Films](http://www.atfirstsightfilms.com/)
 - [Cool designer](http://seanwes.com/store/)
+- [Bootstrap 3](http://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/)
+- [Flat Bootstrap 3 Theme](http://rriepe.github.io/1pxdeep/)
 
 OWIN Stuff
 ----------
@@ -265,9 +269,8 @@ Video Players
 - http://praegnanz.de/html5video/
 - http://osvaldas.info/audio-player-responsive-and-touch-friendly
 - http://tympanus.net/codrops/2012/12/04/responsive-touch-friendly-audio-player/
-
-
-
+- http://2fdevs.github.io/videogular/
+- https://tools.google.com/dlpage/webmmf
 
 
 Used by training providers
