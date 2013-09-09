@@ -15,6 +15,7 @@ TODO
 - http://msdn.microsoft.com/en-us/magazine/dn423697.aspx
 - http://www.microsoft.com/en-us/news/bythenumbers/index.html
 - http://techcrunch.com/2013/08/24/the-ultimate-cheat-sheet-for-starting-and-running-your-business/
+- http://firstround.com/article/How-to-Go-From-Google-Engineer-to-First-Time-CTO#
 
 (Get-BitLockerVolume -MountPoint C).KeyProtector
 
