@@ -295,3 +295,23 @@ newrelic.com
 
 Fires a fullscreen event when the browser enters or leaves native fullscreen mode https://github.com/hdragomir/jQuery-Fullscreen-Event
 
+
+
+
+
+
+
+
+  SET FFMPEG="c:\program files\ffmpeg\bin\ffmpeg.exe"
+  SET RESOLUTION=-s "960x540"
+  
+  REM mp4  (H.264 / ACC)
+  %FFMPEG% -i %1 -b:v 1500k -vcodec libx264 -g 30 %RESOLUTION% "%~n1.mp4"
+  REM webm (VP8 / Vorbis)
+  %FFMPEG% -i %1 -b:v 1500k -vcodec libvpx -acodec libvorbis -ab 160000 -f webm -g 30 %RESOLUTION% "%~n1.webm"
+  REM ogv  (Theora / Vorbis)
+  %FFMPEG% -i %1 -b:v 1500k -vcodec libtheora -acodec libvorbis -ab 160000 -g 30 %RESOLUTION% "%~n1.ogv"
+  REM jpeg (screenshot at 10 seconds)
+  %FFMPEG% -i %1 -ss 00:02 -vframes 1 -r 1 %RESOLUTION% -f image2 "%~n1.jpg"
+  
+  pause
