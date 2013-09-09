@@ -306,21 +306,21 @@ SET VIDEOBITRATE=-b:v 1500k
 SET RESOLUTION=-s "960x540"
 SET RESOLUTION=
 
-SET CODEC_MP4    =-vcodec libx264 -pix_fmt yuv420p
-SET CODEC_WEBM   =-vcodec libvpx    -acodec libvorbis -ab 160000 -f webm
-SET CODEC_OGV    =-vcodec libtheora -acodec libvorbis -ab 160000
+SET CODEC_MP4    =-vcodec libx264   -pix_fmt yuv420p                      %GOPSIZE% %VIDEOBITRATE%
+SET CODEC_WEBM   =-vcodec libvpx    -acodec libvorbis -ab 160000 -f webm  %GOPSIZE% %VIDEOBITRATE%
+SET CODEC_OGV    =-vcodec libtheora -acodec libvorbis -ab 160000          %GOPSIZE% %VIDEOBITRATE%
 SET CODEC_POSTER =-ss 00:10 -vframes 1 -r 1                      -f image2 
 SET WATERMARK    =-filter_complex "overlay=main_w-overlay_w-10:main_h-overlay_h-10"
 
-
-%FFMPEG% -i %1 %VIDEOBITRATE% %CODEC_MP4%  %GOPSIZE% %RESOLUTION% "%~n1.mp4"
-%FFMPEG% -i %1 %VIDEOBITRATE% %CODEC_WEBM% %GOPSIZE% %RESOLUTION% "%~n1.webm"
-%FFMPEG% -i %1 %VIDEOBITRATE% %CODEC_OGV%  %GOPSIZE% %RESOLUTION% "%~n1.ogv"
-%FFMPEG% -i %1                %CODEC_POSTER%         %RESOLUTION% "%~n1.jpg"
+%FFMPEG% -i %1 %CODEC_MP4%    %RESOLUTION% "%~n1.mp4"
+%FFMPEG% -i %1 %CODEC_WEBM%   %RESOLUTION% "%~n1.webm"
+%FFMPEG% -i %1 %CODEC_OGV%    %RESOLUTION% "%~n1.ogv"
+%FFMPEG% -i %1 %CODEC_POSTER% %RESOLUTION% "%~n1.jpg"
 %FFMPEG% -i "%~n1.mp4" -i logo2.png %WATERMARK% "%~n1_watermarked.mp4"
 
 REM http://stackoverflow.com/questions/7333232/concatenate-two-mp4-files-using-ffmpeg
 REM file '1.mp4'
 REM file '2.mp4'
 REM %FFMPEG% -f concat -i mylist.txt -c copy output
+
 ```
