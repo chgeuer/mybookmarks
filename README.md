@@ -324,4 +324,14 @@ REM file '1.mp4'
 REM file '2.mp4'
 REM %FFMPEG% -f concat -i mylist.txt -c copy output
 
+
+```
+
+
+```Powershell
+REM Convert FLAC to MP3 VBR
+dir *.flac | foreach { ffmpeg -i $_.Name -qscale:a 1 $_.Name.Replace("flac", "mp3") }
+
+REM Convert FLAC to MP3 320k
+dir *.flac | foreach { ffmpeg -i $_.Name -ab 320k $_.Name.Replace("flac", "mp3") }
 ```
