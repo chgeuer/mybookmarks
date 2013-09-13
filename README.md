@@ -105,9 +105,9 @@ Windows 8 Development
 --------------------
 
 - http://services.windowsstore.com/
-
-
 - [Microsoft .NET Framework NuGet Packages](http://blogs.msdn.com/b/dotnet/p/nugetpackages.aspx)
+- [Featured German Top Apps for Windows 8](http://www.microsoft.com/germany/msdn/aktuell/app.aspx)
+
 
 JavaScript
 ----------
