@@ -302,29 +302,31 @@ Fires a fullscreen event when the browser enters or leaves native fullscreen mod
 
 ```Batchfile
 SET FFMPEG="c:\program files\ffmpeg\bin\ffmpeg.exe"
-SET GOPSIZE=-g 30
+SET GOPSIZE=-g 25
+SET GOPSIZE=
 SET VIDEOBITRATE=-b:v 1500k
 SET RESOLUTION=-s "960x540"
 SET RESOLUTION=
 
-SET CODEC_MP4    =-vcodec libx264   -pix_fmt yuv420p                      %GOPSIZE% %VIDEOBITRATE%
-SET CODEC_WEBM   =-vcodec libvpx    -acodec libvorbis -ab 160000 -f webm  %GOPSIZE% %VIDEOBITRATE%
-SET CODEC_OGV    =-vcodec libtheora -acodec libvorbis -ab 160000          %GOPSIZE% %VIDEOBITRATE%
-SET CODEC_POSTER =-ss 00:10 -vframes 1 -r 1                      -f image2 
-SET WATERMARK    =-filter_complex "overlay=main_w-overlay_w-10:main_h-overlay_h-10"
+REM http://www.idude.net/index.php/how-to-watermark-a-video-using-ffmpeg
+SET WATERMARK=   -filter_complex "overlay=main_w-overlay_w-10:main_h-overlay_h-10"
+SET WATERMARK=   -filter_complex "overlay=(main_w+overlay_w)/2:(main_h+overlay_h)/2"
+SET WATERMARK=   -vf "movie=logo2.png [watermark]; [in][watermark] overlay=main_w-overlay_w-10:main_h-overlay_h-10 [out]"
+
+SET CODEC_MP4=   -vcodec libx264   -pix_fmt yuv420p                     %WATERMARK% %GOPSIZE% %VIDEOBITRATE%
+SET CODEC_WEBM=  -vcodec libvpx    -acodec libvorbis -ab 160000 -f webm %WATERMARK% %GOPSIZE% %VIDEOBITRATE%
+SET CODEC_OGV=   -vcodec libtheora -acodec libvorbis -ab 160000         %WATERMARK% %GOPSIZE% %VIDEOBITRATE%
+SET CODEC_POSTER= -ss 00:02 -vframes 1 -r 1              -f image2        %WATERMARK% 
 
 %FFMPEG% -i %1 %CODEC_MP4%    %RESOLUTION% "%~n1.mp4"
 %FFMPEG% -i %1 %CODEC_WEBM%   %RESOLUTION% "%~n1.webm"
 %FFMPEG% -i %1 %CODEC_OGV%    %RESOLUTION% "%~n1.ogv"
 %FFMPEG% -i %1 %CODEC_POSTER% %RESOLUTION% "%~n1.jpg"
-%FFMPEG% -i "%~n1.mp4" -i logo2.png %WATERMARK% "%~n1_watermarked.mp4"
 
 REM http://stackoverflow.com/questions/7333232/concatenate-two-mp4-files-using-ffmpeg
 REM file '1.mp4'
 REM file '2.mp4'
 REM %FFMPEG% -f concat -i mylist.txt -c copy output
-
-
 ```
 
 
