@@ -327,6 +327,10 @@ REM http://stackoverflow.com/questions/7333232/concatenate-two-mp4-files-using-f
 REM file '1.mp4'
 REM file '2.mp4'
 REM %FFMPEG% -f concat -i mylist.txt -c copy output
+
+REM Remux MOV to MP4
+ffmpeg -i input.mov -vcodec copy -acodec libvo_aacenc result.mp4
+
 ```
 
 
