@@ -343,3 +343,19 @@ dir *.flac | foreach { ffmpeg -i $_.Name -qscale:a 1 $_.Name.Replace("flac", "mp
 REM Convert FLAC to MP3 320k
 dir *.flac | foreach { ffmpeg -i $_.Name -ab 320k $_.Name.Replace("flac", "mp3") }
 ```
+
+Windows 8
+=========
+
+- Install Windows 8 from USB Stick
+  - Format FAT32, 
+  - Bootable (with diskpart.exe), 
+  - F:\boot\bootsect.exe /NT60 E:\, 
+  - robocopy /E /Z F:\ E:\
+- Language Pack installation
+  - Mount MUI DVD
+  - cd /D \langaages\de-de
+  - ren lp.cab lp.mlc 
+  - start lp.mlc
+
+
