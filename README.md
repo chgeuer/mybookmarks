@@ -150,6 +150,8 @@ Web Development
 - [madskristensen/MiniBlog](https://github.com/madskristensen/MiniBlog/tree/master/Website)
 - [Web Developer Checklist - Support Engineer Days Online - Site Home - MSDN Blogs](http://blogs.msdn.com/b/omnia/archive/2013/03/25/web-developer-checklist.aspx)
 - http://philipwalton.com/articles/decoupling-html-css-and-javascript/
+- [ZeroClipboard - Copy to clipboard via a Flash control](https://github.com/zeroclipboard/ZeroClipboard)
+
 
 Design
 ------
