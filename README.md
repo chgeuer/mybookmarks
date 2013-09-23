@@ -333,6 +333,11 @@ REM %FFMPEG% -f concat -i mylist.txt -c copy output
 REM Remux MOV to MP4
 ffmpeg -i input.mov -vcodec copy -acodec libvo_aacenc result.mp4
 
+ffmpeg -i a.mkv -vcodec copy -ab 128k -acodec libvo_aacenc a.mp4
+ffmpeg -i a.mkv -vcodec copy -acodec copy a.mp4
+
+
+
 ```
 
 
