@@ -210,6 +210,7 @@ Windows Azure
 - [CSharpVerbalExpressions - Contribute to CSharpVerbalExpressions development by creating an account on GitHub.](https://github.com/VerbalExpressions/CSharpVerbalExpressions/)
 - [How to backup and restore a Windows system disk in a Windows Azure Virtual Machine](http://blogs.msdn.com/b/windowsazure/archive/2013/07/31/how-to-backup-and-restore-windows-system-disk-in-a-windows-azure-iaas.aspx)
 - [AzureTools – The Diagnostic Utility used by the Windows Azure Developer Support Team](https://blogs.msdn.com/b/kwill/archive/2013/08/26/azuretools-the-diagnostic-utility-used-by-the-windows-azure-developer-support-team.aspx)
+- [Windows Azure Powershell Reference](http://michaelwasham.com/windows-azure-powershell-reference-guide/)
 
 Windows Utilities
 -----------------
