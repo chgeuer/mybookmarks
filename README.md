@@ -151,7 +151,7 @@ Web Development
 - [Web Developer Checklist - Support Engineer Days Online - Site Home - MSDN Blogs](http://blogs.msdn.com/b/omnia/archive/2013/03/25/web-developer-checklist.aspx)
 - http://philipwalton.com/articles/decoupling-html-css-and-javascript/
 - [ZeroClipboard - Copy to clipboard via a Flash control](https://github.com/zeroclipboard/ZeroClipboard)
-
+- [OWIN Startup Class detection](http://www.asp.net/aspnet/overview/owin-and-katana/owin-startup-class-detection)
 
 Design
 ------
