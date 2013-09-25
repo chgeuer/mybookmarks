@@ -151,7 +151,6 @@ Web Development
 - [Web Developer Checklist - Support Engineer Days Online - Site Home - MSDN Blogs](http://blogs.msdn.com/b/omnia/archive/2013/03/25/web-developer-checklist.aspx)
 - http://philipwalton.com/articles/decoupling-html-css-and-javascript/
 - [ZeroClipboard - Copy to clipboard via a Flash control](https://github.com/zeroclipboard/ZeroClipboard)
-- [OWIN Startup Class detection](http://www.asp.net/aspnet/overview/owin-and-katana/owin-startup-class-detection)
 
 Design
 ------
@@ -179,6 +178,11 @@ OWIN Stuff
 - [Intro to OWIN and Gate - Video](http://vimeo.com/43808787)
 - https://github.com/markrendle/Flux
 - Support and discussions on [Jabbr](https://jabbr.net/#/rooms/owin) and [CodePlex](https://katanaproject.codeplex.com/discussions)
+- http://roysvork.wordpress.com/2013/09/20/nancy-style-modules-in-asp-net-web-api-with-superscribe/
+- http://roysvork.wordpress.com/2013/09/22/why-you-shouldnt-use-a-web-framework-to-build-your-next-api/
+- http://www.tugberkugurlu.com/archive/logging-in-the-owin-world-with-microsoft-owin--introduction
+- https://github.com/bbaia/connect-owin
+- [OWIN Startup Class detection](http://www.asp.net/aspnet/overview/owin-and-katana/owin-startup-class-detection)
 
 
 Windows Azure
