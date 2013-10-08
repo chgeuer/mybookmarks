@@ -16,6 +16,55 @@ TODO
 - http://www.microsoft.com/en-us/news/bythenumbers/index.html
 - http://techcrunch.com/2013/08/24/the-ultimate-cheat-sheet-for-starting-and-running-your-business/
 - http://firstround.com/article/How-to-Go-From-Google-Engineer-to-First-Time-CTO#
+- http://benwilber.net/realtime-pixel-tracking-nginx-syslog-ng-redis
+- http://tryghost.org/features.html
+- http://blogs.msdn.com/b/data_otaku/archive/2013/09/12/hadoop-for-net-developers-implementing-a-slightly-more-complex-mapreduce-job.aspx
+- http://www.jeff.wilcox.name/2013/09/mongodb-azure-linux/
+- http://tech.pro/blog/1561/five-helpful-tips-when-using-requirejs
+- http://insideintercom.io/why-cards-are-the-future-of-the-web/
+- http://weblogs.asp.net/dwahlin/archive/2013/09/16/the-angularjs-magazine-what-s-new-this-week.aspx
+- http://www.codeproject.com/Articles/637430/Angular-js-example-application
+- http://blogs.msdn.com/b/windowsazure/archive/2013/01/14/the-right-way-to-handle-azure-onstop-events.aspx
+- http://blogs.windows.com/windows_phone/b/wpdev/archive/2013/09/17/windows-phone-webbrowser-control-tips.aspx
+- http://architects.dzone.com/articles/implementing-signalr-stock
+- http://coderjournal.com/2013/07/angularjs-and-typescript/
+- http://coderjournal.com/2013/07/signalr-and-angularjs/
+- http://solutionoptimist.com/2013/10/07/enhance-log-using-angularjs-decorators/
+- http://www.bentobox.io/
+- https://github.com/lukesampson/HastyAPI
+- http://www.troyhunt.com/2013/04/the-beginners-guide-to-breaking-website.html?report
+- http://jeroenjanssens.com/2013/09/19/seven-command-line-tools-for-data-science.html
+- http://startupteardown.com/post/62155822743/7-things-we-can-learn-from-bingo-card-creator
+- http://github.hubspot.com/pace/
+- FFMPEG nutzen um HLS zu erzeugen https://bitbucket.org/walterebert/ffmpeg-hls/src
+- http://maroslaw.github.io/rainyday.js/demo2.html
+- https://github.com/JohnMunsch/airquotes
+- http://chrome.blogspot.com.au/2013/09/a-new-breed-of-chrome-apps.html
+- http://blog.ploeh.dk/2013/10/07/verifying-every-single-commit-in-a-git-branch/
+- http://www.yearofmoo.com/2013/09/advanced-testing-and-debugging-in-angularjs.html
+- http://blog.coderstats.net/todomvc-complexity/
+- http://www.yearofmoo.com/2013/09/advanced-testing-and-debugging-in-angularjs.html
+- Angular directive to pull in user photos http://www.angularails.com/articles/creating_simple_directive_in_angular
+- https://github.com/petkaantonov/bluebird
+- Mobile JS Perf http://t.co/4tQoZlHWm2
+- http://ruoyusun.com/2013/08/24/a-glimpse-of-angularjs-scope-via-example.html
+- http://bitwiseshiftleft.github.io/sjcl/demo/
+- http://www.longtailvideo.com/html5/
+- http://blog.liamcavanagh.com/2012/06/how-to-use-paypal-with-asp-net-mvc/
+- http://msmvps.com/blogs/theproblemsolver/archive/2013/09/05/using-the-dom-in-an-angularjs-application.aspx
+- http://flippinawesome.org/2013/09/03/the-angular-way/
+- https://github.com/andreineculau/know-your-http-well
+- Anonymous Pro  a fixed-width font designed for coders http://t.co/D8YnJsyGqG 
+- http://tech.pro/tutorial/1559/knockoutjs-tips-and-tricks
+- http://www.tugberkugurlu.com/archive/good-old-f5-experience-with-owinhost-exe-on-visual-studio-2013
+- http://passportjs.org/
+- https://github.com/DanWahlin/CustomerManager
+- http://www.script-tutorials.com/demos/359/index.html#!/project/product4
+
+App Annie und distimo
+
+
+
 
 (Get-BitLockerVolume -MountPoint C).KeyProtector
 
@@ -107,6 +156,7 @@ Windows 8 Development
 - http://services.windowsstore.com/
 - [Microsoft .NET Framework NuGet Packages](http://blogs.msdn.com/b/dotnet/p/nugetpackages.aspx)
 - [Featured German Top Apps for Windows 8](http://www.microsoft.com/germany/msdn/aktuell/app.aspx)
+- http://blogs.windows.com/windows/b/appbuilder/archive/2013/10/01/blending-apps-and-sites-with-the-html-x-ms-webview.aspx
 
 
 JavaScript
