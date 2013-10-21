@@ -60,6 +60,13 @@ TODO
 - http://passportjs.org/
 - https://github.com/DanWahlin/CustomerManager
 - http://www.script-tutorials.com/demos/359/index.html#!/project/product4
+- Creating a Windows RT Recovery USB Key http://kickthatcomputer.wordpress.com/2013/10/19/creating-a-windows-rt-recovery-usb-key/
+- List of freely available programming books http://stackoverflow.com/questions/194812/list-of-freely-available-programming-books/392926
+- How to destroy someone who hosts his stuff at Hetzner dedicated server https://news.ycombinator.com/item?id=6577465
+
+
+
+
 
 App Annie und distimo
 
