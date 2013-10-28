@@ -409,12 +409,18 @@ REM Remux MKV to MP4
 ffmpeg -i a.mkv -vcodec copy -ab 128k -acodec libvo_aacenc a.mp4
 ffmpeg -i a.mkv -vcodec copy -acodec copy a.mp4
 
-
-
 ```
 
 
+
 ```Powershell
+ffmpeg -i infile.flac outfile.wav
+
+REM http://etree.org/shnutils/shntool/
+shntool.exe split -f infile.cue -t %n-%t -m /- outfile.wav
+
+dir *.wav | foreach { ffmpeg -i $_.Name -ab 320k $_.Name.Replace("wav", "mp3") }
+
 REM Convert FLAC to MP3 VBR
 dir *.flac | foreach { ffmpeg -i $_.Name -qscale:a 1 $_.Name.Replace("flac", "mp3") }
 
