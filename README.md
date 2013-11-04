@@ -63,7 +63,14 @@ TODO
 - Creating a Windows RT Recovery USB Key http://kickthatcomputer.wordpress.com/2013/10/19/creating-a-windows-rt-recovery-usb-key/
 - List of freely available programming books http://stackoverflow.com/questions/194812/list-of-freely-available-programming-books/392926
 - How to destroy someone who hosts his stuff at Hetzner dedicated server https://news.ycombinator.com/item?id=6577465
-
+- Smooth Online Signatures (Open Source): http://blog.ezliu.com/online-signatures/
+- MongoDB basics: http://www.talentbuddy.co/set/5266e2c04af0110af3835886
+- Application Request Routing in CSF: http://blogs.msdn.com/b/windowsazure/archive/2013/10/31/application-request-routing-in-csf.aspx
+- No Morsel Too Minuscule for All-Consuming N.S.A.: http://www.nytimes.com/2013/11/03/world/no-morsel-too-minuscule-for-all-consuming-nsa.html
+- Developer no 4/2013 by TheDeveloperMagazine: http://issuu.com/developermagazine/docs/developer4-2013-online
+- Using AuthorizationServer with Nancy: http://leastprivilege.com/2013/10/25/using-authorizationserver-with-nancy/
+- How I compiled TrueCrypt 7.1a for Win32 and matched the official binaries: https://madiba.encs.concordia.ca/~x_decarn/truecrypt-binaries-analysis/
+- Where the world’s top 100,000 websites are hosted (infographic): http://venturebeat.com/2013/10/23/where-the-worlds-top-100000-websites-are-hosted-infographic/
 
 
 
