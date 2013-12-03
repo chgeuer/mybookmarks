@@ -504,3 +504,13 @@ How to convert a DVD to an MP4 file
 - Install XBMC 32bit       http://mirrors.xbmc.org/releases/win32/xbmc-12.2.exe
 - copy "c:\Program Files (x86)\XBMC\system\players\dvdplayer\libdvdcss-2.dll" "c:\Program Files (x86)\Handbrake\libdvdcss.dll"
 - run "c:\Program Files (x86)\Handbrake\Handbrake.exe" as Admin
+
+
+
+
+## Landing page
+
+- http://t3n.de/news/anleitung-baust-landingpage-487477/
+- http://www.williamghelfi.com/blog/2013/08/04/bootstrap-in-practice-a-landing-page/
+- http://www.williamghelfi.com/demos/b3-landing-page.html?email=
+- http://bootply.com/97731
