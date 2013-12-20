@@ -514,3 +514,14 @@ How to convert a DVD to an MP4 file
 - http://www.williamghelfi.com/blog/2013/08/04/bootstrap-in-practice-a-landing-page/
 - http://www.williamghelfi.com/demos/b3-landing-page.html?email=
 - http://bootply.com/97731
+
+
+
+## My software stack
+- http://www.sublimetext.com/2
+- http://code.google.com/p/clink/
+- http://code.google.com/p/tortoisegit/
+- http://code.google.com/p/msysgit/
+- http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+- http://www.softpointer.com/tr.htm
+- http://clumsyleaf.com/products/cloudxplorer
