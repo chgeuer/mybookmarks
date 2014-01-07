@@ -477,6 +477,11 @@ $concatenation = concatenate($inputfiles)
 # ffmpeg -i "concat:01.mp3|02.mp3" -c:a libvo_aacenc -vn 1.m4a
 ffmpeg -i $concatenation -c:a libvo_aacenc -vn "$filename.m4a"
 # Rename-Item -Path "$filename.m4a" -NewName "$filename.m4b"
+
+
+# compare two videos @see http://ianfeather.co.uk/compare-two-webpagetest-videos-using-ffmpeg/
+ffmpeg -i before.mp4 -i after.mp4 -filter_complex "[0:v:0]pad=iw*2:ih[bg]; [bg][1:v:0]overlay=w" output.mp4
+
 ```
 
 
@@ -503,25 +508,4 @@ How to convert a DVD to an MP4 file
 - Install Handbrake 32bit  http://handbrake.fr/rotation.php?file=HandBrake-0.9.9-1_i686-Win_GUI.exe
 - Install XBMC 32bit       http://mirrors.xbmc.org/releases/win32/xbmc-12.2.exe
 - copy "c:\Program Files (x86)\XBMC\system\players\dvdplayer\libdvdcss-2.dll" "c:\Program Files (x86)\Handbrake\libdvdcss.dll"
-- run "c:\Program Files (x86)\Handbrake\Handbrake.exe" as Admin
-
-
-
-
-## Landing page
-
-- http://t3n.de/news/anleitung-baust-landingpage-487477/
-- http://www.williamghelfi.com/blog/2013/08/04/bootstrap-in-practice-a-landing-page/
-- http://www.williamghelfi.com/demos/b3-landing-page.html?email=
-- http://bootply.com/97731
-
-
-
-## My software stack
-- http://www.sublimetext.com/2
-- http://code.google.com/p/clink/
-- http://code.google.com/p/tortoisegit/
-- http://code.google.com/p/msysgit/
-- http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
-- http://www.softpointer.com/tr.htm
-- http://clumsyleaf.com/products/cloudxplorer
+- run "c:\Program Files (x86)\Handbrake\Handbrake.exe
