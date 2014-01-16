@@ -509,3 +509,38 @@ How to convert a DVD to an MP4 file
 - Install XBMC 32bit       http://mirrors.xbmc.org/releases/win32/xbmc-12.2.exe
 - copy "c:\Program Files (x86)\XBMC\system\players\dvdplayer\libdvdcss-2.dll" "c:\Program Files (x86)\Handbrake\libdvdcss.dll"
 - run "c:\Program Files (x86)\Handbrake\Handbrake.exe
+
+
+
+Install Jekyll on Windows
+========================
+
+- Install rubyinstaller-2.0.0-p353-x64.exe to C:\Ruby200
+Extract DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe to c:\Ruby200\devkit
+Add C:\Ruby200\bin to PATH
+
+
+```Batch
+
+
+
+CD /d c:\Ruby200\devkit
+ruby dk.rb init
+
+Ensure "C:\Ruby200\devkit\config.yml" contains this:
+
+---
+- C:/Ruby200
+
+
+ruby dk.rb install
+
+
+gem install directory_watcher
+gem install wdm
+gem install jekyll --version "=1.4.2"
+
+chcp 65001
+call jekyll serve --watch --trace
+```
+
