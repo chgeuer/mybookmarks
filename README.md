@@ -199,6 +199,9 @@ JavaScript
 - durandalJS is SEO friendly http://ericpanorel.net/2013/08/21/durandaljs-is-seo-friendly/
 - Free HTML Starter Templates for Bootstrap http://startbootstrap.com/
 - A Digital Media Primer for Geeks http://xiph.org/video/vid1.shtml
+- [countUp.js is a dependency-free, lightweight JavaScript "class" that can be used to quickly create animations that display numerical data in a more interesting way.](http://inorganik.github.io/countUp.js/)
+- [videoconverter.js is a program that lets you process videos in your browser (FFMPEG cross-compiled to JS)](http://bgrins.github.io/videoconverter.js/)
+- [Cookies vs Tokens. Getting auth right with Angular.JS](http://blog.auth0.com/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
 
 Web Development
 ---------------
@@ -381,3 +384,13 @@ uservoice.com
 newrelic.com
 
 Fires a fullscreen event when the browser enters or leaves native fullscreen mode https://github.com/hdragomir/jQuery-Fullscreen-Event
+
+
+# Unsorted
+
+- [Gathering Network Statistics with PowerShell](http://blogs.technet.com/b/heyscriptingguy/archive/2014/01/17/gathering-network-statistics.aspx) #powershell
+- [FiFo + 80LOC of Bash = 5 Node Riak Cluster](http://blog.licenser.net/blog/2013/04/23/fifo-plus-80loc-of-bash-equals-5-node-riak-cluster/) #erlang
+- [DIY WiFi Raspberry Pi Touchscreen Camera](http://learn.adafruit.com/diy-wifi-raspberry-pi-touch-cam/overview) #raspberrypi
+- [Angular Music Database,One-page Web Application built with AngularJS,TypeScript,and Yii framework](http://www.yiiframework.com/wiki/600/angular-music-database-one-page-web-application-built-with-angularjs-typescript-and-yii-framework/) #angularjs
+- [jekyll-bootstrap-3](https://github.com/dbtek/jekyll-bootstrap-3/blob/master/_posts/core-samples/2011-12-29-jekyll-introduction.md)
+- [Light Table is open source](http://www.chris-granger.com/2014/01/07/light-table-is-open-source/)
