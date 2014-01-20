@@ -90,25 +90,6 @@ Feature toggles & Flags
 - Java: http://www.togglz.org/
 - Windows Store: http://dontcodetired.com/blog/post/Using-FeatureToggle-In-Your-Windows-8-WinRT-App.aspx
 
-Photo
-------
-
-- http://filmdev.org/
-- http://www.digitaltruth.com/devchart.php
-- Batteries
-  - Batterien für Canon EOS 33V: CR123A
-  - Batterien für Leica M7: CR1/3N bzw CR11108 Lihium
-- [Photo Crash Course](http://photographyconcentrate.com/film-photography-crash-course/)
-- Palladium/Platin Druck
-  - http://www.l-camera-forum.com/leica-aktuell/2013/06/video-platin-palladium-druck-mit-leica-m-monochrom-bildern/
-  - http://vimeo.com/66352973
-  - Papiere
-     - http://www.lumiere-shop.de/index.php?page=product&info=9599
-     - http://www.monochrom.com/Arches-Platine-Edeldruckpapier.htm?websale7=mono-c&pi=28891&ci=000274
-     - http://www.moersch-photochemie.de/content/shop/edeldruck
-
-
-
 
 Visual Studio
 -------------
@@ -117,37 +98,9 @@ Visual Studio
 - [VSIX for better NuGet refrences handling](http://visualstudiogallery.msdn.microsoft.com/e8d1fcad-5fa5-4353-ba9c-90f4b6a68154)
 
 
-Raspberry Pi
-----
-- [WiFi Manual 1](http://pingbin.com/2012/12/setup-wifi-raspberry-pi/)
-- [WiFi Manual 2](http://kerneldriver.wordpress.com/2012/10/21/configuring-wpa2-using-wpa_supplicant-on-the-raspberry-pi/)
-- [Raspberry Pi and Node.JS: Basic Setup](http://blog.rueedlinger.ch/2013/03/raspberry-pi-and-nodejs-basic-setup/)
-- [Installing Mono on Raspberry Pi](http://www.raspberry-sharp.org/eric-bezine/2012/10/mono-framework/installing-mono-raspberry-pi/)
-- For Mono, you need the softfloat version. For Node.JS, you need hardfloat... Hm
-- [Build your own Google TV Using RaspberryPi, NodeJS and Socket.io](http://blog.donaldderek.com/2013/06/build-your-own-google-tv-using-raspberrypi-nodejs-and-socket-io/)
-- [RaspberryPi.Net: Provide a Mono.NET interface to the GPIO pins on the Raspberry Pi](https://github.com/cypherkey/RaspberryPi.Net)
-- [Raspberry Pi as a Google Calender Alarm Clock](http://www.esologic.com/?p=634)
-- [Retro gaming with Raspberry Pi](http://learn.adafruit.com/retro-gaming-with-raspberry-pi)
-- [WebIOPi is a fully integrated Internet of Things framework for the Raspberry Pi](http://code.google.com/p/webiopi/)
 
 - [A TypeScript powered gaming framework](https://www.nuget.org/packages/EndGate/)
 
-Misc
-----
-
-Untangling the Web: A Guide to Internet Research: http://www.nsa.gov/public_info/_files/Untangling_the_Web.pdf
-
-MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
-
-- [Remove unused WLAN connections](http://www.leeholmes.com/blog/2013/06/06/removing-insecure-wireless-connections-with-powershell/)
-- [Scott Hanselman on Wifi Connections](http://www.hanselman.com/blog/HowToDeleteOpenOrInsecureWiFiHotSpotsFromWindows8WifiexeCommandLineUtilityWithSource.aspx)
-
-- The largest mass problem: http://onoffswitch.net/largest-mass-problem/
-
-- [PowerShell Scripts](http://blogs.msdn.com/b/powershell/archive/2013/04/05/microsoft-script-explorer-next-steps.aspx)
-- [How PowerShell starts commands](http://social.technet.microsoft.com/wiki/contents/articles/7703.powershell-running-executables.aspx#Invoke-Command_ICM)
-- [Web Platform Installer binaries](http://www.iis.net/learn/install/web-platform-installer/web-platform-installer-v4-command-line-webpicmdexe-rtw-release)
-- [See what the best startups in the world are using](http://leanstack.io/cloudstacks/)
 
 Fun stuff
 ---------
@@ -173,36 +126,6 @@ Windows 8 Development
 - http://blogs.windows.com/windows/b/appbuilder/archive/2013/10/01/blending-apps-and-sites-with-the-html-x-ms-webview.aspx
 
 
-JavaScript
-----------
-
-- [ClippyJS](https://www.smore.com/clippy-js)
-- AngularJS
-  - [Code Organization in Large AngularJS and JavaScript Applications](http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript)
-  - [The two minute guide to AngularJS for .NET developers](http://henriquat.re/intro/angular/angularjsForDotNetDevelopers.html)
-  - [Dynamic Tabs with AngularJS and UI Bootstrap](http://odetocode.com/blogs/scott/archive/2013/08/14/dynamic-tabs-with-angularjs-and-ui-bootstrap.aspx) 
-  - [UI Bootstrap for AngularJS](http://angular-ui.github.io/bootstrap/)
-  - [Simple Invoicing - Built with AngularJS](http://metaware.github.io/angular-invoicing/)
-  - [Enabling CORS in AngularJS](http://better-inter.net/enabling-cors-in-angular-js/)
-- DurandalJS
-- [Deploying Durandal SPA to Production](http://www.binoot.com/2013/04/18/deploying-durandal-spa-to-production/)
-- [6 Must Have Node.js Modules](http://blog.nodejitsu.com/6-must-have-nodejs-modules)
-- [5-html5-features-you-need-to-know](http://daker.me/2013/05/5-html5-features-you-need-to-know.html)
-- [Why I love Ember.js](http://fleon.org/post/47401547699/why-i-love-ember-js)
-- [OData w/ Breeze](http://www.breezejs.com/documentation/odata)
-- [JointJS: JavaScript Diagramming Library ](http://www.jointjs.com/)
-- [Popcorn.js | The HTML5 Media Framework](http://popcornjs.com/)
-- [How does Trello access the user's clipboard?](http://stackoverflow.com/questions/17527870/how-does-trello-access-the-users-clipboard)
-- http://www.angularails.com/articles/creating_simple_directive_in_angular
-- AngularJS and SEO – Part 1 – Get your JS site indexed http://rogeralsing.com/2013/08/11/angularjs-and-seo-part-1/
-- AngularJS and SEO – Part 2 – Title and meta description http://rogeralsing.com/2013/08/11/angularjs-and-seo-part-2/
-- durandalJS is SEO friendly http://ericpanorel.net/2013/08/21/durandaljs-is-seo-friendly/
-- Free HTML Starter Templates for Bootstrap http://startbootstrap.com/
-- A Digital Media Primer for Geeks http://xiph.org/video/vid1.shtml
-- [countUp.js is a dependency-free, lightweight JavaScript "class" that can be used to quickly create animations that display numerical data in a more interesting way.](http://inorganik.github.io/countUp.js/)
-- [videoconverter.js is a program that lets you process videos in your browser (FFMPEG cross-compiled to JS)](http://bgrins.github.io/videoconverter.js/)
-- [Cookies vs Tokens. Getting auth right with Angular.JS](http://blog.auth0.com/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
-
 Web Development
 ---------------
 
@@ -225,43 +148,12 @@ Web Development
 - http://philipwalton.com/articles/decoupling-html-css-and-javascript/
 - [ZeroClipboard - Copy to clipboard via a Flash control](https://github.com/zeroclipboard/ZeroClipboard)
 
-Design
-------
-
-- [Flat Design Is Not A Trend, It's Been Around For Some Time](http://www.designyourway.net/blog/inspiration/flat-design-is-not-a-trend-its-been-around-for-some-time/)
-- [30 Beautiful Minimalist Web Designs](http://designinstruct.com/visual-inspiration/web-design-inspiration/minimalist-web-designs/)
-- [At First Sight Films](http://www.atfirstsightfilms.com/)
-- [Cool designer](http://seanwes.com/store/)
-- [Bootstrap 3](http://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/)
-- [Flat Bootstrap 3 Theme](http://rriepe.github.io/1pxdeep/)
-
 Bootstrap Interface builders
 ------------------------
 
 - http://bootply.com/
 - http://www.layoutit.com/
 
-OWIN Stuff
-----------
-
-- http://ritzlgrmft.blogspot.com/2013/06/owin-with-static-files-exception.html
-- http://www.asp.net/web-api/overview/hosting-aspnet-web-api/use-owin-to-self-host-web-api
-- http://www.asp.net/aspnet/overview/owin-and-katana/an-overview-of-project-katana
-- https://github.com/NancyFx/Nancy/wiki/Hosting-Nancy-with-asp.net
-- http://friism.com/running-owin-katana-apps-on-heroku
-- http://friism.com/running-net-on-heroku
-- https://github.com/owin/owin-sandbox
-- http://blogs.msdn.com/b/webdev/archive/2013/07/03/understanding-owin-forms-authentication-in-mvc-5.aspx
-- [Kayak](https://github.com/kayak/kayak)
-- [Firefly](https://github.com/loudej/firefly)
-- [Intro to OWIN and Gate - Video](http://vimeo.com/43808787)
-- https://github.com/markrendle/Flux
-- Support and discussions on [Jabbr](https://jabbr.net/#/rooms/owin) and [CodePlex](https://katanaproject.codeplex.com/discussions)
-- http://roysvork.wordpress.com/2013/09/20/nancy-style-modules-in-asp-net-web-api-with-superscribe/
-- http://roysvork.wordpress.com/2013/09/22/why-you-shouldnt-use-a-web-framework-to-build-your-next-api/
-- http://www.tugberkugurlu.com/archive/logging-in-the-owin-world-with-microsoft-owin--introduction
-- https://github.com/bbaia/connect-owin
-- [OWIN Startup Class detection](http://www.asp.net/aspnet/overview/owin-and-katana/owin-startup-class-detection)
 
 
 Windows Azure
@@ -324,25 +216,7 @@ Application Request Routing
 - http://blogs.staykov.net/2013/07/sessionaffinity-plugin-for-windows-azure.html
 - https://github.com/richorama/AzurePluginLibrary/tree/master/plugins/SessionAffinity4
 
-MySQL
------
 
-- [Windows Azure MySQL PHP Solution Accelerator](http://archive.msdn.microsoft.com/winazuremysqlphp/)
-- [MySQL hosted on Windows Azure (Feb 2010)](http://blogs.staykov.net/2010/02/mysql-hosted-on-windows-azure.html) basically says that MySQL in a single-instance worker role sucks
-- [GETTING MYSQL RUNNING ON AZURE](http://www.joshholmes.com/blog/2010/02/09/gettingmysqlrunningonazure/)
-- [High Availability MySQL Cookbook , EUR 17,-](http://www.packtpub.com/high-availability-mysql-cookbook/book)
-
-MySQL has different storage engines, MyISAM, InnoDB and NDB. 
-For a MySQL Cluster, we need NDB (Network DataBase), sometimes called NDBCLUSTER.
-A cluster has three node types: 
-
-1. Management Node - must be started first (joined by the others then). 
-2. Data / Storage Node - the ndbd process. One or mode
-3. API / SQL Nodes - the mysqld process in front of the data nodes, which answers the SQL queries
-
-For HA, we must have >= 1 mgmt node, >= 2 data nodes, >= 2 SQL nodes. 
-Simplest cluster is small machine with mgmt and 2 identical boxes with data+SQL processes.
-SQL nodes must be having the input endpoint. All other nodes communicate in VNet. 
 
 
 Video Players
@@ -367,7 +241,7 @@ Für den Flash Player müssen die blob links noch URL Escaped werden (http://fla
     <param name="flashvars" value="controls=true&amp;poster=myvideo.jpg&amp;file=https%3A%2F%2Ffoo.blob.core.windows.net%2Fselbermachen%2F1.mp4%3Fsr%3Db%26se%3D2013-09-04T21%253A30%253A53Z%26sp%3Dr%26sig%3D4Z0P8UWrQMpM0RBKaRhTybmu4jBy4%252BmsKM4BeFZym%252FE%253D" />        
 </object>
 
-Video Transcoding Practces
+Video Transcoding Practices
 --------------
 
 - http://knowledge.kaltura.com/best-practices-multi-device-transcoding
@@ -385,6 +259,23 @@ newrelic.com
 
 Fires a fullscreen event when the browser enters or leaves native fullscreen mode https://github.com/hdragomir/jQuery-Fullscreen-Event
 
+
+Misc
+----
+
+Untangling the Web: A Guide to Internet Research: http://www.nsa.gov/public_info/_files/Untangling_the_Web.pdf
+
+MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
+
+- [Remove unused WLAN connections](http://www.leeholmes.com/blog/2013/06/06/removing-insecure-wireless-connections-with-powershell/)
+- [Scott Hanselman on Wifi Connections](http://www.hanselman.com/blog/HowToDeleteOpenOrInsecureWiFiHotSpotsFromWindows8WifiexeCommandLineUtilityWithSource.aspx)
+
+- The largest mass problem: http://onoffswitch.net/largest-mass-problem/
+
+- [PowerShell Scripts](http://blogs.msdn.com/b/powershell/archive/2013/04/05/microsoft-script-explorer-next-steps.aspx)
+- [How PowerShell starts commands](http://social.technet.microsoft.com/wiki/contents/articles/7703.powershell-running-executables.aspx#Invoke-Command_ICM)
+- [Web Platform Installer binaries](http://www.iis.net/learn/install/web-platform-installer/web-platform-installer-v4-command-line-webpicmdexe-rtw-release)
+- [See what the best startups in the world are using](http://leanstack.io/cloudstacks/)
 
 # Unsorted
 
