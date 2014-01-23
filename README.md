@@ -29,6 +29,7 @@ TODO
 - http://architects.dzone.com/articles/implementing-signalr-stock
 - http://coderjournal.com/2013/07/angularjs-and-typescript/
 - http://coderjournal.com/2013/07/signalr-and-angularjs/
+- [Task Manager / PerfCounters via Nancy/SignalR/AngularJS](https://github.com/hugohaggmark/HugoHaggmark.Blog/)
 - http://solutionoptimist.com/2013/10/07/enhance-log-using-angularjs-decorators/
 - http://www.bentobox.io/
 - https://github.com/lukesampson/HastyAPI
