@@ -59,3 +59,6 @@ https://github.com/Sandra/Sandra.Snow
 {% capture my-include %}{% include test.md %}{% endcapture %}
 {{ my-include | markdownify }}
 ```
+
+src: [Rendering markdown includes in Jekyll](http://wolfslittlestore.be/2013/10/rendering-markdown-in-jekyll/)
+
