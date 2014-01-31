@@ -75,13 +75,17 @@ TODO
 - http://ianfeather.co.uk/ten-reasons-we-switched-from-an-icon-font-to-svg/
 
 
+# CRQS Stuff
 
-App Annie und distimo
+- [Simple CQRS example](https://github.com/gregoryyoung/m-r)
+- [Lokad.CQRS Sample Project](http://lokad.github.io/lokad-cqrs/)
+- [Lokad](http://lokad.github.io/)
 
 
 
-
+```powershell
 (Get-BitLockerVolume -MountPoint C).KeyProtector
+```
 
 
 Feature toggles & Flags
@@ -202,6 +206,7 @@ Travel stuff
 
 Selber machen
 -------------
+
 - http://www.businessweek.com/articles/2013-07-26/striking-it-rich-on-no-budget-instructional-videos
 
 
@@ -210,15 +215,11 @@ App economy
 
 - [Honest In-App Purchases](http://david-smith.org/blog/2013/07/23/honest-consumable-in-app-purchases/)
 
-
 Application Request Routing
 --------------------------
 
 - http://blogs.staykov.net/2013/07/sessionaffinity-plugin-for-windows-azure.html
 - https://github.com/richorama/AzurePluginLibrary/tree/master/plugins/SessionAffinity4
-
-
-
 
 Video Players
 -------------
