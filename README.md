@@ -5,6 +5,7 @@ mybookmarks
 TODO
 ----
 
+- http://www.gog.com/game/dungeon_keeper
 - [Rackspace takes a look at the ERLANG programming language](http://www.youtube.com/embed/u41GEwIq2mE?list=UUDLl_-lfEBsXw0EbVkhKviQ)
 - [Why JavaScript web applications should embrace traditional URLs](http://9elements.com/io/index.php/hybrid-javascript-apps/)
 - [Using Fiddler to decipher Windows Azure PowerShell or REST API HTTPS traffic](http://blogs.msdn.com/b/avkashchauhan/archive/2013/01/30/using-fiddler-to-decipher-windows-azure-powershell-or-rest-api-https-traffic.aspx)
@@ -120,6 +121,14 @@ Fonts
 - http://www.google.com/fonts/
 - http://html.adobe.com/edge/webfonts/
 - https://edgewebfonts.adobe.com/
+
+
+Windows Azure Development
+--------------------
+
+- Deleting individual role instances in a cloud service
+  - [Deleting Instances on Azure Cloud Services](http://coderead.wordpress.com/2013/10/28/deleting-instances-on-azure-cloud-services/) and the [GitHub project](https://github.com/WindowsAzure-Contrib/AzureSelfDestruct)
+  - [Delete Specific Role Instances](http://gauravmantri.com/2013/10/16/a-new-version-of-windows-azure-service-management-api-is-available-with-delete-specific-role-instances-and-more-goodies/)
 
 
 Windows 8 Development
