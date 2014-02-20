@@ -21,3 +21,6 @@ http://httpbin.org/ echoes the data used in your request for any of these types:
 	http://httpbin.org/digest-auth/:qop/:user/:passwd Challenges HTTP Digest Auth.
 	http://httpbin.org/stream/:n Streams n–100 lines.
 	http://httpbin.org/delay/:n Delays responding for n–10 seconds.
+
+- http://www.whatismyip.com/
+- http://myhttp.info/
