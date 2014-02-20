@@ -129,7 +129,7 @@ Windows Azure Development
 - Deleting individual role instances in a cloud service
   - [Deleting Instances on Azure Cloud Services](http://coderead.wordpress.com/2013/10/28/deleting-instances-on-azure-cloud-services/) and the [GitHub project](https://github.com/WindowsAzure-Contrib/AzureSelfDestruct)
   - [Delete Specific Role Instances](http://gauravmantri.com/2013/10/16/a-new-version-of-windows-azure-service-management-api-is-available-with-delete-specific-role-instances-and-more-goodies/)
-
+- [Windows Azure Web Sites - Cheat sheet](http://windowsazurewebsitescheatsheet.info/)
 
 Windows 8 Development
 --------------------
@@ -296,3 +296,9 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 - [Angular Music Database,One-page Web Application built with AngularJS,TypeScript,and Yii framework](http://www.yiiframework.com/wiki/600/angular-music-database-one-page-web-application-built-with-angularjs-typescript-and-yii-framework/) #angularjs
 - [jekyll-bootstrap-3](https://github.com/dbtek/jekyll-bootstrap-3/blob/master/_posts/core-samples/2011-12-29-jekyll-introduction.md)
 - [Light Table is open source](http://www.chris-granger.com/2014/01/07/light-table-is-open-source/)
+
+# Static page generators
+
+- http://jekyllrb.com/
+- http://octopress.org/
+
