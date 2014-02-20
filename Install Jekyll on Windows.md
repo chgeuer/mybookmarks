@@ -45,8 +45,20 @@ call jekyll serve --watch --trace
 
 # Links
 
-- http://www.madhur.co.in/blog/2011/09/01/runningjekyllwindows.html
-- http://jekyllthemes.org/
-- https://github.com/davidebbo-test/BlogConverter
-- http://blog.davidebbo.com/2014/01/converting-my-old-blog.html
-- https://github.com/Sandra/Sandra.Snow
+
+http://www.madhur.co.in/blog/2011/09/01/runningjekyllwindows.html
+http://jekyllthemes.org/
+https://github.com/davidebbo-test/BlogConverter
+http://blog.davidebbo.com/2014/01/converting-my-old-blog.html
+https://github.com/Sandra/Sandra.Snow
+
+
+# How to include a Markdown file using Jekyll's include mechanism
+
+```markdown
+{% capture my-include %}{% include test.md %}{% endcapture %}
+{{ my-include | markdownify }}
+```
+
+src: [Rendering markdown includes in Jekyll](http://wolfslittlestore.be/2013/10/rendering-markdown-in-jekyll/)
+

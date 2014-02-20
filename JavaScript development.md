@@ -1,0 +1,30 @@
+JavaScript
+----------
+
+- [ClippyJS](https://www.smore.com/clippy-js)
+- AngularJS
+  - [Code Organization in Large AngularJS and JavaScript Applications](http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript)
+  - [The two minute guide to AngularJS for .NET developers](http://henriquat.re/intro/angular/angularjsForDotNetDevelopers.html)
+  - [Dynamic Tabs with AngularJS and UI Bootstrap](http://odetocode.com/blogs/scott/archive/2013/08/14/dynamic-tabs-with-angularjs-and-ui-bootstrap.aspx) 
+  - [UI Bootstrap for AngularJS](http://angular-ui.github.io/bootstrap/)
+  - [Simple Invoicing - Built with AngularJS](http://metaware.github.io/angular-invoicing/)
+  - [Enabling CORS in AngularJS](http://better-inter.net/enabling-cors-in-angular-js/)
+- DurandalJS
+- [Deploying Durandal SPA to Production](http://www.binoot.com/2013/04/18/deploying-durandal-spa-to-production/)
+- [6 Must Have Node.js Modules](http://blog.nodejitsu.com/6-must-have-nodejs-modules)
+- [5-html5-features-you-need-to-know](http://daker.me/2013/05/5-html5-features-you-need-to-know.html)
+- [Why I love Ember.js](http://fleon.org/post/47401547699/why-i-love-ember-js)
+- [OData w/ Breeze](http://www.breezejs.com/documentation/odata)
+- [JointJS: JavaScript Diagramming Library ](http://www.jointjs.com/)
+- [Popcorn.js | The HTML5 Media Framework](http://popcornjs.com/)
+- [How does Trello access the user's clipboard?](http://stackoverflow.com/questions/17527870/how-does-trello-access-the-users-clipboard)
+- http://www.angularails.com/articles/creating_simple_directive_in_angular
+- AngularJS and SEO – Part 1 – Get your JS site indexed http://rogeralsing.com/2013/08/11/angularjs-and-seo-part-1/
+- AngularJS and SEO – Part 2 – Title and meta description http://rogeralsing.com/2013/08/11/angularjs-and-seo-part-2/
+- durandalJS is SEO friendly http://ericpanorel.net/2013/08/21/durandaljs-is-seo-friendly/
+- Free HTML Starter Templates for Bootstrap http://startbootstrap.com/
+- A Digital Media Primer for Geeks http://xiph.org/video/vid1.shtml
+- [countUp.js is a dependency-free, lightweight JavaScript "class" that can be used to quickly create animations that display numerical data in a more interesting way.](http://inorganik.github.io/countUp.js/)
+- [videoconverter.js is a program that lets you process videos in your browser (FFMPEG cross-compiled to JS)](http://bgrins.github.io/videoconverter.js/)
+- [Cookies vs Tokens. Getting auth right with Angular.JS](http://blog.auth0.com/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
+

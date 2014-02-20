@@ -1,0 +1,21 @@
+OWIN Stuff
+----------
+
+- http://ritzlgrmft.blogspot.com/2013/06/owin-with-static-files-exception.html
+- http://www.asp.net/web-api/overview/hosting-aspnet-web-api/use-owin-to-self-host-web-api
+- http://www.asp.net/aspnet/overview/owin-and-katana/an-overview-of-project-katana
+- https://github.com/NancyFx/Nancy/wiki/Hosting-Nancy-with-asp.net
+- http://friism.com/running-owin-katana-apps-on-heroku
+- http://friism.com/running-net-on-heroku
+- https://github.com/owin/owin-sandbox
+- http://blogs.msdn.com/b/webdev/archive/2013/07/03/understanding-owin-forms-authentication-in-mvc-5.aspx
+- [Kayak](https://github.com/kayak/kayak)
+- [Firefly](https://github.com/loudej/firefly)
+- [Intro to OWIN and Gate - Video](http://vimeo.com/43808787)
+- https://github.com/markrendle/Flux
+- Support and discussions on [Jabbr](https://jabbr.net/#/rooms/owin) and [CodePlex](https://katanaproject.codeplex.com/discussions)
+- http://roysvork.wordpress.com/2013/09/20/nancy-style-modules-in-asp-net-web-api-with-superscribe/
+- http://roysvork.wordpress.com/2013/09/22/why-you-shouldnt-use-a-web-framework-to-build-your-next-api/
+- http://www.tugberkugurlu.com/archive/logging-in-the-owin-world-with-microsoft-owin--introduction
+- https://github.com/bbaia/connect-owin
+- [OWIN Startup Class detection](http://www.asp.net/aspnet/overview/owin-and-katana/owin-startup-class-detection)
