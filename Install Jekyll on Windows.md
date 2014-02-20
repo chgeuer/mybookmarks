@@ -5,10 +5,6 @@ Install Jekyll on Windows
 - Extract [DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe](http://cdn.rubyinstaller.org/archives/devkits/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe) to c:\Ruby200\devkit
 - Add C:\Ruby200\bin to PATH
 
-
-
-
-
 ```bat
 CD /d c:\Ruby200\devkit
 ruby dk.rb init
@@ -25,10 +21,11 @@ Then run
 
 ```bat
 ruby dk.rb install
+gem update
 gem install directory_watcher
 gem install wdm
 gem install jekyll --version "=1.4.2"
-
+gem uninstall jekyll --version "=1.4.3"
 
 python-2.7.6.amd64.msi
 python ez_setup.py
@@ -37,6 +34,8 @@ gem uninstall pygments.rb --version "=0.5.1"
 gem install pygments.rb --version "=0.5.0"
 ```
 
+# Run it
+
 Finally, to ensure Jekyll understands UTF-8 files (save UTF8, *not* UTF8-BOM)
 
 ```bat
@@ -44,6 +43,7 @@ chcp 65001
 call jekyll serve --watch --trace
 ```
 
+# Links
 
 
 http://www.madhur.co.in/blog/2011/09/01/runningjekyllwindows.html
