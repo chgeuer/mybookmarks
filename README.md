@@ -296,6 +296,15 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 - [Angular Music Database,One-page Web Application built with AngularJS,TypeScript,and Yii framework](http://www.yiiframework.com/wiki/600/angular-music-database-one-page-web-application-built-with-angularjs-typescript-and-yii-framework/) #angularjs
 - [jekyll-bootstrap-3](https://github.com/dbtek/jekyll-bootstrap-3/blob/master/_posts/core-samples/2011-12-29-jekyll-introduction.md)
 - [Light Table is open source](http://www.chris-granger.com/2014/01/07/light-table-is-open-source/)
+- [Curated OWIN & Katana Links](http://curah.microsoft.com/57026/owin-and-project-katana) #OWIN
+- https://github.com/benbalter/benbalter.github.com #jekyll
+- http://filmdev.org/ #film #development #photography
+- http://dmohl.github.io/Fog/ Accessing #WindowsAzure via #FSharp 
+- http://speaking.io/ #publicspeaking
+
+
+
+
 
 # Static page generators
 
