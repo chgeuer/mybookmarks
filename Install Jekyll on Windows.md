@@ -28,7 +28,7 @@ gem install jekyll --version "=1.4.2"
 gem uninstall jekyll --version "=1.4.3"
 
 python-2.7.6.amd64.msi
-python ez_setup.py
+python ez_setup.py     # http://peak.telecommunity.com/dist/ez_setup.py
 easy_install pygments
 gem uninstall pygments.rb --version "=0.5.1"
 gem install pygments.rb --version "=0.5.0"
