@@ -312,3 +312,8 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 - http://jekyllrb.com/
 - http://octopress.org/
 
+
+# Scala
+
+- http://twitter.github.io/effectivescala/
+- http://twitter.github.io/scala_school/
