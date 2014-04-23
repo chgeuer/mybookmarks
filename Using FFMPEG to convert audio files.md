@@ -1,3 +1,17 @@
+
+# Interesting FFMPEG Articles
+
+- http://sonnati.wordpress.com/2011/07/11/ffmpeg-the-swiss-army-knife-of-internet-streaming-part-i/
+- http://sonnati.wordpress.com/2011/08/08/ffmpeg-%e2%80%93-the-swiss-army-knife-of-internet-streaming-%e2%80%93-part-ii/
+- http://sonnati.wordpress.com/2011/08/19/ffmpeg-%e2%80%93-the-swiss-army-knife-of-internet-streaming-%e2%80%93-part-iii/
+- http://sonnati.wordpress.com/2011/08/30/ffmpeg-%e2%80%93-the-swiss-army-knife-of-internet-streaming-%e2%80%93-part-iv/
+- http://sonnati.wordpress.com/2012/07/02/ffmpeg-the-swiss-army-knife-of-internet-streaming-part-v/
+- http://sonnati.wordpress.com/2012/10/19/ffmpeg-the-swiss-army-knife-of-internet-streaming-part-vi/
+- [ffmbc - FFMedia Broadcast](https://code.google.com/p/ffmbc/)
+
+
+
+
 # Using FFMPEG to convert audio files
 
 ```Powershell

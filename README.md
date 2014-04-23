@@ -74,6 +74,7 @@ TODO
 - How I compiled TrueCrypt 7.1a for Win32 and matched the official binaries: https://madiba.encs.concordia.ca/~x_decarn/truecrypt-binaries-analysis/
 - Where the world’s top 100,000 websites are hosted (infographic): http://venturebeat.com/2013/10/23/where-the-worlds-top-100000-websites-are-hosted-infographic/
 - http://ianfeather.co.uk/ten-reasons-we-switched-from-an-icon-font-to-svg/
+- [Comparing Service Bus for Windows Server & RabbitMQ ](http://geekswithblogs.net/michaelstephenson/archive/2012/08/12/150399.aspx)
 
 
 # CRQS Stuff
