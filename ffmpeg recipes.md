@@ -111,15 +111,19 @@ Read official documentation for more info: http://ffmpeg.org/ffmpeg.html
 
 And now let’s combine these parameters to manipulate AV files:
 
-1. Getting info from a video file
+### 1. Getting info from a video file
 
+```cmd
 ffmpeg -i video.mpg
+```
 
 Useful to retrieve info from a media file like audio/video codecs, fps, frame size and other params. You can parse the output of the command line in a script redirecting the stderr channel to a file with a command like this:
 
- ffmpeg –i inputfile 2>info.txt
+```cmd
+ffmpeg –i inputfile 2>info.txt
+```
 
-2. Encode a video to FLV
+### 2. Encode a video to FLV
 
 ffmpeg –i input.avi –r 15 –s 320×240 –an video.flv
 
@@ -137,7 +141,7 @@ Today you can easily re-encode to H.264 and also transcode ASAO or Speex to some
 
 VP6 codec (Flash Player 8+) is officially supported only in decoding.
 
-3. Encode from a sequence of pictures
+### 3. Encode from a sequence of pictures
 
 ```cmd
 ffmpeg -f image2 -i image%d.jpg –r 25 video.flv
@@ -146,43 +150,54 @@ ffmpeg -f image2 -i image%d.jpg –r 25 video.flv
 Build a video from a sequence of frame with a name like image1.jpg,image2.jpg,..,imageN.jpg
  Is it possible to use different naming conventions like image%3d.jpeg where FFmpeg search for file with names like image 001.jpeg, image002.jpg, etc…The output is an FLV file at 25Fps.
 
-4. Decode a video into a sequence of frames
+### 4. Decode a video into a sequence of frames
 
 ffmpeg -i video.mp4 –r 25 image%d.jpg
 
 Decodes the video in a sequence of images (25 images per second) with names like image1, image2, image 3, … , imageN.jpg. It’s possible to change the naming convention.
 
+```cmd
 ffmpeg –i video.mp4 –r 0.1 image%3d.jpg
+```
 
 Decodes a picture every 10 seconds (1/0.1=10). Useful to create a thumbnail gallery for your video. In this case the putput files have names like image001, image002, etc.
 
+```cmd
 ffmpeg –i video.mp4 –r 0.1 –t 20 image%3d.jpg
+```
 
 Extracts 2-3 images from the first 20 seconds of the source.
 
-5. Extract an image from a video
+### 5. Extract an image from a video
 
+```cmd
 ffmpeg -i video.avi -vframes 1 -ss 00:01:00 -f image2 image-%3d.jpg
 (ffmpeg -i video.avi -frames:v 1 -ss 00:01:00 -f image2 image-%3d.jpg)
+```
 
 
 This is a more accurate command for image extraction. It extracts only 1 single frame (-vframes 1) starting 1min from the start of the video. The thumbnail will have the name image-001.jpg.
 
+```cmd
 ffmpeg -i video.avi -r 0.5 -vframes 3 -ss 00:00:05 -f image2 image-%3d.jpg
 (ffmpeg -i video.avi -r 0.5 -frames :v 3 -ss 00:00:05 -f image2 image-%3d.jpg)
-
+```
 
 In this case FFmpeg will extract 3 frames, each every 1/0.5=2seconds, starting from time 5s. Useful for video CMS where you want to offer a selection of thumbnails and a backend user choose the best one.
 
-6. Extract only audio track without re-encoding
+### 6. Extract only audio track without re-encoding
 
+```cmd
 ffmpeg -i video.flv -vn -c:a copy audio.mp3
+```
 
 Here I assume that the audio track is an mp3. Use audio.mp4 if it is AAC or audio.flv if it is ASAO or Speex. Similarly you can extract the video track without re-encoding.
 
-7. Extract audio track with re-encoding
+### 7. Extract audio track with re-encoding
 
+```cmd
 ffmpeg -i video.flv -vn -ar 44100 -ac 2 -ab 128k -f mp3 audio.mp3
+```
 
 This command extract audio and transcode to MP3. Useful when the video.flv is saved by FMS and has an audio track encoded with ASAO or Speex.
 
@@ -190,57 +205,72 @@ ffmpeg –i video.flv –vn –c:a libaac –ar 44100 –ac 2 –ab 64k audio.mp
 
 The same as above but encoded to AAC.
 
-8. Mux audio + video
+### 8. Mux audio + video
 
+```cmd
 ffmpeg -i audio.mp4 -i video.mp4 output.mp4
+```
 
 Depending by the content of the input file you may need to use the map setting to choose and combine the audio video tracks correctly. Here I suppose to have an audio only and video only input files.
 
-9. Change container
+### 9. Change container
 
+```cmd
 ffmpeg –i input.mp4 –c:a copy –c:v copy output.flv
+```
 
 I use this to put h.264 in FLV container, sometimes it is useful. This kind of syntax will come back when we will talk about FFmpeg and RTMP.
 
-10. Grab from a webcam
+### 10. Grab from a webcam
 
 On Linux it is easy to use an audio or video grabbing device as input to FFmpeg:
 
+```cmd
 ffmpeg -f oss -i /dev/dsp -f video4linux2 -i /dev/video0 out.flv
+```
 
 On windows it is possible to use vfwcap (only video) or direct show (audio and video):
 
+```cmd
 ffmpeg -r 15 -f vfwcap -s 320×240 -i 0 -r 15 -f mp4 webcam.mp4
+```
 
+```cmd
 ffmpeg -r 15 -f dshow -s 320×240 -i video=”video source name”:audio=”audio source name” webcam.flv
+```
 
 Notice here that the parameters –r –f –s are setted before –i.
 
-11. Extract a slice without re-encoding
+### 11. Extract a slice without re-encoding
 
+```cmd
 ffmpeg -i input -ss 00:01:00 -t 00:01:00 -c:a copy -c:v copy output.mp4
+```
 
 Extract 1min of video starting from time 00:01:00. Be aware that putting the -ss and -t parameters before or after -i may have different effects.
 
-12. Make a video file from a single frame
+### 12. Make a video file from a single frame
 
 ffmpeg -loop_input -frames:v 1 -i frame.jpg -t 10s -r 25 output.mp4
 
 Generate a video with 25Fps and length 10s from a single frame. Playing with -vframes it is possible to loop a sequence of frames (not video). Note: -loop_input is deprecated in favor of -loop (filter option).
 
-13. Add metadata
+### 13. Add metadata
 
+```cmd
 ffmpeg -i input.flv -c:v copy -c:a copy -metadata title=”MyVideo” output.flv
+```
 
 Useful to change or add metadata like resolution, bitarate or other info
 
-14. Encode to H.264
+### 14. Encode to H.264
 
 Let’s conclude this second part of the series with an example of encoding to H.264 + AAC. In the example above I have used, for simplicity sake, FLV or MP4 output. But to encode to H.264 you have to explicitly set the output codec and some required parameters.
 
-
+```cmd
 ffmpeg -y -i input.mov -r 25 -b 1000k -c:v libx264 -pass 1 -vpre fastfirstpass -an output.mp4
 ffmpeg -y -i input.mov -r 25 -b 1000k -c:v libx264 -pass 2 -vpre hq -acodec libfaac -ac 2 -ar 44100 -ab 128k output.mp4
+```
 
 This first example tells FFmpeg to use the libx264 to produce a H.264 output. We are using a two pass encoding (-pass 1 generate only a stat file that will be used by a second pass). The -vpre option tells FFmpeg to use the preset file “fastfirstpass” that its found in the preset folder of the FFmpeg installation directory. The second line performs the second pass using a more accurate preset (-vpre hq) and adds the audio encoding.
 
@@ -252,13 +282,7 @@ ffmpeg -y -i input -r 25 -b 1000k -c:v libx264 -pass 1 -flags +loop -me_method d
 ffmpeg -y -i input -r 25 -b 1000k -c:v libx264 -pass 2 -flags +loop -me_method umh -g 250 -qcomp 0.6 -qmin 10 -qmax 51 -qdiff 4 -bf 3 -b_strategy 1 -i_qfactor 0.71 -cmp +chroma -subq 8 -me_range 16 -coder 1 -sc_threshold 40 -flags2 +bpyramid+wpred+mixed_refs+dct8x8+fastpskip -keyint_min 25 -refs 3 -trellis 1 -directpred 3 -partitions +parti8x8+parti4x4+partp8x8+partb8x8 -acodec libfaac -ac 2 -ar 44100 -ab 128k output.mp4
 ```
 
-
-
-
-
-# Encoding in H.264 
-
-Third part
+# Encoding in H.264 / Third part
 
 In this third part we will look more closely at the parameters you need to know to encode to H.264.
 
@@ -268,12 +292,13 @@ UPDATE: FFmpeg allows to specify directly the parameters to the underling x264 l
 
 Explain the meaning of all the parameters is a long task and it is not the aim of this article. So I’ll describe only the most important and provide some useful samples. Therefore, if you want to go deeper in the parameterization of FFmpeg, I can suggest you to read this article to know the meaning of each x264 parameters and the mapping between FFmpeg and x264. To know more about the technical principles of H.264 encoding, I suggest also to take a look at the first part of my presentions at MAX2008, MAX2009 and MAX2010.
 
-ENCODING IN H.264 WITH FFMPEG
-
+## ENCODING IN H.264 WITH FFMPEG
 
 Let’s start analyzing a sample command line to encode in H.264 :
 
+```cmd
 ffmpeg -i INPUT -r 25 -b 1000k –s 640×360 -c:v libx264 -flags +loop -me_method hex -g 250 -qcomp 0.6 -qmin 10 -qmax 51 -qdiff 4 -bf 3 -b_strategy 1 -i_qfactor 0.71 -cmp +chroma -subq 8 -me_range 16 -coder 1 -sc_threshold 40 -flags2 +bpyramid+wpred+mixed_refs+dct8x8+fastpskip -keyint_min 25 -refs 3 -trellis 1 –level 30 -directpred 1 -partitions -parti8x8-parti4x4-partp8x8-partp4x4-partb8x8 -threads 0 -acodec libfaac -ar 44100 -ab 96k -y OUTPUT.mp4
+```
 
 (UPDATE: libfaac is now an external library and maybe you can have problem encoding in AAC – Read part V of the series to know more about this topic.)
 
@@ -281,11 +306,10 @@ This command line encodes the INPUT file using a framerate of 25 Fps (-r), a tar
 
 Profiles and Levels are very important for device compatibility so it is important to know how to produce a specific profile and level pair. You find a short primer to profiles and levels here and generic raccomandations for multi device encoding here.
 
-MAIN PARAMETERS
+## MAIN PARAMETERS
 
 
 Here you find a short explanation of the most significative parameters. 
-
 
 -me_method
 
@@ -321,12 +345,11 @@ H.264 supports several partitions modes for MBs estimation and compensation. P-m
  These are all options retalted to bitrate allocation and rate control. Rate Control is a key area of video encoding and deserves a wider description.
 
 
-RATE CONTROL OPTIONS
-
+### RATE CONTROL OPTIONS
 
 Particular attention must be paid to the Rate Control mode used. x264 supports different rate control techniques: Average Bit Rate (ABR), Costant Bit Rate (CBR), Variable Bit Rate (VBR at constant quality or constant quantization). Furthermore it is possible to use 1, 2 or more passes.
 
-MultiPass encoding
+### MultiPass encoding
 
 
 FFmpeg supports multi pass encoding. The most common is the 2 pass encoding. In the first pass the encoder collects informations about the video’s complexity and create a stat file. In the 2nd pass the stat file is used for final encoding and better bit allocation. This is the generic syntax:
@@ -373,8 +396,10 @@ Profiles are simply a set of parameters enclosed in a profile file which you fin
 
 So, to make a 2-pass encoding in baseline profile with the HQ preset you can use a command like this:
 
+```cmd
 ffmpeg -i INPUT -pass 1 -an -vcodec libx264 -vpre hq_firstpass -vpre baseline -b 1000k -s 640×360 OUTPUT.mp4
 ffmpeg -i INPUT -pass 2 -acodec libfaac -ab 96k -ar 44100 -vcodec libx264 -vpre hq -b 1000k -vpre baseline -s 640×360 OUTPUT.mp4
+```
 
 (UPDATE: libfaac is now an external library and maybe you can have problem encoding in AAC – Read part V of the series to know more about this topic.)
 
@@ -391,10 +416,7 @@ ffmpeg -i INPUT -an -c:v libx264 -s 960×540 -x264opts preset=slow:tune=ssim:bit
 
 Using the constraints presets it is possible to encode for mobile devices that usually require baseline profile to enable hardware acceleration. This limit is rapidly being surpassed by current hardware and operative systems. But if you need to target older devices (for example iOS 3 devices) and newer with the same video it’s still necessary to be able to generate easily video compliant to baseline profile. You find other generic raccomandations for multi device encoding here.
 
-
-# FFmpeg for streaming 
-
-Fourth Part
+# FFmpeg for streaming  / Fourth Part
 
 In this article I will focus on the support for RTMP that makes FFmpeg an excellent tool for enhancing the capabilities of the Adobe Flash Streaming Ecosystem.
 
@@ -402,25 +424,21 @@ FFmpeg introduced a strong support for RTMP streaming with the release 0.5 by th
 
 The required syntax is:
 
+```cmd
 rtmp_proto://server[:port][/application][/stream] options
+```
 
 where rtmp_proto can be: “rtmp“, “rtmpt“, “rtmpte“, “rtmps“, “rtmpte“, “rtmpts” and options contain a list of space-separated options in the form key=val (more info here).
 
 Using some of the parameters that we have seen in the first three parts of the series, it’s possible to do a lot of things that the standard Flash Streaming Ecosystem cannot offer. Sometimes there are minor bugs but generally speaking the rtmplib works well and helps FMS to fill the gap with some advanced feature of Wowza Server (like re-purposing of rtp/rtsp stream, TS-stream and so on). FFmpeg works with FMS as well as Wowza Server and RED5, so in the article I will use FMS as a generic term to mean any “RTMP-server”.
 
-1. STREAM A FILE TO FMS AS IF IT WERE LIVE
+## 1. STREAM A FILE TO FMS AS IF IT WERE LIVE
 
 With the help of FFmpeg it is possible for example to stream a pre-encoded file to FMS as if it were a live source. This can be very useful for test purpose but also to create pseudo-live channels.
 
-
-
-1
- 
+```cmd
 ffmpeg -re -i localFile.mp4 -c copy -f flv rtmp://server/live/streamName
- 
-
-
-
+```
 
 The -re option tells FFmpeg to read the input file in realtime and not in the standard as-fast-as-possible manner. With -c copy (alias -acodec copy -vcodec copy ) I’m telling FFmpeg to copy the essences of the input file without transcoding, then to package them in an FLV container (-f flv) and send the final bitstream to an rtmp destination (rtmp://server/live/streamName).
 
@@ -431,42 +449,33 @@ In which scenario can be useful a command like that ?
 
 For example, suppose to have created a communication or conference tool in AIR. One of the partecipants at the conference could fetch a local file and stream it to the conference FMS to show, in realtime, the same file to other partecipants. Leveraging the “native process” feature of AIR it is simple to launch a command line like the one above and do the job. In this scenario, probably you will have to transcode the input, or check for the compatibility of codecs analyzing the input up front (remember ffmpeg -i INPUT trick we spoke about in the second article).
 
-2. GRAB AN RTMP SOURCE
+## 2. GRAB AN RTMP SOURCE
 
 Using a command like this:
-
-
-
-1
  
+```cmd
 ffmpeg -i rtmp://server/live/streamName -c copy dump.flv
+```
  
-
 It’s possible to dump locally the content of a remote RTMP stream. This can be useful for test/audit/validation purpose. It works for both live and on-demand content.
 
-3. TRANSCODE LIVE RTMP TO LIVE RTMP
+## 3. TRANSCODE LIVE RTMP TO LIVE RTMP
 
 One of the more interesting scenario is when you want to convert a format to a different one for compatibility sake or to change the characteristics of the original stream.
 
 Let’s suppose to have a Flash Player based app that do a live broadcast. You know that until FP11, Flash can only encode using the old Sorenson spark for video and NellyMoser ASAO or Speex for audio. You may use a live transcoding command to enhance the compression of the video transcoding from Sorenson to H.264:
 
-
-
-1
- 
+```cmd
 ffmpeg -i rtmp://server/live/originalStream -c:a copy -c:v libx264 -vpre slow -f flv rtmp://server/live/h264Stream
+```
  
-
 This could be useful to reduce bandwidth usage especially in live broadcasting where latency it’s not a problem.
  The next release of FMS will also offer support for the Apple HTTP Live Streaming (like Wowza already do). So it will be possible to use FMS to stream live to iOS device. But FMS does not transcode the stream essence, it performs only a repackaging or repurposing of the original essences. But FFmpeg can help us to convert the uncompliant Sorenson-Speex stream to a H.264-AAC stream in this way:
 
-
-
-1
- 
+```cmd
 ffmpeg -i rtmp://server/live/originalStream -c:a libfaac -ar 44100 -ab 48k -c:v libx264 -vpre slow -vpre baseline -f flv rtmp://server/live/h264Stream
+```
  
-
 (UPDATE: libfaac is now an external library and maybe you can have problem encoding in AAC – Read part V of the series to know more about this topic.)
 
 See also the point 4 and 5 to know how to generate a multibitrate stream to be compliant with Apple requirements for HLS. This approach will be useful also with FP11 that encode in H.264, but generate only one stream.
