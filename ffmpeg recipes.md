@@ -1,6 +1,8 @@
 # ffmpeg recipes
 
-# Originals from here: 
+This is just my web scraping copy of the excellent article series from Fabio Sonnati. Just wanted to make sure I have an offline copy :-)
+
+### Originals from here: 
 
 - http://sonnati.wordpress.com/2011/07/11/ffmpeg-the-swiss-army-knife-of-internet-streaming-part-i/
 - http://sonnati.wordpress.com/2011/08/08/ffmpeg-%e2%80%93-the-swiss-army-knife-of-internet-streaming-%e2%80%93-part-ii/
@@ -57,7 +59,9 @@ KEY PARAMETERS
 
 This is the base structure of an FFmpeg invocation:
 
+```cmd
 ffmpeg -i input_file [...parameter list...] output_file
+```
 
 Input_file and output_file can be defined not only as file system objects but a number of protocols are supported: file, http, pipe, rtp/rtsp, raw udp, rtmp. I’ll focus on the possiblity to use RTMP as input and/or output in the fourth part of this series, while in the following examples I’ll use only the local file option.
 
@@ -96,10 +100,12 @@ The syntax of some commands have changed. Commands like -b (is the bitrate relat
 
 Use:
 
+```cmd
 	-b:a instead of -ab to set audio bitrate
 	-b:v instead of -b to set video bitrate
 	-codec:a or -c:a instead of -acodec
 	-codec:v or -c:v instead of -vcodec
+```
 
 Most of these parameters allow also a third optional number to specify the index of the audio or video channel to use.
 
@@ -152,7 +158,9 @@ Build a video from a sequence of frame with a name like image1.jpg,image2.jpg,..
 
 ### 4. Decode a video into a sequence of frames
 
+```cmd
 ffmpeg -i video.mp4 –r 25 image%d.jpg
+```
 
 Decodes the video in a sequence of images (25 images per second) with names like image1, image2, image 3, … , imageN.jpg. It’s possible to change the naming convention.
 
@@ -174,7 +182,6 @@ Extracts 2-3 images from the first 20 seconds of the source.
 ffmpeg -i video.avi -vframes 1 -ss 00:01:00 -f image2 image-%3d.jpg
 (ffmpeg -i video.avi -frames:v 1 -ss 00:01:00 -f image2 image-%3d.jpg)
 ```
-
 
 This is a more accurate command for image extraction. It extracts only 1 single frame (-vframes 1) starting 1min from the start of the video. The thumbnail will have the name image-001.jpg.
 
@@ -201,7 +208,9 @@ ffmpeg -i video.flv -vn -ar 44100 -ac 2 -ab 128k -f mp3 audio.mp3
 
 This command extract audio and transcode to MP3. Useful when the video.flv is saved by FMS and has an audio track encoded with ASAO or Speex.
 
+```cmd
 ffmpeg –i video.flv –vn –c:a libaac –ar 44100 –ac 2 –ab 64k audio.mp4
+```
 
 The same as above but encoded to AAC.
 
@@ -308,22 +317,21 @@ Profiles and Levels are very important for device compatibility so it is importa
 
 ## MAIN PARAMETERS
 
-
 Here you find a short explanation of the most significative parameters. 
 
--me_method
+### -me_method
 
 Sets the accuracy of the search method in motion estimation. Allowed values: dia (fastest), hex, umh, full (slowest). Dia is usually used for first pass encoding only and full is too slow and not significantly better than umh. For single pass encoding or the second pass in multi-pass encoding use umh or hex depending by encoding speed requirements or constraints.
 
--subq
+### -subq
 
 Sets the accuracy of motion vectors. Accepts values in the range 1-10. Use lower values like 1-3 for first pass and higher values like 7-10 for the second pass. Again, the effective value depends by a quality/speed tradeoff.
 
--g, -keyint_min, -sc_threshold
+### -g, -keyint_min, -sc_threshold
 
 x264 uses by default a dynamic gop size. -g selects the max gop size, -keyint_min the min size. –sc_threshold is the Scene Change sensitivity (0-100). At every scene change a new i-frame (intra compressed frame) is inserted. Depending by -g and -keyint_min an I-frame (IDR frame alias keyframe) is inserted instead. The gop can be long (i.e. -g 300) for compression efficiency sake, or short (i.e. 25/50) for accessibility sake. This depends by what you need to achieve and by the delivery technique used (when using RTMP streaming you can seek to every frame, with progressive downloading only to IDRs). Sometimes you may need to have a consistent, contant gop size across multiple bitrates (i.e. for Http Dynamic Streaming or HLS). To do that set min and max gop size equal and disable completely scene change (i.e. -g 100 -keyint_min 100 -sc-threashold 0).
 
--bf, b-strategy
+### -bf, b-strategy
 
 -bf sets the max number of consecutive b-frames (H.264 supports up to 16 b-frames). Remember that b-frames are not allowed in baseline profile. B-strategy defines the technique used for b-frames placement.
 
@@ -331,19 +339,18 @@ Use 0 to disable dynamic placement.
  Use 1 to enable a fast-choice technique for dynamic placement. Fast but less accurate.
  Use 2 to enable a slow-and-accurate mode. Can be really slow if used with an high number of b-frames.
 
--refs
+### -refs
 
 sets the number of reference frames (H.264 supports up to 16 reference frames). Influences the encoding time. Using more than  4-5 refs gives commonly very little or null gain.
 
- -partitions
+### -partitions
 
 H.264 supports several partitions modes for MBs estimation and compensation. P-macroblocks can be subdivided into 16×8, 8×16, 8×8, 4×8, 8×4, and 4×4 partitions. B-macroblocks can be divided into 16×8, 8×16, and 8×8 partitions. I-macroblocks can be divided into 4×4 or 8×8 partitions. Analyzing more partition options improves quality at the cost of speed. The default in FFmpeg is to analyze all partitions except p4x4 (p8x8, i8x8, i4x4, b8x8). Note that i8x8 requires 8x8dct, and is the only partition High Profile-specific. p4x4 is rarely useful (i.e. for small frame size).
 
--b, -pass, -crf, -maxrate, -bufsize
+### -b, -pass, -crf, -maxrate, -bufsize
 
 -b sets the desired bitrate that will be achieved using a single pass or multi-pass process using the -pass parameter. -crf define a desired average quality instead of a target bitrate.
  These are all options retalted to bitrate allocation and rate control. Rate Control is a key area of video encoding and deserves a wider description.
-
 
 ### RATE CONTROL OPTIONS
 
@@ -351,25 +358,28 @@ Particular attention must be paid to the Rate Control mode used. x264 supports d
 
 ### MultiPass encoding
 
-
 FFmpeg supports multi pass encoding. The most common is the 2 pass encoding. In the first pass the encoder collects informations about the video’s complexity and create a stat file. In the 2nd pass the stat file is used for final encoding and better bit allocation. This is the generic syntax:
 
+```cmd
 ffmpeg -i input -pass 1 [parameters] output.mp4
 ffmpeg -i input -pass 2 [parameters] output.mp4
+```
 
 -pass 1 tells to FFmpeg to analize video and write a stat file. -pass 2 tells to read the stat file and encode accordingly. Exist also a -pass 3 option that read and update the stat. So if you want to do a 3-pass encoding the correct sequence is:
 
+```cmd
 ffmpeg -i input -pass 1 [parameters] output.mp4
 ffmpeg -i input -pass 3 [parameters] output.mp4
- ffmpeg -i input -pass 2 [parameters] output.mp4
+ffmpeg -i input -pass 2 [parameters] output.mp4
+```
 
 3-pass encoding is rarely useful.
 
-ABR
+### ABR
 
 Average Bitrate is the default rate control mode. Simply set the desired target average bitrate using -b. Remember that the bitrate can fluctuate freely locally and only the average value over the whole video duration is controlled. ABR can be performed with 1 or 2 pass but I suggest to always use a 2-pass for better data allocation.
 
-CBR
+### CBR
 
 Using the VBV model (Video Bitrate Verifier) it’s possible to obtain CBR encoding with custom buffer control. For example, to encode in canonical CBR mode use:
 
@@ -377,7 +387,7 @@ ffmpeg -i input -b 1000k -maxrate 1000k -bufsize 1000k [parameters] output.mp4
 
 CBR encoding can be performed in single pass or multi pass. Single pass CBR is sufficiently efficient.
 
- VBR
+### VBR
 
 libx264 supports two unconstrained VBR modes. In pure VBR you don’t know the final average bitrate of your video but you set a target quality (or quantization) that is applied by the encoder across the whole video.
 
@@ -392,7 +402,6 @@ Usually VBR encoding is performed in single pass.
 Fortunately it is possible to avoid long command lines using pre-defined or custom encoding settings. Indeed I do not like very much this approach because there are a lot of cases when you need to have an accurate control over the parameters like in the case of HLS or HDS. But I recognise that the use of presets can save a lot of time in every-day works.
 
 Profiles are simply a set of parameters enclosed in a profile file which you find in the ffpresets folder after unzipping the FFmpeg build package. Presets can change depending by the version of FFmpeg you have, so the best is to take a look at the content of the preset file. Commonly you will find a set of quality preset like libx264-hq.ffpreset or  libx264-slow.ffpreset , first pass presets like libx264-hq_firstpass.ffpreset and constraints presets like libx264-main.ffpreset or libx264-baseline.ffpreset 
-
 
 So, to make a 2-pass encoding in baseline profile with the HQ preset you can use a command like this:
 
@@ -410,7 +419,9 @@ Notice that the constrains preset is applyed with a second -vpre and that the fi
 
 Since FFmpeg introduced a direct access to x264 parameters it is also possible to use native x264 profiles. ES:
 
+```cmd
 ffmpeg -i INPUT -an -c:v libx264 -s 960×540 -x264opts preset=slow:tune=ssim:bitrate=1000 OUTPUT.mp4
+```
 
 ## ENCODING FOR DIFFERENT DEVICES
 
@@ -443,7 +454,8 @@ ffmpeg -re -i localFile.mp4 -c copy -f flv rtmp://server/live/streamName
 The -re option tells FFmpeg to read the input file in realtime and not in the standard as-fast-as-possible manner. With -c copy (alias -acodec copy -vcodec copy ) I’m telling FFmpeg to copy the essences of the input file without transcoding, then to package them in an FLV container (-f flv) and send the final bitstream to an rtmp destination (rtmp://server/live/streamName).
 
 The input file must have audio and video codec compatible with FMS, for example H.264 for video and AAC for audio but any supported codecs combination should work.
- Obviously it would be also possible to encode on the fly the input video. In this case remember that the CPU power requested for a live encoding can be high and cause loss in frame rate or stuttering playback on subscribers’ side.
+
+Obviously it would be also possible to encode on the fly the input video. In this case remember that the CPU power requested for a live encoding can be high and cause loss in frame rate or stuttering playback on subscribers’ side.
 
 In which scenario can be useful a command like that ?
 
@@ -482,7 +494,6 @@ See also the point 4 and 5 to know how to generate a multibitrate stream to be c
 
 Another common scenario is when you are using FMLE to make a live broadcast. The standard windows version of FMLE supports only MP3 and not AAC for audio encoding (plug-in required). This may be a problem when you want to use your stream also to reach iOS devices with FMS or Wowza (iOS requires AAC for HLS streams). Again FFmpeg can help us:
 
-
 ```cmd
 ffmpeg -i rtmp://server/live/originalStream -acodec libfaac -ar 44100 -ab 48k -vcodec copy -f flv rtmp://server/live/h264_AAC_Stream
 ```
@@ -491,7 +502,7 @@ On the other hand, I have had the opposite problem recently with an AIR 2.7+ app
 
 Again, you probably know that Apple HLS requires an audio only AAC stream with a bitrate less than 64Kbit/s for the compliance of video streaming apps, but at the same time you probably want to offer an higher audio quality for your live streaming (on desktop fpo istance). Unfortunately FMLE encode at multiple bitrates only the video track while use a unique audio preset for all bitrates. With FFmpeg is possible to generate a dedicated audio only stream in AAC with bitrate less than 64Kbit/s.
 
-4. GENERATE BASELINE FOR LOW-END DEVICES
+## 4. GENERATE BASELINE FOR LOW-END DEVICES
 
 Very similarly, if you want to be compliant with older iOS versions or other mobile devices (older BB for istance) you need to encode in Baseline profile, but at the same time you may want to leverage high profile for desktop HDS. So you could use FMLE to generate high profile streams, with high quality AAC and then generate server side a baseline set of multi-bitrate streams for HLS and/or low end devices compatibility.
 
@@ -501,7 +512,6 @@ This command read from FMS the highest quality of a multi bitrate set generated 
 ffmpeg -re -i rtmp://server/live/high_FMLE_stream -acodec copy -vcodec x264lib -s 640x360 -b 500k -vpre medium -vpre baseline rtmp://server/live/baseline_500k -acodec copy -vcodec x264lib -s 480x272 -b 300k -vpre medium -vpre baseline rtmp://server/live/baseline_300k -acodec copy -vcodec x264lib -s 320x200 -b 150k -vpre medium -vpre baseline rtmp://server/live/baseline_150k -acodec libfaac -vn -ab 48k rtmp://server/live/audio_only_AAC_48k
 ```
  
-
 UPDATE: using the -x264opts parameter you may rewrite the command like this:
 
 ```cmd
@@ -510,8 +520,7 @@ ffmpeg -re -i rtmp://server/live/high_FMLE_stream -c:a copy -c:v x264lib -s 640x
 
 (UPDATE: libfaac is now an external library and maybe you can have problem encoding in AAC – Read part V of the series to know more about this topic.)
 
-
-5. ENCODE LIVE FROM LOCAL GRABBING DEVICES
+## 5. ENCODE LIVE FROM LOCAL GRABBING DEVICES
 
 FFmpeg can use also a local AV source, so it’s possible to encode live directly from FFmpeg and bypass completely FMLE. I suggest to do that only in very controlled scenarios because FMLE offers precious, addictional functions like auto-encoding adjust to keep as low as possible the latency when the bandwidth between the acquisition point and the server is not perfect.
 
@@ -523,15 +532,13 @@ ffmpeg -r 25 -f dshow -s 640x480 -i video="video source name":audio="audio sourc
  
 Join this command line and the previous and you have a multi-bitrate live encoding configuration for desktop and mobile.
 
-6. ENCODE SINGLE PICTURES WITH H.264 INTRA COMPRESSION
+## 6. ENCODE SINGLE PICTURES WITH H.264 INTRA COMPRESSION
 
 H.264 has a very efficient Intra compression mode, so it is possible to leverage it for picture compression. I have estimated an improvement of around 50% in compression compared to JPG. Last year I have discussed estensively the possibility to use this kind of image compression to protect professional footage with FMS and RTMPE. Here you find the article, and this is the command line:
-
 
 ```cmd
 ffmpeg.exe -i INPUT.jpg -an -vcodec libx264 -coder 1 -flags +loop -cmp +chroma -subq 10 -qcomp 0.6 -qmin 10 -qmax 51 -qdiff 4 -flags2 +dct8x8 -trellis 2 -partitions +parti8x8+parti4x4 -crf 24 -threads 0 -r 25 -g 25 -y OUTPUT.mp4
 ```
- 
 
 Change -crf to modulate encoding quality (and compression rate).
 
@@ -545,11 +552,9 @@ ffmpeg -i rtmp://server/live/originalStream -c:a copy -c:v libx264 -vpre slow -f
  
 Other info on RTMP dump libray: http://ffmpeg.org/ffmpeg.html#toc-rtmp
 
-CONCLUSIONS
+## CONCLUSIONS
 
 There are a lot of other scenarios where using FFmpeg with FMS (or Wowza) can help you creating new exciting services for you projects and overcome the limitations of the current Flash Video Ecosystem, so now it’s up to you. Try to mix my examples and post comments about new ways of customization that you have found of your RTMP delivery system.
- Remember also to follow the discussion on my twitter account (@sonnati).
-
 
 # Advanced usage 
 
