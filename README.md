@@ -197,6 +197,7 @@ Windows Azure
 - [How I Made Porn 20x More Efficient with Python](http://www.toptal.com/python/how-i-made-porn-20x-more-efficient-with-python)
 - [Introducing Creative Coding and ProcessingJS With Windows](http://channel9.msdn.com/Series/Sketchbooktutorial/Introducing-Creative-Coding-and-ProcessingJS-With-Windows)
 - [Scaling Out Your Web Infrastructure with IIS Application Request Routing](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2010/WSV324)
+- [Some Useful IIS Rewrite Ru](http://odetocode.com/blogs/scott/archive/2014/03/27/some-useful-iis-rewrite-rules.aspx) #ARR
 - [Reading PDF and XPS on your Windows 8 application using WinRT - Eternal Coding](http://blogs.msdn.com/b/eternalcoding/archive/2013/04/15/reading-pdf-and-xps-on-your-windows-8-application-using-winrt.aspx)
 - [apiOmat | Backend as a service – Create your backend in 10 minutes!](http://www.apiomat.com/)
 - [Amazon Services Hackpad (making sense of Amazon's offerings)](https://hackpad.com/Amazon-Services-xwW1WtHf5y5)
@@ -321,6 +322,8 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 - http://dmohl.github.io/Fog/ Accessing #WindowsAzure via #FSharp 
 - http://speaking.io/ #publicspeaking
 
+# Security
+- [OpenID at Deutsche Telekom](http://wiki.openid.net/w/file/80030087/oidc_dt_iiw_20140504.pdf)
 
 
 
@@ -335,3 +338,6 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 
 - http://twitter.github.io/effectivescala/
 - http://twitter.github.io/scala_school/
+
+
+

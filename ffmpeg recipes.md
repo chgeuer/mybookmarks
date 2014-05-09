@@ -153,6 +153,12 @@ VP6 codec (Flash Player 8+) is officially supported only in decoding.
 ffmpeg -f image2 -i image%d.jpg –r 25 video.flv
 ```
 
+Use img_3407.jpg and following, and create an MP4 movie. 
+
+```cmd
+ffmpeg -start_number 3407 -i img_%4d.jpg -c:v libx264 -s "1404x936" out.mp4
+```
+
 Build a video from a sequence of frame with a name like image1.jpg,image2.jpg,..,imageN.jpg
  Is it possible to use different naming conventions like image%3d.jpeg where FFmpeg search for file with names like image 001.jpeg, image002.jpg, etc…The output is an FLV file at 25Fps.
 
