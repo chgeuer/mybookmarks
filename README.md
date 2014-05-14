@@ -325,31 +325,16 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 # Security
 - [OpenID at Deutsche Telekom](http://wiki.openid.net/w/file/80030087/oidc_dt_iiw_20140504.pdf)
 
-
-
-
 # Static page generators
 
 - http://jekyllrb.com/
 - http://octopress.org/
 
-
-
+# Build tools
+- [Shovel is a scriptcs-based build runner](https://github.com/jancowol/Shovel), same is [Bau](https://github.com/bau-build/bau)
+- https://github.com/sakeproject/sake 
 
 # Scala
-# Build tools
-
-- [Shovel is a scriptcs-based build runner](https://github.com/jancowol/Shovel), same is [Bau](https://github.com/bau-build/bau)
-- https://github.com/sakeproject/sake 
-
-
 - http://twitter.github.io/effectivescala/
 - http://twitter.github.io/scala_school/
-
-
-
-
-- [Shovel is a scriptcs-based build runner](https://github.com/jancowol/Shovel), same is [Bau](https://github.com/bau-build/bau)
-- https://github.com/sakeproject/sake 
-
 
