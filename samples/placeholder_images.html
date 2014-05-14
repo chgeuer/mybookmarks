@@ -1,0 +1,37 @@
+<html>
+<body>
+
+<img src="#placeholder" id="responsive" alt="dimensions set in css" />
+<img src="#placeholder" width="250" height="200" alt="dimensions set inline" /> 
+
+<!-- http://adcott.net/placeholder.html -->
+
+<script>
+
+(function() {
+  function replaceImg(img) {
+    var canvas = document.createElement('canvas'),
+    	h = img.height,
+    	w = img.width,
+    	ctx = canvas.getContext("2d");
+    canvas.width = w;
+    canvas.height = h;
+    ctx.rect(0,0,w,h);
+    ctx.fillStyle = '#CCC';
+    ctx.fill();
+    ctx.font = '16pt sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillStyle = '#777';
+    ctx.fillText(img.width+' x '+img.height, w/2, h/2);
+    ctx.font = '10pt sans-serif';
+    ctx.fillText(img.alt, w/2, h-5);
+    img.src = canvas.toDataURL();
+  }
+  var imgs = document.getElementsByTagName('img');
+  for (var i=imgs.length; i--;)
+    if (imgs[i].getAttribute('src') === '#placeholder') replaceImg(imgs[i]);
+})();
+
+</script>
+</body>
+</html>

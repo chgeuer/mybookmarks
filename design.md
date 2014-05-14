@@ -7,4 +7,4 @@ Design
 - [Cool designer](http://seanwes.com/store/)
 - [Bootstrap 3](http://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/)
 - [Flat Bootstrap 3 Theme](http://rriepe.github.io/1pxdeep/)
-
+- [Iconic Icons](https://useiconic.com/icons/)

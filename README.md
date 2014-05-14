@@ -73,7 +73,25 @@ TODO
 - Using AuthorizationServer with Nancy: http://leastprivilege.com/2013/10/25/using-authorizationserver-with-nancy/
 - How I compiled TrueCrypt 7.1a for Win32 and matched the official binaries: https://madiba.encs.concordia.ca/~x_decarn/truecrypt-binaries-analysis/
 - Where the world’s top 100,000 websites are hosted (infographic): http://venturebeat.com/2013/10/23/where-the-worlds-top-100000-websites-are-hosted-infographic/
+- [Comparing Service Bus for Windows Server & RabbitMQ ](http://geekswithblogs.net/michaelstephenson/archive/2012/08/12/150399.aspx)
+- We are borg http://youtu.be/WZEJ4OJTgg8
+
+# Font stuff
+
 - http://ianfeather.co.uk/ten-reasons-we-switched-from-an-icon-font-to-svg/
+- Fonts: http://line25.com/articles/roundup-best-free-icon-fonts-web-design 
+	- http://fortawesome.github.io/Font-Awesome/
+	- http://typicons.com/
+	- http://adamwhitcroft.com/batch/
+	- http://zurb.com/playground/foundation-icon-fonts-3
+	- http://www.entypo.com/
+	- http://mfglabs.github.io/mfglabs-iconset/
+	- http://tenbytwenty.com/?xxxx_posts=sosa
+	- http://icons.marekventur.de/
+	- https://github.com/fontello/zocial.font
+	- http://www.heydonworks.com/article/a-free-icon-web-font
+	- http://socicon.com/
+	- http://designmodo.com/linecons-free/
 
 
 # CRQS Stuff
@@ -179,6 +197,7 @@ Windows Azure
 - [How I Made Porn 20x More Efficient with Python](http://www.toptal.com/python/how-i-made-porn-20x-more-efficient-with-python)
 - [Introducing Creative Coding and ProcessingJS With Windows](http://channel9.msdn.com/Series/Sketchbooktutorial/Introducing-Creative-Coding-and-ProcessingJS-With-Windows)
 - [Scaling Out Your Web Infrastructure with IIS Application Request Routing](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2010/WSV324)
+- [Some Useful IIS Rewrite Ru](http://odetocode.com/blogs/scott/archive/2014/03/27/some-useful-iis-rewrite-rules.aspx) #ARR
 - [Reading PDF and XPS on your Windows 8 application using WinRT - Eternal Coding](http://blogs.msdn.com/b/eternalcoding/archive/2013/04/15/reading-pdf-and-xps-on-your-windows-8-application-using-winrt.aspx)
 - [apiOmat | Backend as a service – Create your backend in 10 minutes!](http://www.apiomat.com/)
 - [Amazon Services Hackpad (making sense of Amazon's offerings)](https://hackpad.com/Amazon-Services-xwW1WtHf5y5)
@@ -200,6 +219,7 @@ Windows Azure
 - [How to backup and restore a Windows system disk in a Windows Azure Virtual Machine](http://blogs.msdn.com/b/windowsazure/archive/2013/07/31/how-to-backup-and-restore-windows-system-disk-in-a-windows-azure-iaas.aspx)
 - [AzureTools – The Diagnostic Utility used by the Windows Azure Developer Support Team](https://blogs.msdn.com/b/kwill/archive/2013/08/26/azuretools-the-diagnostic-utility-used-by-the-windows-azure-developer-support-team.aspx)
 - [Windows Azure Powershell Reference](http://michaelwasham.com/windows-azure-powershell-reference-guide/)
+- [Windows Azure Media Services (WAMS) Replicator Tool allows you to replicate WAMS assets across two WAMS accounts. ](https://replicator.codeplex.com/)
 
 Windows Utilities
 -----------------
@@ -302,6 +322,8 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 - http://dmohl.github.io/Fog/ Accessing #WindowsAzure via #FSharp 
 - http://speaking.io/ #publicspeaking
 
+# Security
+- [OpenID at Deutsche Telekom](http://wiki.openid.net/w/file/80030087/oidc_dt_iiw_20140504.pdf)
 
 
 
@@ -313,8 +335,21 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 
 
 
+
+# Scala
 # Build tools
 
 - [Shovel is a scriptcs-based build runner](https://github.com/jancowol/Shovel), same is [Bau](https://github.com/bau-build/bau)
 - https://github.com/sakeproject/sake 
+
+
+- http://twitter.github.io/effectivescala/
+- http://twitter.github.io/scala_school/
+
+
+
+
+- [Shovel is a scriptcs-based build runner](https://github.com/jancowol/Shovel), same is [Bau](https://github.com/bau-build/bau)
+- https://github.com/sakeproject/sake 
+
 

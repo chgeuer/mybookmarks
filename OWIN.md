@@ -19,3 +19,4 @@ OWIN Stuff
 - http://www.tugberkugurlu.com/archive/logging-in-the-owin-world-with-microsoft-owin--introduction
 - https://github.com/bbaia/connect-owin
 - [OWIN Startup Class detection](http://www.asp.net/aspnet/overview/owin-and-katana/owin-startup-class-detection)
+- [NWebsec security libraries for ASP.NET applications](https://nwebsec.codeplex.com/)

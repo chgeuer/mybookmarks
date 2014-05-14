@@ -27,4 +27,5 @@ JavaScript
 - [countUp.js is a dependency-free, lightweight JavaScript "class" that can be used to quickly create animations that display numerical data in a more interesting way.](http://inorganik.github.io/countUp.js/)
 - [videoconverter.js is a program that lets you process videos in your browser (FFMPEG cross-compiled to JS)](http://bgrins.github.io/videoconverter.js/)
 - [Cookies vs Tokens. Getting auth right with Angular.JS](http://blog.auth0.com/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
-
+- [vis.js - a visual interaction system ](http://visjs.org/)
+- [DIY AngularJS SEO with PhantomJS (the easy way!)](http://lawsonry.com/2014/05/diy-angularjs-seo-with-phantomjs-the-easy-way/)

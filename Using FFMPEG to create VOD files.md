@@ -36,3 +36,32 @@ ffmpeg -i a.mkv -vcodec copy -ab 128k -acodec libvo_aacenc a.mp4
 ffmpeg -i a.mkv -vcodec copy -acodec copy a.mp4
 
 ```
+
+# Convert FLV (Flash Video) into real MP4
+
+Files are FLVs, but named MP4. Make them *real* MP4
+
+```Powershell
+dir *.mp4 | foreach { Rename-Item $_.Name  $_.Name.Replace("mp4", "flv") }
+dir *.flv | foreach { ffmpeg -i $_.Name -vcodec copy -acodec copy $_.Name.Replace("flv", "mp4") }
+```
+
+# Concatenate video files
+
+In order to concatenate MP4 files, each file must be converted into a Transport Stream (.ts), i.e. without a MOOV atom, and then concatenated and re-written into a proper .mp4 file (with MOOV atom): 
+
+```Powershell
+dir *.mp4 | foreach { ffmpeg -i $_.Name -c copy -bsf:v h264_mp4toannexb -f mpegts $_.Name.Replace("mp4", "ts") }
+
+ffmpeg -i "concat:intermediate1.ts|intermediate2.ts" -c copy -bsf:a aac_adtstoasc output.mp4
+```
+
+
+
+
+# Create MP4 from single images
+
+```Powershell
+ffmpeg -start_number 3407 -i img_%4d.jpg -c:v libx264 -s "1404x936" out.mp4
+```
+
