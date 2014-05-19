@@ -184,7 +184,26 @@ Bootstrap Interface builders
 ------------------------
 
 - http://bootply.com/
+- http://bootsnipp.com/
+- http://bootsnipp.com/forms
+- http://bootswatchr.com/
+- http://code.divshot.com/geo-bootstrap/
+- http://fancyboot.designspebam.com/
+- http://getkickstrap.com/
+- http://paintstrap.com/ (Generate beautiful Twitter Bootstrap themes using the Adobe kuler / COLOURlovers color scheme)
+- http://pikock.github.io/bootstrap-magic/app/#!/editor
+- http://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-might-not-know
+- http://vitalets.github.io/x-editable/
+- http://wrapbootstrap.com/preview/WB0DFT966
+- http://www.boottheme.com/#generatetheme
+- http://www.bootui.com/
+- http://www.divshot.com/features
+- http://www.lavishbootstrap.com/
 - http://www.layoutit.com/
+- http://www.pingendo.com/
+- https://jetstrap.com/
+- https://wrapbootstrap.com/
+- https://www.easel.io/
 
 
 
