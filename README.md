@@ -184,7 +184,26 @@ Bootstrap Interface builders
 ------------------------
 
 - http://bootply.com/
+- http://bootsnipp.com/
+- http://bootsnipp.com/forms
+- http://bootswatchr.com/
+- http://code.divshot.com/geo-bootstrap/
+- http://fancyboot.designspebam.com/
+- http://getkickstrap.com/
+- http://paintstrap.com/ (Generate beautiful Twitter Bootstrap themes using the Adobe kuler / COLOURlovers color scheme)
+- http://pikock.github.io/bootstrap-magic/app/#!/editor
+- http://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-might-not-know
+- http://vitalets.github.io/x-editable/
+- http://wrapbootstrap.com/preview/WB0DFT966
+- http://www.boottheme.com/#generatetheme
+- http://www.bootui.com/
+- http://www.divshot.com/features
+- http://www.lavishbootstrap.com/
 - http://www.layoutit.com/
+- http://www.pingendo.com/
+- https://jetstrap.com/
+- https://wrapbootstrap.com/
+- https://www.easel.io/
 
 
 
@@ -325,31 +344,16 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 # Security
 - [OpenID at Deutsche Telekom](http://wiki.openid.net/w/file/80030087/oidc_dt_iiw_20140504.pdf)
 
-
-
-
 # Static page generators
 
 - http://jekyllrb.com/
 - http://octopress.org/
 
-
-
+# Build tools
+- [Shovel is a scriptcs-based build runner](https://github.com/jancowol/Shovel), same is [Bau](https://github.com/bau-build/bau)
+- https://github.com/sakeproject/sake 
 
 # Scala
-# Build tools
-
-- [Shovel is a scriptcs-based build runner](https://github.com/jancowol/Shovel), same is [Bau](https://github.com/bau-build/bau)
-- https://github.com/sakeproject/sake 
-
-
 - http://twitter.github.io/effectivescala/
 - http://twitter.github.io/scala_school/
-
-
-
-
-- [Shovel is a scriptcs-based build runner](https://github.com/jancowol/Shovel), same is [Bau](https://github.com/bau-build/bau)
-- https://github.com/sakeproject/sake 
-
 
