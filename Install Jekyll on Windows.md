@@ -62,3 +62,9 @@ https://github.com/Sandra/Sandra.Snow
 
 src: [Rendering markdown includes in Jekyll](http://wolfslittlestore.be/2013/10/rendering-markdown-in-jekyll/)
 
+
+
+
+
+http://blog.florianwolters.de/educational/2014/04/18/Running_Jekyll_with_GitHub_Pages_using_Windows_8.1_x64_and_Ruby_2.0_x64/
+

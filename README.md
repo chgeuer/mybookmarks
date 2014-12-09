@@ -357,3 +357,6 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 - http://twitter.github.io/effectivescala/
 - http://twitter.github.io/scala_school/
 
+
+
+- Europe North: https://www.google.com/maps/place/53%C2%B019'28.7%22N+6%C2%B027'17.2%22W/@53.3251112,-6.4544568,747m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0

@@ -57,8 +57,10 @@ $concatenation = concatenate($inputfiles)
 # ffmpeg -i "concat:01.mp3|02.mp3" -c:a libvo_aacenc -vn 1.m4a
 ffmpeg -i $concatenation -c:a libvo_aacenc -vn "$filename.m4a"
 # Rename-Item -Path "$filename.m4a" -NewName "$filename.m4b"
-
-# compare two videos @see http://ianfeather.co.uk/compare-two-webpagetest-videos-using-ffmpeg/
-ffmpeg -i before.mp4 -i after.mp4 -filter_complex "[0:v:0]pad=iw*2:ih[bg]; [bg][1:v:0]overlay=w" output.mp4
+```
 
 ```
+# compare two videos @see http://ianfeather.co.uk/compare-two-webpagetest-videos-using-ffmpeg/
+ffmpeg -i before.mp4 -i after.mp4 -filter_complex "[0:v:0]pad=iw*2:ih[bg]; [bg][1:v:0]overlay=w" output.mp4
+```
+

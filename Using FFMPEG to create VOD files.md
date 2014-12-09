@@ -65,3 +65,19 @@ ffmpeg -i "concat:intermediate1.ts|intermediate2.ts" -c copy -bsf:a aac_adtstoas
 ffmpeg -start_number 3407 -i img_%4d.jpg -c:v libx264 -s "1404x936" out.mp4
 ```
 
+
+
+# Using RTMPDump to fetch an RTMP source
+
+- See also http://stream-recorder.com/forum/tutorial-using-rtmpdump-download-bbc-iplayer-t7368.html
+- http://rtmpdump.mplayerhq.hu/ and http://rtmpdump.mplayerhq.hu/download/rtmpdump-2.4-git-010913-windows.zip
+
+```cmd
+rtmpdump --protocol 0 --host cp45414.edgefcs.net -a "ondemand?auth=daEa9dhbhaJd4dmc8bicPd1cJdcdzcUcwcd-btFUIl-bWG-CqsEHnBqLEpGnxK&aifp=v001&slist=public/mps_h264_med/public/news/world/1078000/1078809_h264_800k.mp4;public/mps_h264_lo/public/news/world/1078000/1078809_h264_496k.mp4;public/mps_h264_hi/public/news/world/1078000/1078809_h264_1500k.mp4" -y "mp4:public/mps_h264_lo/public/news/world/1078000/1078809_h264_496k.mp4" -o someresolution.flv
+
+ffmpeg -i someresolution.flv  -c:v copy -c:a copy someresolution.mp4
+
+rtmpdump --protocol 0 --host cp45414.edgefcs.net -a "ondemand?auth=daEa9dhbhaJd4dmc8bicPd1cJdcdzcUcwcd-btFUIl-bWG-CqsEHnBqLEpGnxK&aifp=v001&slist=public/mps_h264_hi/public/news/world/1078000/1078809_h264_1500k.mp4" -y "mp4:public/mps_h264_hi/public/news/world/1078000/1078809_h264_1500k.mp4" -o 1078809_h264_1500k.flv
+
+ffmpeg -i 1078809_h264_1500k.flv  -c:v copy -c:a copy 1078809_h264_1500k.mp4
+```
