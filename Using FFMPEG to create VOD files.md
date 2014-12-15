@@ -81,3 +81,8 @@ rtmpdump --protocol 0 --host cp45414.edgefcs.net -a "ondemand?auth=daEa9dhbhaJd4
 
 ffmpeg -i 1078809_h264_1500k.flv  -c:v copy -c:a copy 1078809_h264_1500k.mp4
 ```
+
+
+- [YouTube Advanced encoding settings](http://support.google.com/youtube/answer/1722171)
+
+
