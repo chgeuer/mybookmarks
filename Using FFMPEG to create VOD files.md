@@ -44,6 +44,7 @@ Files are FLVs, but named MP4. Make them *real* MP4
 ```Powershell
 dir *.mp4 | foreach { Rename-Item $_.Name  $_.Name.Replace("mp4", "flv") }
 dir *.flv | foreach { ffmpeg -i $_.Name -vcodec copy -acodec copy $_.Name.Replace("flv", "mp4") }
+dir *.MOV | foreach { ffmpeg -i $_.Name -vcodec copy -acodec libvo_aacenc $_.Name.Replace("MOV", "mp4") }
 ```
 
 # Concatenate video files
