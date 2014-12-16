@@ -39,12 +39,12 @@ ffmpeg -i a.mkv -vcodec copy -acodec copy a.mp4
 
 # Convert FLV (Flash Video) into real MP4
 
-Files are FLVs, but named MP4. Make them *real* MP4
+Files are FLVs, but named MP4. Make them *real* MP4. The ``-map_metadata 0`` ensures that metadata like date etc flows over to the new file.
 
 ```Powershell
 dir *.mp4 | foreach { Rename-Item $_.Name  $_.Name.Replace("mp4", "flv") }
-dir *.flv | foreach { ffmpeg -i $_.Name -vcodec copy -acodec copy $_.Name.Replace("flv", "mp4") }
-dir *.MOV | foreach { ffmpeg -i $_.Name -vcodec copy -acodec libvo_aacenc $_.Name.Replace("MOV", "mp4") }
+dir *.flv | foreach { ffmpeg -i $_.Name -vcodec copy -acodec copy         -map_metadata 0 $_.Name.Replace("flv", "mp4") }
+dir *.MOV | foreach { ffmpeg -i $_.Name -vcodec copy -acodec libvo_aacenc -map_metadata 0 $_.Name.Replace("MOV", "mp4") }
 ```
 
 # Concatenate video files
