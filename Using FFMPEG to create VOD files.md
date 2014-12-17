@@ -29,11 +29,11 @@ REM file '2.mp4'
 REM %FFMPEG% -f concat -i mylist.txt -c copy output
 
 REM Remux MOV to MP4
-ffmpeg -i input.mov -vcodec copy -acodec libvo_aacenc result.mp4
+ffmpeg -i input.mov -vcodec copy -acodec libvo_aacenc -map_metadata 0 result.mp4
 
 REM Remux MKV to MP4
-ffmpeg -i a.mkv -vcodec copy -ab 128k -acodec libvo_aacenc a.mp4
-ffmpeg -i a.mkv -vcodec copy -acodec copy a.mp4
+ffmpeg -i a.mkv -vcodec copy -ab 128k -acodec libvo_aacenc -map_metadata 0 a.mp4
+ffmpeg -i a.mkv -vcodec copy -acodec copy                  -map_metadata 0 a.mp4
 ```
 # Convert FLV (Flash Video) into real MP4
 
@@ -47,6 +47,7 @@ dir *.MOV | foreach { ffmpeg -i $_.Name -vcodec copy -acodec libvo_aacenc -map_m
 
 ```console
 powershell -Command "dir *.MOV | foreach { ffmpeg -i $_.Name -vcodec copy -acodec libvo_aacenc -map_metadata 0 $_.Name.Replace(\"MOV\", \"mp4\") }"
+powershell -Command "dir *.MOV | foreach { ffmpeg -i $_.Name -vcodec copy -acodec libvo_aacenc -map_metadata 0 $_.Name.Replace('MOV', 'mp4') }"
 ```
 
 
@@ -59,17 +60,11 @@ dir *.mp4 | foreach { ffmpeg -i $_.Name -c copy -bsf:v h264_mp4toannexb -f mpegt
 
 ffmpeg -i "concat:intermediate1.ts|intermediate2.ts" -c copy -bsf:a aac_adtstoasc output.mp4
 ```
-
-
-
-
 # Create MP4 from single images
 
 ```Powershell
 ffmpeg -start_number 3407 -i img_%4d.jpg -c:v libx264 -s "1404x936" out.mp4
 ```
-
-
 
 # Using RTMPDump to fetch an RTMP source
 
