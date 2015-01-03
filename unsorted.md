@@ -83,3 +83,14 @@ Grunt, Bower, Angular, Knockout, Durandal, Breeze, Moment, Toastr, Backbone, Spi
 - PEN Test beantragen http://download.microsoft.com/download/C/A/1/CA1E438E-CE2F-4659-B1C9-CB14917136B3/Penetration%20Test%20Questionnaire.docx
 - Prozess: http://www.windowsazure.com/en-us/support/trust-center/security/
 - http://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-might-not-know
+
+
+
+# Windows Tips
+
+Turn on file sharing (admin shares) on Windows 8
+
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"LocalAccountTokenFilterPolicy"=dword:00000001
+```
