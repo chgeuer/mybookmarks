@@ -94,3 +94,9 @@ Turn on file sharing (admin shares) on Windows 8
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
 "LocalAccountTokenFilterPolicy"=dword:00000001
 ```
+
+To access a share using a Microsoft account, use
+
+```shell
+NET USE X: \\192.168.0.5\c$ /USER:MicrosoftAccount\christian@outlook.de
+```
