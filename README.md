@@ -357,20 +357,32 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 - http://twitter.github.io/effectivescala/
 - http://twitter.github.io/scala_school/
 
-
+# Azure
 
 - Europe North: https://www.google.com/maps/place/53%C2%B019'28.7%22N+6%C2%B027'17.2%22W/@53.3251112,-6.4544568,747m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0
 
 
+# AngularJS
 
-http://www.jerriepelser.com/blog/paging-in-aspnet-webapi-introductionhttps://angularjs.de/blog/angularjs-directives-d3-nvd3?utm_content=buffer3c451&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
-https://angularjs.de/blog/angularjs-directives-d3-nvd3?utm_content=buffer3c451&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
-http://typecastexception.com/post/2015/01/11/ASPNET-Web-Api-22-Create-a-Self-Hosted-OWIN-Based-Web-Api-from-Scratch.aspx?utm_source=twitterfeed&utm_medium=twitter
-http://boz.com/articles/the-impact-trap.html
-http://wixtoolset.org/releases/v3-10-0-1403/
-http://blogs.msdn.com/b/pfxteam/archive/2015/02/02/new-task-apis-in-net-4-6.aspx
-http://www.jerriepelser.com/blog/paging-in-aspnet-webapi-introduction?utm_source=twitterfeed&utm_medium=twitter
-http://www.theverge.com/2015/2/3/7971479/teenagers-computer-screens-sleep-disruption
-http://engineering.linkedin.com/distributed-service-call-graph/real-time-distributed-tracing-website-performance-and-efficiency
-https://engineering.linkedin.com/samza/real-time-insights-linkedins-performance-using-apache-samza
+- http://www.jerriepelser.com/blog/paging-in-aspnet-webapi-introductionhttps://angularjs.de/blog/angularjs-directives-d3-nvd3
+- https://angularjs.de/blog/angularjs-directives-d3-nvd3
 
+# WenAPI
+
+- http://typecastexception.com/post/2015/01/11/ASPNET-Web-Api-22-Create-a-Self-Hosted-OWIN-Based-Web-Api-from-Scratch.aspx
+- http://www.jerriepelser.com/blog/paging-in-aspnet-webapi-introduction
+
+- http://boz.com/articles/the-impact-trap.html
+- http://wixtoolset.org/releases/v3-10-0-1403/
+- http://blogs.msdn.com/b/pfxteam/archive/2015/02/02/new-task-apis-in-net-4-6.aspx
+- http://www.theverge.com/2015/2/3/7971479/teenagers-computer-screens-sleep-disruption
+
+# Distributed Systems
+
+- http://engineering.linkedin.com/distributed-service-call-graph/real-time-distributed-tracing-website-performance-and-efficiency
+- https://engineering.linkedin.com/samza/real-time-insights-linkedins-performance-using-apache-samza
+
+
+# REDIS from nginx
+
+- http://wiki.nginx.org/HttpRedis
