@@ -390,7 +390,7 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 
 # Software to install
 
-- SublimeText, Notepad2, ATOM, Brackets?
+- [SublimeText](http://www.sublimetext.com/2), Notepad2, ATOM, Brackets?
 - VS2013/VS2015
 - Snagit/Camtasia
 - Office
@@ -398,7 +398,7 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 - Azure Storage Explorer / CloudXPlorer
 - [git](http://msysgit.github.io/)/[tortoisegit](https://code.google.com/p/tortoisegit/)/hg
 - [clink](http://mridgers.github.io/clink/)
-- WinRAR/[7ZIP](http://www.7-zip.org/)
+- [WinRAR](http://www.rarlab.com/rar/winrar-x64-520.exe)/[7ZIP](http://www.7-zip.org/)
 - commandline stuff: ffmpeg/putty/node.js/paint.net/
 - Skype for Desktop
 - [Tag&Rename](http://www.softpointer.com/tr.htm), [VLC](http://www.videolan.org/), 
