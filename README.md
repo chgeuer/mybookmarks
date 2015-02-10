@@ -386,3 +386,21 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 # REDIS from nginx
 
 - http://wiki.nginx.org/HttpRedis
+
+
+# Software to install
+
+- SublimeText, Notepad2, ATOM, Brackets?
+- VS2013/VS2015
+- Snagit/Camtasia
+- Office
+- Chrome/Fiddler/Wireshark
+- Azure Storage Explorer / CloudXPlorer
+- [git](http://msysgit.github.io/)/[tortoisegit](https://code.google.com/p/tortoisegit/)/hg
+- clink
+- WinRAR/7ZIP
+- commandline stuff: ffmpeg/putty/node.js/paint.net/
+- Skype for Desktop
+- [Tag&Rename](http://www.softpointer.com/tr.htm), [VLC](http://www.videolan.org/), 
+- TrueCrypt
+- 
