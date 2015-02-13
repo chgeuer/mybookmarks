@@ -390,11 +390,11 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 
 # Software to install
 
-- [SublimeText](http://www.sublimetext.com/2), Notepad2, ATOM, Brackets?
+- Editor: [SublimeText](http://www.sublimetext.com/2), [Notepad2](http://www.flos-freeware.ch/notepad2.html), [ATOM](https://atom.io/), [Brackets](http://brackets.io/)?
 - VS2013/VS2015
 - Snagit/Camtasia
 - Office
-- Chrome/[Fiddler](http://www.telerik.com/fiddler)/Wireshark
+- Chrome/[Fiddler](http://www.telerik.com/fiddler)/Wireshark/
 - Azure Storage Explorer / CloudXPlorer
 - [git](http://msysgit.github.io/)/[tortoisegit](https://code.google.com/p/tortoisegit/)/hg
 - [clink](http://mridgers.github.io/clink/)
