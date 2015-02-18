@@ -382,6 +382,7 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 - http://engineering.linkedin.com/distributed-service-call-graph/real-time-distributed-tracing-website-performance-and-efficiency
 - https://engineering.linkedin.com/samza/real-time-insights-linkedins-performance-using-apache-samza
 
+- http://blog.einbu.no/2009/08/authenticating-against-azure-table-storage/
 
 # REDIS from nginx
 
@@ -404,3 +405,7 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 - [Tag&Rename](http://www.softpointer.com/tr.htm), [VLC](http://www.videolan.org/), 
 - TrueCrypt
 - 
+
+
+
+
