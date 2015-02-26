@@ -40,14 +40,14 @@ ffmpeg -i a.mkv -vcodec copy -acodec copy                  -map_metadata 0 a.mp4
 Files are FLVs, but named MP4. Make them *real* MP4. The ``-map_metadata 0`` ensures that metadata like date etc flows over to the new file.
 
 ```Powershell
-dir *.mp4 | foreach { Rename-Item $_.Name  $_.Name.Replace("mp4", "flv") }
-dir *.flv | foreach { ffmpeg -i $_.Name -vcodec copy -acodec copy         -map_metadata 0 $_.Name.Replace("flv", "mp4") }
-dir *.MOV | foreach { ffmpeg -i $_.Name -vcodec copy -acodec libvo_aacenc -map_metadata 0 $_.Name.Replace("MOV", "mp4") }
+dir *.mp4 | foreach { Rename-Item $_.Name  $_.Name.Replace("MP4", "flv").Replace("mp4", "flv") }
+dir *.flv | foreach { ffmpeg -i $_.Name -vcodec copy -acodec copy         -map_metadata 0 $_.Name.Replace('FLV', 'mp4').Replace('flv', 'mp4') }
+dir *.MOV | foreach { ffmpeg -i $_.Name -vcodec copy -acodec libvo_aacenc -map_metadata 0 $_.Name.Replace('MOV', 'mp4').Replace('mov', 'mp4')  }
 ```
 
 ```console
-powershell -Command "dir *.MOV | foreach { ffmpeg -i $_.Name -vcodec copy -acodec libvo_aacenc -map_metadata 0 $_.Name.Replace(\"MOV\", \"mp4\") }"
-powershell -Command "dir *.MOV | foreach { ffmpeg -i $_.Name -vcodec copy -acodec libvo_aacenc -map_metadata 0 $_.Name.Replace('MOV', 'mp4') }"
+powershell -Command "dir *.MOV | foreach { ffmpeg -i $_.Name -vcodec copy -acodec libvo_aacenc -map_metadata 0 $_.Name.Replace('MOV', 'mp4').Replace('mov', 'mp4') }"
+powershell -Command "dir *.AVI | foreach { ffmpeg -i $_.Name -map_metadata 0 $_.Name.Replace('AVI', 'mp4').Replace('avi', 'mp4') }"
 ```
 
 
@@ -56,7 +56,7 @@ powershell -Command "dir *.MOV | foreach { ffmpeg -i $_.Name -vcodec copy -acode
 In order to concatenate MP4 files, each file must be converted into a Transport Stream (.ts), i.e. without a MOOV atom, and then concatenated and re-written into a proper .mp4 file (with MOOV atom): 
 
 ```Powershell
-dir *.mp4 | foreach { ffmpeg -i $_.Name -c copy -bsf:v h264_mp4toannexb -f mpegts $_.Name.Replace("mp4", "ts") }
+dir *.mp4 | foreach { ffmpeg -i $_.Name -c copy -bsf:v h264_mp4toannexb -f mpegts $_.Name.Replace("MP4", "ts").Replace("mp4", "ts") }
 
 ffmpeg -i "concat:intermediate1.ts|intermediate2.ts" -c copy -bsf:a aac_adtstoasc output.mp4
 ```
