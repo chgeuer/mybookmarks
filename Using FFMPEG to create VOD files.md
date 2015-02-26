@@ -31,6 +31,9 @@ REM %FFMPEG% -f concat -i mylist.txt -c copy output
 REM Remux MOV to MP4
 ffmpeg -i input.mov -vcodec copy -acodec libvo_aacenc -map_metadata 0 result.mp4
 
+dir *.MOV | foreach { ffmpeg -i $_.Name -vcodec copy -acodec libvo_aacenc $_.Name.Replace("MOV", "mp4") }
+
+
 REM Remux MKV to MP4
 ffmpeg -i a.mkv -vcodec copy -ab 128k -acodec libvo_aacenc -map_metadata 0 a.mp4
 ffmpeg -i a.mkv -vcodec copy -acodec copy                  -map_metadata 0 a.mp4
