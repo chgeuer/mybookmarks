@@ -100,3 +100,9 @@ To access a share using a Microsoft account, use
 ```shell
 NET USE X: \\192.168.0.5\c$ /USER:MicrosoftAccount\christian@outlook.de
 ```
+
+## Get rid of Microsoft Advertisement SDK
+
+```powershell
+gwmi Win32_Product -Filter "Name LIKE 'Microsoft Advertising%'" | foreach { $_.Uninstall() }
+```
