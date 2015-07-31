@@ -41,11 +41,9 @@ Copy-Item -Recurse -Destination "C:\Windows\SysWOW64\WindowsPowerShell\v1.0\Modu
 After that copy operation, loading the modules should work: 
 
 ```Powershell
-Import-Module MSOnline
-
-Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-
-Get-Module
+PS C:\> Import-Module MSOnline
+PS C:\> Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+PS C:\> Get-Module
 
 ModuleType Version    Name                                ExportedCommands
 ---------- -------    ----                                ----------------
@@ -58,27 +56,34 @@ Script     6.0.0.0    SkypeOnlineConnector                {New-CsOnlineSession, 
 
 ## Powershell commands
 
+### Sign in to MS Online
+
+```Powershell
+$credential = Get-Credential "chgeuer@chgeuerimcdemo.onmicrosoft.com"
+Connect-MsolService  -Credential $credential
+```
+
+### List unlicensed users
+
+```Powershell
+Get-MsolUser -UnlicensedUsersOnly
+```
+
+### Create a user
+
+
 ```Powershell
 New-MsolUser -UserPrincipalName demo1@chgeuerimcdemo.onmicrosoft.com -DisplayName 'Demo User 1' -FirstName "Chris" -LastName "Geuer-Pollmann" -LicenseAssignment chgeuerimcdemo:ENTERPRISEPACK -UsageLocation DE
 
 Password UserPrincipalName                    DisplayName isLicensed
 -------- -----------------                    ----------- ----------
-Homo3136 demo1@chgeuerimcdemo.onmicrosoft.com Demo User 1 True
+Hogo3136 demo1@chgeuerimcdemo.onmicrosoft.com Demo User 1 True
 ```
 
+### Manage Skype
+
+
 ```Powershell
-$credential = Get-Credential "chgeuer@chgeuerimcdemo.onmicrosoft.com"
-Connect-MsolService  -Credential $credential
-
-Get-MsolUser -UnlicensedUsersOnly
-
-
-
-
-
-Import-Module -Name "C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\MSOnline\MSOnline.psd1"
-Import-Module -Name "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-
 $session = New-CsOnlineSession -Credential $credential 
 Import-PSSession $session
 Get-CsTenant | select DisplayName, TenantId, DomainUrlMap
@@ -87,14 +92,3 @@ Get-CsOnlineUser | select UserPrincipalName
 
 Enable-CsUser
 ```
-
-```Powershell
-```
-
-```Powershell
-```
-
-
-
-
-
