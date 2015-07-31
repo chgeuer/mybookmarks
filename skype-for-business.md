@@ -21,7 +21,7 @@ src: https://github.com/chgeuer/mybookmarks/blob/master/skype-for-business.md
 - http://www.powershellmagazine.com/2012/04/23/provisioning-and-licensing-office-365-accounts-with-powershell/
 - [Access Azure AD graph API from C#](https://github.com/AzureADSamples/ConsoleApp-GraphAPI-DotNet)
 - [Azure Active Directory Code Samples](https://msdn.microsoft.com/en-us/library/azure/dn646737.aspx) / [code](https://github.com/AzureADSamples)
-
+- [Managing users and user account properties in Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362790(v=ocs.15).aspx)
 
 ### Installation of all the packages
 
@@ -38,6 +38,22 @@ Copy-Item -Recurse -Destination "C:\Windows\SysWOW64\WindowsPowerShell\v1.0\Modu
 Copy-Item -Recurse -Destination "C:\Windows\SysWOW64\WindowsPowerShell\v1.0\Modules" -Path "C:\Windows\System32\WindowsPowerShell\v1.0\Modules\MSOnlineExtended" 
 ```
 
+After that copy operation, loading the modules should work: 
+
+```Powershell
+Import-Module MSOnline
+
+Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+
+Get-Module
+
+ModuleType Version    Name                                ExportedCommands
+---------- -------    ----                                ----------------
+Manifest   3.1.0.0    Microsoft.PowerShell.Management     {Add-Computer, Add-Content, Checkpoint-Computer, Clear-Con...
+Manifest   3.0.0.0    Microsoft.WSMan.Management          {Connect-WSMan, Disable-WSManCredSSP, Disconnect-WSMan, En...
+Manifest   1.0        MSOnline                            {Add-MsolAdministrativeUnitMember, Add-MsolForeignGroupToR...
+Script     6.0.0.0    SkypeOnlineConnector                {New-CsOnlineSession, Set-WinRMNetworkDelayMS}
+```
 
 
 ## Powershell commands
