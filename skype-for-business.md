@@ -96,9 +96,13 @@ Enable-CsUser
 ## Azure AD 
 
 - [STS Integration Paper using WS-* Protocols](https://www.microsoft.com/en-us/download/details.aspx?id=41185): These documents detail the agreement for STSs to Interop with Azure Active Directory using the WS-Federation and WS-Trust protocols
+	- [Azure Active Directory federation compatibility list Program Description July 2015](http://download.microsoft.com/download/3/7/9/379FF864-AC01-4CF1-8130-B34708C713BD/Azure%20Active%20Directory%20federation%20compatibility%20list%20Program%20Description%20July%202015.pdf)
+	- [STS Integration Interoperability Scenario Requirements July 2015](http://download.microsoft.com/download/3/7/9/379FF864-AC01-4CF1-8130-B34708C713BD/STS%20Integration%20Interoperability%20Scenario%20Requirements%20July%202015.pdf)
+	- [STS Integration Paper using WS Protocols July 2015](http://download.microsoft.com/download/3/7/9/379FF864-AC01-4CF1-8130-B34708C713BD/STS%20Integration%20Paper%20using%20WS%20Protocols%20July%202015.docx)
 - [Azure Active Directory federation compatibility list: third-party identity providers that can be used to implement single sign-on](https://technet.microsoft.com/en-us/library/jj679342.aspx)
 - [Use a SAML 2.0 identity provider to implement single sign-on](https://msdn.microsoft.com/en-us/library/azure/dn641269.aspx): All other clients are not available in this sign-on scenario with your SAML 2.0 Identity Provider. For example, the Lync 2010 desktop client is not able to login into the service with your SAML 2.0 Identity Provider configured for single sign-on.
-- For debugging, use the [Microsoft Connectivity Analyzer Client](http://go.microsoft.com/fwlink/?LinkID=313782)
+- For debugging your own STS, use the [Microsoft Connectivity Analyzer Client](http://go.microsoft.com/fwlink/?LinkID=313782)
 
 Lync Online requires a WS-MEX Endpoint at the IDP.
+
 
