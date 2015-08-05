@@ -99,10 +99,16 @@ Enable-CsUser
 	- [Azure Active Directory federation compatibility list Program Description July 2015](http://download.microsoft.com/download/3/7/9/379FF864-AC01-4CF1-8130-B34708C713BD/Azure%20Active%20Directory%20federation%20compatibility%20list%20Program%20Description%20July%202015.pdf)
 	- [STS Integration Interoperability Scenario Requirements July 2015](http://download.microsoft.com/download/3/7/9/379FF864-AC01-4CF1-8130-B34708C713BD/STS%20Integration%20Interoperability%20Scenario%20Requirements%20July%202015.pdf)
 	- [STS Integration Paper using WS Protocols July 2015](http://download.microsoft.com/download/3/7/9/379FF864-AC01-4CF1-8130-B34708C713BD/STS%20Integration%20Paper%20using%20WS%20Protocols%20July%202015.docx)
-- [Azure Active Directory federation compatibility list: third-party identity providers that can be used to implement single sign-on](https://technet.microsoft.com/en-us/library/jj679342.aspx)
+- [Azure Active Directory federation compatibility list: third-party identity providers that can be used to implement single sign-on (http://aka.ms/SSOProviders)](https://technet.microsoft.com/en-us/library/jj679342.aspx)
 - [Use a SAML 2.0 identity provider to implement single sign-on](https://msdn.microsoft.com/en-us/library/azure/dn641269.aspx): All other clients are not available in this sign-on scenario with your SAML 2.0 Identity Provider. For example, the Lync 2010 desktop client is not able to login into the service with your SAML 2.0 Identity Provider configured for single sign-on.
 - For debugging your own STS, use the [Microsoft Connectivity Analyzer Client](http://go.microsoft.com/fwlink/?LinkID=313782)
-
-Lync Online requires a WS-MEX Endpoint at the IDP.
-
-
+- [Announcing support for SAML 2.0 federation with Office 365](https://blogs.office.com/2014/03/06/announcing-support-for-saml-2-0-federation-with-office-365/)
+- [Office 365 - User Account Management](https://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx)
+- [Single sign-on roadmap](https://technet.microsoft.com/library/hh967643.aspx)
+- When rolling an own STS as IdP for Azure AD, the vendor needs to be onboarded through "'Works with office 365' for Identity Providers". 
+	- STS must talk WS-Trust / WS-MetadataExchange
+	- Lync Online requires a WS-MEX Endpoint at the IDP.
+- Skype for Business
+	- [Federation and Public IM Connectivity](https://technet.microsoft.com/en-us/library/skype-for-business-online-federation-and-public-im-conectivity.aspx)
+	- [Anonymous join from Skype for Business and Lync clients](http://blogs.technet.com/b/scottstu/archive/2015/04/03/anonymous-join-from-skype-for-business-and-lync-clients.aspx)
+	
