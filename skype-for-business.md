@@ -1,7 +1,7 @@
  
-src: https://github.com/chgeuer/mybookmarks/blob/master/skype-for-business.md
+src: https://github.com/chgeuer/mybookmarks/blob/master/skype-for-business.md / http://tinyurl.com/s4bimc
 
-# Playing with O365 and Skype fpr Business
+# Playing with O365 and Skype for Business
 
 ## Get an O365 trial/development tenant
 
@@ -53,7 +53,6 @@ Manifest   1.0        MSOnline                            {Add-MsolAdministrativ
 Script     6.0.0.0    SkypeOnlineConnector                {New-CsOnlineSession, Set-WinRMNetworkDelayMS}
 ```
 
-
 ## Powershell commands
 
 ### Sign in to MS Online
@@ -71,7 +70,6 @@ Get-MsolUser -UnlicensedUsersOnly
 
 ### Create a user
 
-
 ```Powershell
 New-MsolUser -UserPrincipalName demo1@chgeuerimcdemo.onmicrosoft.com -DisplayName 'Demo User 1' -FirstName "Chris" -LastName "Geuer-Pollmann" -LicenseAssignment chgeuerimcdemo:ENTERPRISEPACK -UsageLocation DE
 
@@ -81,7 +79,6 @@ Hogo3136 demo1@chgeuerimcdemo.onmicrosoft.com Demo User 1 True
 ```
 
 ### Manage Skype
-
 
 ```Powershell
 $session = New-CsOnlineSession -Credential $credential 
@@ -111,4 +108,3 @@ Enable-CsUser
 - Skype for Business
 	- [Federation and Public IM Connectivity](https://technet.microsoft.com/en-us/library/skype-for-business-online-federation-and-public-im-conectivity.aspx)
 	- [Anonymous join from Skype for Business and Lync clients](http://blogs.technet.com/b/scottstu/archive/2015/04/03/anonymous-join-from-skype-for-business-and-lync-clients.aspx)
-	
