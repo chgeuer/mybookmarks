@@ -409,3 +409,4 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 
 
 
+Synchronize Outlook & GMail: http://www.howtogeek.com/202090/how-to-automatically-sync-contacts-between-outlook-and-gmail/ with http://sourceforge.net/projects/googlesyncmod/
