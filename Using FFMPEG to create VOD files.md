@@ -84,7 +84,21 @@ rtmpdump --protocol 0 --host cp45414.edgefcs.net -a "ondemand?auth=daEa9dhbhaJd4
 ffmpeg -i 1078809_h264_1500k.flv  -c:v copy -c:a copy 1078809_h264_1500k.mp4
 ```
 
-
 - [YouTube Advanced encoding settings](http://support.google.com/youtube/answer/1722171)
+
+# Download YouTube and create an animated GIF from sub-part
+
+```batch
+youtube-dl.exe https://www.youtube.com/watch?v=bY73vFGhSVk
+
+REM Trim time and crop sub-part and save as mp4
+ffmpeg -i "Zootopia Official US Sloth Trailer-bY73vFGhSVk.mp4" -ss 00:01:49 -t 00:00:11.3 -vf "crop=480:320:600:100" -c:v libx264 -c:a aac -strict experimental -b:a 128k "laughing sloth.mp4"
+
+REM generate color palette
+ffmpeg -i "laughing sloth.mp4" -y -vf fps=10,scale=320:-1:flags=lanczos,palettegen palette.png
+
+REM Render GIF using palette
+ffmpeg -i "laughing sloth.mp4" -i palette.png -filter_complex "fps=10,scale=320:-1:flags=lanczos[x];[x][1:v]paletteuse" output.gif
+```
 
 
