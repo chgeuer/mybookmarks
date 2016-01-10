@@ -102,3 +102,6 @@ ffmpeg -i "laughing sloth.mp4" -i palette.png -filter_complex "fps=10,scale=320:
 ```
 
 
+# Capture web cam on my Lenovo
+
+ffmpeg -f dshow -i video="Integrated Camera":audio="Microphone Array (Realtek High Definition Audio)" out.mp4
