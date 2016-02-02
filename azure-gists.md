@@ -36,3 +36,10 @@ Import-Module AzureRM.UsageAggregates
 	Where { $_.MeterCategory -eq "Storage" } | `
 	Select-Object MeterCategory, Quantity, Unit
 ```
+
+
+```
+Import-Module AzureRM.Network
+Get-AzureRmApplicationGateway
+Get-AzureRmPublicIpAddress | Select ResourceGroupName, Name, IpAddress
+```
