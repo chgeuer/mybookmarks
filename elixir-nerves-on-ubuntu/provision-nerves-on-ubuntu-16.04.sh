@@ -97,9 +97,6 @@ cd ~
 mix local.hex --force
 mix archive.install https://github.com/nerves-project/archives/raw/master/nerves_bootstrap.ez --force
 
-cd ~/nerves_system_rpi3/build
-source ./nerves-env.sh
-
 cd ~
 git clone https://github.com/nerves-project/nerves-examples.git
 cd ~/nerves-examples/hello_wifi
