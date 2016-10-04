@@ -1,4 +1,13 @@
 #!/bin/bash
+# https://raw.githubusercontent.com/chgeuer/mybookmarks/master/Elixir/provision-nerves-on-ubuntu-16.04.sh
+
+
+# 
+# This long sequence of Erlang / Elixir installation comes from the Docker files:
+#
+# https://github.com/c0b/docker-erlang-otp/blob/9be249effe93e3c61fa0749078e55ef8d050a16e/19/Dockerfile
+# https://github.com/c0b/docker-elixir/blob/ded1bb8a2438374853a5a94a3ef1171d081dacff/1.3/Dockerfile
+#
 
 LANG=C.UTF-8
 OTP_VERSION="19.1"
@@ -11,7 +20,6 @@ ELIXIR_VERSION="v1.3.3"
 ELIXIR_DOWNLOAD_SHA256="afb5a7437c3dc9ed40d355de045bd21a136eba6be213e3be48bc1ab1d7550ad4"
 NERVES_VERSION="0.7.0"
 NERVES_DOWNLOAD_SHA256="31b799f288c3deac9ef675e9a9da3d931c7f8cb3d7f9f6725a906846d0baea09"
-
 
 apt-get update
 apt-get install -y --no-install-recommends libodbc1 libsctp1 unixodbc-dev libsctp-dev
