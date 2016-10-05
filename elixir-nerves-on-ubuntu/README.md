@@ -10,6 +10,8 @@
 - https://github.com/GregMefford/nerves_neopixel
 - http://www.cultivatehq.com/posts/compiling-and-testing-elixir-nerves-on-your-host-machine/
 - https://github.com/CultivateHQ/cultivatarmobile
+- http://www.slideshare.net/GregMefford/badge-hacking-with-nerves-workshop-elixirconf-2016-justin-schneck-and-frank-hunleth
+
 
 ```
 ```
@@ -25,3 +27,15 @@ cmd /K "docker run --interactive --tty --rm elixir:1.3.3 /bin/bash"
 - Download https://github.com/fhunleth/fwup/releases/download/v0.9.2/fwup.exe
 - `fwup.exe -a -t complete -i hello_wifi.fw -d hello_wifi.img`
 - Burn the `.img`-file to your SD card with [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/files/latest/download)
+
+```
+source ~/nerves_system_rpi3/build/nerves-env.sh
+git clone https://github.com/chgeuer/chgeuer-nerves.git
+export MIX_ENV=prod
+cd chgeuer-nerves/phoenix_wifi_nerves
+mix deps.get
+cd apps/fw
+mix deps.get
+mix firmware
+ls -als _images/rpi3/fw.fw
+```

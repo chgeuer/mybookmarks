@@ -95,7 +95,9 @@ make
 
 cd ~
 mix local.hex --force
+mix local.rebar --force
 mix archive.install https://github.com/nerves-project/archives/raw/master/nerves_bootstrap.ez --force
+
 
 
 export MIX_ENV=prod
