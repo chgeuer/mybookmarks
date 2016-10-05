@@ -28,11 +28,14 @@ cmd /K "docker run --interactive --tty --rm elixir:1.3.3 /bin/bash"
 - `fwup.exe -a -t complete -i hello_wifi.fw -d hello_wifi.img`
 - Burn the `.img`-file to your SD card with [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/files/latest/download)
 
+
+
 ```
 source ~/nerves_system_rpi3/build/nerves-env.sh
 git clone https://github.com/chgeuer/chgeuer-nerves.git
 export MIX_ENV=prod
 cd chgeuer-nerves/phoenix_wifi_nerves
+git checkout d0e5e14cb3fe9b817ed21d2abb2081af51f93af3
 mix deps.get
 cd apps/fw
 mix deps.get
