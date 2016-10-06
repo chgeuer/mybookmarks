@@ -11,6 +11,8 @@
 - http://www.cultivatehq.com/posts/compiling-and-testing-elixir-nerves-on-your-host-machine/
 - https://github.com/CultivateHQ/cultivatarmobile
 - http://www.slideshare.net/GregMefford/badge-hacking-with-nerves-workshop-elixirconf-2016-justin-schneck-and-frank-hunleth
+- http://confreaks.tv/videos/elixirconf2016-nerves-phoenix-saves-a-father-s-sanity
+- https://github.com/joelbyler/elixir_conf_chores
 
 
 ```
