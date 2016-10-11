@@ -14,9 +14,10 @@
 - http://confreaks.tv/videos/elixirconf2016-nerves-phoenix-saves-a-father-s-sanity
 - https://github.com/joelbyler/elixir_conf_chores
 
+## Display Driver
 
-```
-```
+- http://www.circuitbasics.com/setup-lcd-touchscreen-raspberry-pi/
+
 
 ```
 cmd /K "docker run --interactive --tty --rm elixir:1.3.3"
