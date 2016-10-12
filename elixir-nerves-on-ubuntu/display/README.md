@@ -1,3 +1,9 @@
+# Display Driver stuff
+
+
+For the [Kuman 3.5 inch 320*480 Resolution Touch Screen TFT LCD Display](https://www.amazon.de/Kuman-Resolution-Display-Protective-Raspberry/dp/B01FX7909Q/)...
+
+
 - https://github.com/raspberrypi/linux/blob/rpi-3.18.y/arch/arm/boot/dts/ads7846-overlay.dts
 - [nerves_system_br](https://github.com/nerves-project/nerves_system_br/blob/master/README.md)
 - [nerves_system_rpi3](https://github.com/nerves-project/nerves_system_rpi3/blob/master/README.md)
