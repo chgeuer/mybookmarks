@@ -1,5 +1,5 @@
 #!/bin/bash
-# curl -fSL -o "provision-nerves-on-ubuntu-16.04.sh" "https://raw.githubusercontent.com/chgeuer/mybookmarks/master/Elixir/provision-nerves-on-ubuntu-16.04.sh"
+# curl -fSL -o "provision-nerves-on-ubuntu-16.04.sh" "https://raw.githubusercontent.com/chgeuer/mybookmarks/master/elixir-nerves-on-ubuntu/provision-nerves-on-ubuntu-16.04.sh"
 
 
 # 
