@@ -86,6 +86,12 @@ ffmpeg -i 1078809_h264_1500k.flv  -c:v copy -c:a copy 1078809_h264_1500k.mp4
 
 - [YouTube Advanced encoding settings](http://support.google.com/youtube/answer/1722171)
 
+```
+ffmpeg -i "1.mkv" -vcodec h264 -acodec libvo_aacenc "1.mp4"
+ffmpeg -i "1.mkv" -vcodec copy -acodec libvo_aacenc "1.mp4"
+```
+
+
 # Download YouTube and create an animated GIF from sub-part
 
 ```batch
