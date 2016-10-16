@@ -115,3 +115,27 @@ ffmpeg -list_devices true -f dshow -i dummy
 
 ffmpeg -f dshow -i video="Integrated Camera":audio="Microphone Array (Realtek High Definition Audio)" out.mp4
 ```
+
+# Concatenate videos
+
+## Convert individually to TS
+
+```bash
+ffmpeg -i "m0-01 - A.mp4" -c copy -bsf:v h264_mp4toannexb -f mpegts "m0-01 - A.ts"
+ffmpeg -i "m1-01 - B.mp4" -c copy -bsf:v h264_mp4toannexb -f mpegts "m1-01 - B.ts"
+```
+
+## `ts.txt`
+
+```text
+file 'm0-01 - A.ts'
+file 'm1-01 - B.ts'
+```
+
+## Concatenate
+
+```bash
+ffmpeg -f concat -i ts.txt -c copy -bsf:a aac_adtstoasc output.mp4
+```
+
+
