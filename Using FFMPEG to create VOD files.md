@@ -63,6 +63,22 @@ dir *.mp4 | foreach { ffmpeg -i $_.Name -c copy -bsf:v h264_mp4toannexb -f mpegt
 
 ffmpeg -i "concat:intermediate1.ts|intermediate2.ts" -c copy -bsf:a aac_adtstoasc output.mp4
 ```
+
+Alternatively, you can list all input files in a text file: 
+
+### command
+
+```shell
+ffmpeg -f concat -i list.txt -c copy -bsf:a aac_adtstoasc output.mp4
+```
+
+### list.txt
+
+```
+file 'm1-01 - Introduction - Introduction.ts'
+file 'm1-02 - Introduction - Tools.ts'
+```
+
 # Create MP4 from single images
 
 ```Powershell
