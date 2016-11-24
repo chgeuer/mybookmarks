@@ -66,18 +66,14 @@ ffmpeg -i "concat:intermediate1.ts|intermediate2.ts" -c copy -bsf:a aac_adtstoas
 
 Alternatively, you can list all input files in a text file: 
 
-### command
-
 ```shell
-ffmpeg -f concat -i list.txt -c copy -bsf:a aac_adtstoasc output.mp4
-```
-
-### list.txt
-
-```
+$ cat m.txt
 file 'm1-01 - Introduction - Introduction.ts'
 file 'm1-02 - Introduction - Tools.ts'
+
+$ ffmpeg -f concat -i list.txt -c copy -bsf:a aac_adtstoasc output.mp4
 ```
+
 
 # Create MP4 from single images
 
