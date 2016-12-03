@@ -1,3 +1,23 @@
+# bootable USB
+
+```
+diskpart
+	list disk
+	select disk #
+	clean
+	convert mbr
+	create partition  primary
+	select partition 1
+	active
+	format quick fs=fat32
+	assign
+	exit
+bootsect /nt60 E:
+xcopy F:\* E: /s /e
+```
+
+
+
 # Angular JS Links
 
 - Angular directive to pull in user photos http://www.angularails.com/articles/creating_simple_directive_in_angular 
