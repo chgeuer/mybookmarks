@@ -140,7 +140,9 @@ ffmpeg -i "m1-01 - B.mp4" -c copy -bsf:v h264_mp4toannexb -f mpegts "m1-01 - B.t
 ## `ts.txt`
 
 ```powershell
-("file '" + ((dir *.ts | select -ExpandProperty Name | Sort-Object) -join "'`nfile '") + "'") | Out-File -FilePath ts.txt
+
+("file '" + (((dir "*.ts" | select -ExpandProperty Name) -replace "'", "\'") -join "'`nfile '") + "'") | Out-File -Encoding ascii -FilePath ts.txt
+
 ```
 
 ```text
