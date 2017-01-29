@@ -139,6 +139,10 @@ ffmpeg -i "m1-01 - B.mp4" -c copy -bsf:v h264_mp4toannexb -f mpegts "m1-01 - B.t
 
 ## `ts.txt`
 
+```powershell
+("file '" + ((dir *.ts | select -ExpandProperty Name | Sort-Object) -join "'`nfile '") + "'") | Out-File -FilePath ts.txt
+```
+
 ```text
 file 'm0-01 - A.ts'
 file 'm1-01 - B.ts'
@@ -149,5 +153,4 @@ file 'm1-01 - B.ts'
 ```bash
 ffmpeg -f concat -i ts.txt -c copy -bsf:a aac_adtstoasc output.mp4
 ```
-
 
