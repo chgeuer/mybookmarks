@@ -175,4 +175,3 @@ The following snippet uses a PHP Script (executed at the command line) to downlo
 - ´git clone https://github.com/K-S-V/Scripts`
 - `php.exe AdobeHDS.php --manifest "http://adaptiv.wdr.de/...mp4.csmil/manifest.f4m?g=...&hdcore=3.10.0&plugin=aasp-3.10.0.29.28" --delete`
 - Use `ffmpeg` to convert FLV to MP4 (`ffmpeg -i 1.flv  -vcodec copy -acodec copy -map_metadata 0 1.mp4`)
-
