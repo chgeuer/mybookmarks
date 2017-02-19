@@ -167,3 +167,12 @@ dir *.mp4 | foreach { ffmpeg -i $_.Name -c copy -bsf:v h264_mp4toannexb -f mpegt
 ffmpeg -f concat -i ts.txt -c copy -bsf:a aac_adtstoasc output.mp4
 
 ```
+
+
+# Download HDS Videos on Windows
+
+- Download [PHP for Windows](http://windows.php.net/downloads/releases/php-7.1.2-nts-Win32-VC14-x86.zip) and unpack to `C:\php`
+- Edit `C:\php\php.ini` and uncomment the `extension=php_curl.dll` line
+- ´git clone https://github.com/K-S-V/Scripts`
+- `php.exe AdobeHDS.php --manifest "http://adaptiv.wdr.de/...mp4.csmil/manifest.f4m?g=...&hdcore=3.10.0&plugin=aasp-3.10.0.29.28" --delete`
+- Use `ffmpeg` to convert FLV to MP4 (`ffmpeg -i 1.flv  -vcodec copy -acodec copy -map_metadata 0 1.mp4`)
