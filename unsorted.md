@@ -1,3 +1,12 @@
+# prefix file names in PowerShell
+
+```
+$prefix = "TR24"
+
+dir *.* | foreach { Rename-Item $_.Name  "$($prefix) $($_.Name)" }
+```
+
+
 # bootable USB
 
 ```
