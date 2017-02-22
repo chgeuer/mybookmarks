@@ -412,3 +412,14 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 Synchronize Outlook & GMail: http://www.howtogeek.com/202090/how-to-automatically-sync-contacts-between-outlook-and-gmail/ with http://sourceforge.net/projects/googlesyncmod/
 
 Check whether Slack kicks off
+
+
+
+
+## Installing .NET 3.5 on Windows 10
+
+After Windows Update refuses installing Netfx3 on Win10 with Error: 0x800f081f, plug in the Win10 installation USB Stick (F:\) and run
+
+```
+dism.exe /online /enable-feature /featurename:NetFx3 /Source:F:\sources\sxs
+```
