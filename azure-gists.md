@@ -1,11 +1,11 @@
 
 ```
-curl -H Metadata:true http://169.254.169.254/metadata/v1/maintenance
-curl -H Metadata:true http://169.254.169.254/metadata/v1/InstanceInfo
-curl -H Metadata:true http://169.254.169.254/metadata/v2/instance/compute?format=json | jq
-curl -H Metadata:true http://169.254.169.254/metadata/v2/instance/network?format=json | jq
-curl -H Metadata:true http://169.254.169.254/metadata/latest/instance/compute?format=json | jq
-curl -H Metadata:true http://169.254.169.254/metadata/v2/instance/network?format=json | jq .interface[0].ipv4.ipaddress[0].ipaddress
+curl -s -H Metadata:true http://169.254.169.254/metadata/v1/maintenance
+curl -s -H Metadata:true http://169.254.169.254/metadata/v1/InstanceInfo
+curl -s -H Metadata:true http://169.254.169.254/metadata/v2/instance/compute?format=json | jq
+curl -s -H Metadata:true http://169.254.169.254/metadata/v2/instance/network?format=json | jq
+curl -s -H Metadata:true http://169.254.169.254/metadata/latest/instance/compute?format=json | jq
+curl -s -H Metadata:true http://169.254.169.254/metadata/v2/instance/network?format=json | jq .interface[0].ipv4.ipaddress[0].ipaddress
 ```
 
 
