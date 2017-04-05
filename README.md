@@ -1,8 +1,6 @@
 mybookmarks
 ===========
 
-Hallo Philipp
-
 TODO
 ----
 
