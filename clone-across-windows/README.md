@@ -13,7 +13,7 @@
 
 
 ```
-git remote add origin file:////192.168.0.30/c$/plaintext.git
+git remote add origin file:////192.168.0.30/c$/demo.git
 ```
 
 
