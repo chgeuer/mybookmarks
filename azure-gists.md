@@ -1,4 +1,13 @@
 
+```
+curl -s -H Metadata:true http://169.254.169.254/metadata/v1/maintenance
+curl -s -H Metadata:true http://169.254.169.254/metadata/v1/InstanceInfo
+curl -s -H Metadata:true http://169.254.169.254/metadata/v2/instance/compute?format=json | jq
+curl -s -H Metadata:true http://169.254.169.254/metadata/v2/instance/network?format=json | jq
+curl -s -H Metadata:true http://169.254.169.254/metadata/latest/instance/compute?format=json | jq
+curl -s -H Metadata:true http://169.254.169.254/metadata/v2/instance/network?format=json | jq .interface[0].ipv4.ipaddress[0].ipaddress
+```
+
 ## Special IP 168.63.129.16
 
 - Src: https://blogs.msdn.microsoft.com/mast/2015/05/18/what-is-the-ip-address-168-63-129-16/
