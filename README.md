@@ -1,6 +1,16 @@
 mybookmarks
 ===========
 
+
+
+
+# ebooks
+
+https://www.nginx.com/resources/library/nginx-cookbook-part-1-high-performance-load-balancing/ 
+https://www.nginx.com/resources/library/nginx-cookbook-part-2-security/ 
+https://www.nginx.com/resources/library/nginx-cookbook-part-3-operations/ 
+https://mesosphere.com/wp-content/uploads/2017/03/Application_Delivery_with_Mesosphere_DCOS.pdf
+
 TODO
 ----
 
