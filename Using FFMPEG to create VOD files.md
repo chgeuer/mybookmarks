@@ -162,7 +162,7 @@ dir *.mp4 | foreach { ffmpeg -i $_.Name -c copy -bsf:v h264_mp4toannexb -f mpegt
 
 ("file '" + (((dir "*.ts" | select -ExpandProperty Name) -replace "'", "\'") -join "'`nfile '") + "'") | Out-File -Encoding ascii -FilePath ts.txt
 
-ffmpeg -f concat -i ts.txt -c copy -bsf:a aac_adtstoasc output.mp4
+ffmpeg -f concat -safe 0 -i ts.txt -c copy -bsf:a aac_adtstoasc output.mp4
 
 ```
 
