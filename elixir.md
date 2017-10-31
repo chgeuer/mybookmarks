@@ -1,4 +1,14 @@
 
+# Instruct `mix` to use a local fiddler instance as proxy
+
+```
+mix hex.config http_proxy http://127.0.0.1:8888
+mix hex.config https_proxy http://127.0.0.1:8888
+mix hex.config unsafe_https true
+
+rm ~/.hex/hex.config
+```
+
 
 
 # Use pragdave's templating system
