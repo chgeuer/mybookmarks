@@ -73,7 +73,7 @@ Get-AzureRmApplicationGateway
 Get-AzureRmPublicIpAddress | Select ResourceGroupName, Name, IpAddress
 ```
 
-# Use Managed Service Identity in a VM
+# Use [Azure Managed Service Identity](https://docs.microsoft.com/en-us/azure/active-directory/msi-overview) in a Linux VM
 
 ```bash
 #!/bin/bash
