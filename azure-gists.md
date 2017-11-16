@@ -72,3 +72,28 @@ Import-Module AzureRM.Network
 Get-AzureRmApplicationGateway
 Get-AzureRmPublicIpAddress | Select ResourceGroupName, Name, IpAddress
 ```
+
+# Use Managed Service Identity in a VM
+
+```bash
+#!/bin/bash
+
+subscriptionId="724467b5-bee4-484b-bf13-d6a5505d2b51"
+resourceGroup="someresouregroup"
+storageAccount="chgeuerdiag705"
+containerName="public"
+expiryDate="2017-11-22T00:06:00Z"
+
+jwt=$(curl http://localhost:50342/oauth2/token --silent --data "resource=https://management.azure.com/" -H Metadata:true | jq -r ".access_token")
+
+sas=$(curl \
+	"https://management.azure.com/subscriptions/${subscriptionId}/resourceGroups/${resourceGroup}/providers/Microsoft.Storage/storageAccounts/${storageAccount}/listServiceSas/?api-version=2017-06-01" \
+	--silent \
+	--request POST \
+	--data "{\"canonicalizedResource\":\"/blob/${storageAccount}/${containerName}\",\"signedResource\":\"c\",\"signedPermission\":\"rcw\",\"signedProtocol\":\"https\",\"signedExpiry\":\"${expiryDate}\"}" \
+	--header "Authorization: Bearer ${jwt}" | jq -r ".serviceSasToken")
+
+
+echo "${sas}"
+```
+
