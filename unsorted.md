@@ -72,7 +72,6 @@ xcopy F:\* E: /s /e
 
 # Video
 
-- FFMPEG nutzen um HLS zu erzeugen https://bitbucket.org/walterebert/ffmpeg-hls/src
 - http://www.longtailvideo.com/html5/
 
 Grunt, Bower, Angular, Knockout, Durandal, Breeze, Moment, Toastr, Backbone, Spin, Ember, React, Sencha, Dojo, Bootstrap, Pure

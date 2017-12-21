@@ -47,7 +47,6 @@ TODO
 - http://jeroenjanssens.com/2013/09/19/seven-command-line-tools-for-data-science.html
 - http://startupteardown.com/post/62155822743/7-things-we-can-learn-from-bingo-card-creator
 - http://github.hubspot.com/pace/
-- FFMPEG nutzen um HLS zu erzeugen https://bitbucket.org/walterebert/ffmpeg-hls/src
 - http://maroslaw.github.io/rainyday.js/demo2.html
 - https://github.com/JohnMunsch/airquotes
 - http://chrome.blogspot.com.au/2013/09/a-new-breed-of-chrome-apps.html
@@ -409,7 +408,6 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 - [git](http://msysgit.github.io/)/[tortoisegit](https://code.google.com/p/tortoisegit/)/hg
 - [clink](http://mridgers.github.io/clink/)
 - [WinRAR](http://www.rarlab.com/rar/winrar-x64-520.exe)/[7ZIP](http://www.7-zip.org/)
-- commandline stuff: ffmpeg/putty/node.js/paint.net/
 - Skype for Desktop
 - [Tag&Rename](http://www.softpointer.com/tr.htm), [VLC](http://www.videolan.org/), 
 - TrueCrypt
