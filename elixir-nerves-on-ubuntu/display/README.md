@@ -62,3 +62,4 @@ dtoverlay=ads7846,cs=1,penirq=17,penirq_pull=2,speed=1000000,keep_vref_on=1,swap
 sudo cp ./usr/tft35a-overlay.dtb          /boot/overlays/tft35a-overlay.dtb
 sudo cp ./usr/tft35a-overlay.dtb          /boot/overlays/tft35a.dtbo
 ```
+- https://github.com/LeToteTeam/kiosk_system_rpi3/tree/master/example
