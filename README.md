@@ -397,36 +397,7 @@ MicroConf 2013 - Hub Page: http://www.it-engelhardt.de/microconf-2013-hub-page/
 - http://wiki.nginx.org/HttpRedis
 
 
-# Software to install
-
-- Editor: [SublimeText](http://www.sublimetext.com/2), [Notepad2](http://www.flos-freeware.ch/notepad2.html), [ATOM](https://atom.io/), [Brackets](http://brackets.io/)?
-- VS2013/VS2015
-- Snagit/Camtasia
-- Office
-- Chrome/[Fiddler](http://www.telerik.com/fiddler)/Wireshark/
-- Azure Storage Explorer / CloudXPlorer
-- [git](http://msysgit.github.io/)/[tortoisegit](https://code.google.com/p/tortoisegit/)/hg
-- [clink](http://mridgers.github.io/clink/)
-- [WinRAR](http://www.rarlab.com/rar/winrar-x64-520.exe)/[7ZIP](http://www.7-zip.org/)
-- Skype for Desktop
-- [Tag&Rename](http://www.softpointer.com/tr.htm), [VLC](http://www.videolan.org/), 
-- TrueCrypt
-- 
-
-
-
-
 Synchronize Outlook & GMail: http://www.howtogeek.com/202090/how-to-automatically-sync-contacts-between-outlook-and-gmail/ with http://sourceforge.net/projects/googlesyncmod/
 
 Check whether Slack kicks off
 
-
-
-
-## Installing .NET 3.5 on Windows 10
-
-After Windows Update refuses installing Netfx3 on Win10 with Error: 0x800f081f, plug in the Win10 installation USB Stick (F:\) and run
-
-```
-dism.exe /online /enable-feature /featurename:NetFx3 /Source:F:\sources\sxs
-```

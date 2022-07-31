@@ -2,37 +2,6 @@
 
 - LICEcap: https://www.cockos.com/licecap/
 
-
-
-# prefix file names in PowerShell
-
-```
-$prefix = "TR24"
-
-dir *.* | foreach { Rename-Item $_.Name  "$($prefix) $($_.Name)" }
-```
-
-
-# bootable USB
-
-```
-diskpart
-	list disk
-	select disk #
-	clean
-	convert mbr
-	create partition  primary
-	select partition 1
-	active
-	format quick fs=fat32
-	assign
-	exit
-bootsect /nt60 E:
-xcopy F:\* E: /s /e
-```
-
-
-
 # Angular JS Links
 
 - Angular directive to pull in user photos http://www.angularails.com/articles/creating_simple_directive_in_angular 
@@ -49,8 +18,6 @@ xcopy F:\* E: /s /e
 - http://www.script-tutorials.com/demos/359/index.html#!/project/product4
 - http://www.jonathanbroquist.com/blog/2013/10/building-a-google-calendar-booking-app-with-mongodb-expressjs-angularjs-and-node-js-part-1/
 - http://lostechies.com/gabrielschenker/2014/01/20/angluarjspart-10-intermezzo/
-
-
 
 # JavaScript
 
@@ -84,8 +51,6 @@ Grunt, Bower, Angular, Knockout, Durandal, Breeze, Moment, Toastr, Backbone, Spi
 
 - Anonymous Pro - a fixed-width font designed for coders http://t.co/D8YnJsyGqG 
 - Async File Uploads in MVC 4: http://weblogs.asp.net/bryansampica/archive/2013/01/15/AsyncMVCFileUpload.aspx
-- 
-- 
 - http://architects.dzone.com/articles/implementing-signalr-stock
 - http://benwilber.net/realtime-pixel-tracking-nginx-syslog-ng-redis
 - http://bitwiseshiftleft.github.io/sjcl/demo/
@@ -117,26 +82,3 @@ Grunt, Bower, Angular, Knockout, Durandal, Breeze, Moment, Toastr, Backbone, Spi
 - PEN Test beantragen http://download.microsoft.com/download/C/A/1/CA1E438E-CE2F-4659-B1C9-CB14917136B3/Penetration%20Test%20Questionnaire.docx
 - Prozess: http://www.windowsazure.com/en-us/support/trust-center/security/
 - http://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-might-not-know
-
-
-
-# Windows Tips
-
-Turn on file sharing (admin shares) on Windows 8
-
-```
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
-"LocalAccountTokenFilterPolicy"=dword:00000001
-```
-
-To access a share using a Microsoft account, use
-
-```shell
-NET USE X: \\192.168.0.5\c$ /USER:MicrosoftAccount\christian@outlook.de
-```
-
-## Get rid of Microsoft Advertisement SDK
-
-```powershell
-gwmi Win32_Product -Filter "Name LIKE 'Microsoft Advertising%'" | foreach { $_.Uninstall() }
-```

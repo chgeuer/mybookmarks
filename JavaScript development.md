@@ -19,8 +19,8 @@ JavaScript
 - [Popcorn.js | The HTML5 Media Framework](http://popcornjs.com/)
 - [How does Trello access the user's clipboard?](http://stackoverflow.com/questions/17527870/how-does-trello-access-the-users-clipboard)
 - http://www.angularails.com/articles/creating_simple_directive_in_angular
-- AngularJS and SEO – Part 1 – Get your JS site indexed http://rogeralsing.com/2013/08/11/angularjs-and-seo-part-1/
-- AngularJS and SEO – Part 2 – Title and meta description http://rogeralsing.com/2013/08/11/angularjs-and-seo-part-2/
+- AngularJS and SEO - Part 1 - Get your JS site indexed http://rogeralsing.com/2013/08/11/angularjs-and-seo-part-1/
+- AngularJS and SEO - Part 2 - Title and meta description http://rogeralsing.com/2013/08/11/angularjs-and-seo-part-2/
 - durandalJS is SEO friendly http://ericpanorel.net/2013/08/21/durandaljs-is-seo-friendly/
 - Free HTML Starter Templates for Bootstrap http://startbootstrap.com/
 - A Digital Media Primer for Geeks http://xiph.org/video/vid1.shtml
@@ -29,7 +29,4 @@ JavaScript
 - [Cookies vs Tokens. Getting auth right with Angular.JS](http://blog.auth0.com/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
 - [vis.js - a visual interaction system ](http://visjs.org/)
 - [DIY AngularJS SEO with PhantomJS (the easy way!)](http://lawsonry.com/2014/05/diy-angularjs-seo-with-phantomjs-the-easy-way/)
-
-
-
 - http://stylecampaign.com/blog/2014/01/basics-of-svg-in-email/
